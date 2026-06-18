@@ -190,9 +190,9 @@
     <div class="filter-row">
       <input type="text" id="search" placeholder="Търси по име на училище или профил..." style="flex:1;min-width:220px;">
       <select id="sortBy">
+        <option value="status" selected>Сортирай по статус (влизаш първо, по най-висок бал)</option>
         <option value="cutoff">Сортирай по минимален бал 2025 (низходящо)</option>
         <option value="score">Сортирай по твой бал (низходящо)</option>
-        <option value="status">Сортирай по статус (влизаш първо)</option>
         <option value="name">Сортирай по име на училище</option>
       </select>
     </div>
@@ -353,7 +353,7 @@ function renderReco(rows){
     </div>`;
 }
 
-let sortState = {key:'cutoff', dir:-1};
+let sortState = {key:'status', dir:1};
 
 function render(){
   const onlyGo = document.getElementById('onlyGo').checked;
@@ -493,13 +493,13 @@ document.querySelectorAll('th.sortable').forEach(th=>{
   th.addEventListener('click', ()=>{
     const key = th.dataset.sort;
     if(sortState.key===key){ sortState.dir *= -1; }
-    else { sortState.key = key; sortState.dir = (key==='name') ? 1 : -1; }
+    else { sortState.key = key; sortState.dir = (key==='name' || key==='status') ? 1 : -1; }
     render();
   });
 });
 
 document.getElementById('sortBy').addEventListener('change', (e)=>{
-  sortState = {key:e.target.value, dir: e.target.value==='name' ? 1 : -1};
+  sortState = {key:e.target.value, dir: (e.target.value==='name' || e.target.value==='status') ? 1 : -1};
   render();
 });
 
