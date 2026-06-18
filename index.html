@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Калкулатор на бал — Прием след 7. клас (София)</title>
+<style>
+  :root{
+    --bg:#0f172a; --card:#1e293b; --text:#e2e8f0; --muted:#94a3b8;
+    --green:#16a34a; --green-bg:#0a3d1d; --green-bg2:#0f5226;
+    --red:#dc2626; --red-bg:#3d0e0e; --red-bg2:#521414;
+    --gray:#475569; --gray-bg:#1e293b;
+    --accent:#3b82f6; --gold:#eab308; --gold-bg:#3a2e05;
+  }
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+    background:var(--bg);color:var(--text);margin:0;padding:24px 16px 80px;}
+  .wrap{max-width:1100px;margin:0 auto;}
+  h1{font-size:1.5rem;margin-bottom:4px;}
+  .sub{color:var(--muted);margin-bottom:24px;font-size:.95rem}
+  .card{background:var(--card);border-radius:12px;padding:20px;margin-bottom:20px;
+    box-shadow:0 1px 3px rgba(0,0,0,.4);}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;}
+  label{display:block;font-size:.85rem;color:var(--muted);margin-bottom:4px;}
+  input[type=number],input[type=text]{width:100%;padding:10px;border-radius:8px;border:1px solid #334155;
+    background:#0b1220;color:var(--text);font-size:1rem;}
+  input:focus{outline:2px solid var(--accent);}
+  .note{font-size:.8rem;color:var(--muted);margin-top:4px;}
+  .toggle{cursor:pointer;color:var(--accent);font-size:.85rem;margin-top:10px;display:inline-block;}
+  .hidden{display:none;}
+
+  /* recommendation banner */
+  .reco{border-radius:12px;padding:18px 20px;margin-bottom:20px;background:linear-gradient(135deg,#0f5226,#0a3d1d);
+    border:1px solid #16a34a;}
+  .reco h3{margin:0 0 6px;font-size:1.05rem;color:#86efac;}
+  .reco .school{font-size:1.2rem;font-weight:700;color:#fff;}
+  .reco .profile{color:#bbf7d0;font-size:.9rem;margin-top:2px;}
+  .reco .meta{color:#bbf7d0;font-size:.85rem;margin-top:6px;}
+  .reco.empty{background:linear-gradient(135deg,#3d0e0e,#521414);border-color:var(--red);}
+  .reco.empty h3{color:#fca5a5;}
+  .reco.empty .school{color:#fff;}
+
+  /* legend + filters */
+  .legend{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:14px;font-size:.85rem;color:var(--muted)}
+  .dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;}
+  .dot.go{background:var(--green)} .dot.no{background:var(--red)} .dot.unknown{background:var(--gray)}
+  .filter-row{display:flex;gap:10px;margin-bottom:14px;flex-wrap:wrap;align-items:center}
+  select{padding:8px;border-radius:8px;background:#0b1220;color:var(--text);border:1px solid #334155;}
+  .summary{font-size:.9rem;color:var(--muted);margin-bottom:10px;}
+  .checkbox-row{display:flex;align-items:center;gap:8px;font-size:.85rem;color:var(--muted)}
+
+  /* table */
+  .table-wrap{overflow-x:auto;border-radius:10px;border:1px solid #334155;}
+  table{width:100%;border-collapse:collapse;font-size:.88rem;min-width:760px;}
+  thead th{position:sticky;top:0;background:#0b1220;color:var(--muted);text-align:left;
+    padding:10px 12px;font-weight:600;font-size:.78rem;text-transform:uppercase;letter-spacing:.03em;
+    border-bottom:1px solid #334155;cursor:pointer;white-space:nowrap;}
+  thead th:hover{color:var(--text);}
+  tbody tr{border-bottom:1px solid #243044;}
+  tbody tr.go{background:var(--green-bg);}
+  tbody tr.go:hover{background:var(--green-bg2);}
+  tbody tr.no{background:var(--red-bg);}
+  tbody tr.no:hover{background:var(--red-bg2);}
+  tbody tr.unknown{background:var(--gray-bg);}
+  tbody tr.unknown:hover{background:#2a3b52;}
+  td{padding:9px 12px;vertical-align:top;}
+  td.name{font-weight:600;max-width:280px;}
+  td.profile{color:var(--muted);font-size:.82rem;max-width:260px;}
+  td.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums;}
+  .top30{display:inline-block;background:var(--gold);color:#1c1502;font-size:.68rem;font-weight:700;
+    padding:1px 6px;border-radius:5px;margin-left:6px;vertical-align:middle;}
+  .badge{display:inline-block;padding:2px 9px;border-radius:6px;font-size:.74rem;font-weight:700;white-space:nowrap;}
+  .badge.go{background:var(--green);color:#fff;}
+  .badge.no{background:var(--red);color:#fff;}
+  .badge.unknown{background:var(--gray);color:#fff;}
+  .missing{color:#fbbf24;font-size:.76rem;margin-top:2px;}
+  .rank{color:var(--muted);text-align:center;}
+  .formula-toggle{color:var(--accent);font-size:.76rem;margin-top:3px;cursor:pointer;}
+  .formula-toggle:hover{text-decoration:underline;}
+  tr.detail-row td{background:#0b1220;padding:10px 14px;}
+  tr.detail-row.hidden{display:none;}
+  .formula-detail{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:6px;font-size:.82rem;color:var(--muted);}
+
+  .disclaimer{font-size:.78rem;color:var(--muted);line-height:1.5;border-top:1px solid #334155;padding-top:14px;margin-top:14px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Калкулатор на бал — прием след 7. клас (София)</h1>
+  <div class="sub">Въведи резултатите от НВО и оценките от свидетелството — приложението изчислява бала за всяка от 387-те паралелки в София по нейната собствена формула за балообразуване и показва къде влизаш (зелено) и къде не (червено). Топ 30-те най-силни училища (по бал за прием) са маркирани със златен етикет.</div>
+
+  <div class="card">
+    <h3 style="margin-top:0">НВО резултати (0–100 точки)</h3>
+    <div class="grid">
+      <div>
+        <label>НВО Български език и литература</label>
+        <input type="number" id="nvoBel" min="0" max="100" step="0.01" placeholder="напр. 85">
+      </div>
+      <div>
+        <label>НВО Математика</label>
+        <input type="number" id="nvoMat" min="0" max="100" step="0.01" placeholder="напр. 70">
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3 style="margin-top:0">Оценки от свидетелството за основно образование (2.00–6.00)</h3>
+    <div class="grid">
+      <div><label>Български език и литература</label><input type="number" id="gBel" min="2" max="6" step="0.01"></div>
+      <div><label>Математика</label><input type="number" id="gMat" min="2" max="6" step="0.01"></div>
+      <div><label>Чужд език</label><input type="number" id="gForeign" min="2" max="6" step="0.01"></div>
+      <div><label>История и цивилизации</label><input type="number" id="gHistory" min="2" max="6" step="0.01"></div>
+      <div><label>Физика и астрономия</label><input type="number" id="gPhysics" min="2" max="6" step="0.01"></div>
+      <div><label>Изобразително изкуство</label><input type="number" id="gArt" min="2" max="6" step="0.01"></div>
+      <div><label>Информационни технологии</label><input type="number" id="gIT" min="2" max="6" step="0.01"></div>
+      <div><label>Биология и ЗО</label><input type="number" id="gBiology" min="2" max="6" step="0.01"></div>
+      <div><label>Химия и ООС</label><input type="number" id="gChemistry" min="2" max="6" step="0.01"></div>
+      <div><label>География и икономика</label><input type="number" id="gGeography" min="2" max="6" step="0.01"></div>
+      <div><label>Технологии и предприемачество</label><input type="number" id="gTech" min="2" max="6" step="0.01"></div>
+      <div><label>Физическо възпитание и спорт</label><input type="number" id="gSport" min="2" max="6" step="0.01"></div>
+    </div>
+    <div class="note">Оценките се конвертират в точки (макс. 50 на предмет) по официалната скала на МОН: 3.00→15, 4.00→26, 5.00→39, 6.00→50 точки (линейна интерполация между тях). Попълни само предметите, които участват във формулата на училището, което те интересува — виж „Формула“ под всеки ред в таблицата долу.</div>
+  </div>
+
+  <div id="recoBox"></div>
+
+  <div class="card">
+    <div class="legend">
+      <span><span class="dot go"></span>Влизаш</span>
+      <span><span class="dot no"></span>Не влизаш</span>
+      <span><span class="dot unknown"></span>Липсват данни</span>
+      <span><span class="top30">ТОП 30</span> сред най-силните училища в София</span>
+    </div>
+    <div class="filter-row">
+      <input type="text" id="search" placeholder="Търси по име на училище или профил..." style="flex:1;min-width:220px;">
+      <select id="sortBy">
+        <option value="cutoff">Сортирай по минимален бал 2025 (низходящо)</option>
+        <option value="score">Сортирай по твой бал (низходящо)</option>
+        <option value="status">Сортирай по статус (влизаш първо)</option>
+        <option value="name">Сортирай по име на училище</option>
+      </select>
+    </div>
+    <div class="filter-row">
+      <label class="checkbox-row"><input type="checkbox" id="onlyGo" style="width:auto"> Само „Влизаш“</label>
+      <label class="checkbox-row"><input type="checkbox" id="onlyTop30" style="width:auto"> Само ТОП 30 училища</label>
+    </div>
+    <div class="summary" id="summary"></div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th style="width:36px">#</th>
+            <th>Училище / профил</th>
+            <th class="num">Твой бал</th>
+            <th class="num">Минимален бал 2025</th>
+            <th class="num">Разлика</th>
+            <th>Статус</th>
+          </tr>
+        </thead>
+        <tbody id="schoolsList"></tbody>
+      </table>
+    </div>
+    <div class="disclaimer">
+      Данните за балообразуващите формули са от официалния списък на РУО София-град за учебната 2025/2026 г. (387 паралелки), а минималните балове са от финалното класиране към 06.08.2025 г.
+      Балът за следващата учебна година може да е различен (формулите и план-приемът се определят наново всяка година).
+      Конвертирането на оценки в точки е по приближена/линейно-интерполирана скала и е <b>ориентировъчно</b> — за точен резултат провери официалния калкулатор на МОН/РУО София-град преди да подадеш документи.
+      Паралелки с прием чрез приемен изпит (рисуване, музика, спорт) са маркирани като „Няма данни“, защото изпитният резултат не може да се изчисли автоматично. Бал 0 означава, че паралелката не е била запълнена/конкурентна през 2025 г. — приети са всички кандидатствали.
+      „ТОП 30“ е класация на 30-те училища с най-висок минимален бал за прием през 2025 г. (по най-силната им паралелка) — приближение за престижност, не официална класация.
+    </div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script>
+// grade (2.00-6.00) -> points (0-50), piecewise-linear per official MON anchor points
+function gradeToPoints(g){
+  if(g===null || g===undefined || isNaN(g)) return null;
+  const anchors = [[2,0],[3,15],[4,26],[5,39],[6,50]];
+  if(g<=2) return 0;
+  if(g>=6) return 50;
+  for(let i=0;i<anchors.length-1;i++){
+    const [g1,p1]=anchors[i], [g2,p2]=anchors[i+1];
+    if(g>=g1 && g<=g2){
+      return p1 + (g-g1)/(g2-g1)*(p2-p1);
+    }
+  }
+  return null;
+}
+
+const labels = {nvoBel:"НВО БЕЛ", nvoMat:"НВО Математика", gBel:"оценка БЕЛ", gMat:"оценка Математика",
+  gForeign:"оценка Чужд език", gHistory:"оценка История", gPhysics:"оценка Физика", gArt:"оценка ИИ", gIT:"оценка ИТ",
+  gBiology:"оценка Биология", gChemistry:"оценка Химия", gGeography:"оценка География", gTech:"оценка Технологии",
+  gSport:"оценка Физическо възпитание"};
+
+const fieldOrder = ['nvoBel','nvoMat','gBel','gMat','gForeign','gHistory','gPhysics','gArt','gIT','gBiology','gChemistry','gGeography','gTech','gSport'];
+
+function formulaText(terms){
+  return fieldOrder.filter(k=>terms[k]).map(k=>{
+    const coef = terms[k];
+    return `${coef>1? coef+'×':''}${labels[k]}`;
+  }).join(' + ');
+}
+
+const gradeFields = ['gBel','gMat','gForeign','gHistory','gPhysics','gArt','gIT','gBiology','gChemistry','gGeography','gTech','gSport'];
+
+// Determine TOP 30 schools by their strongest (highest cutoff) parallel
+const schoolMaxCutoff = {};
+schools.forEach(s=>{
+  if(s.cutoff===null || s.cutoff===undefined) return;
+  if(!(s.school in schoolMaxCutoff) || s.cutoff > schoolMaxCutoff[s.school]){
+    schoolMaxCutoff[s.school] = s.cutoff;
+  }
+});
+const top30Names = new Set(
+  Object.entries(schoolMaxCutoff)
+    .sort((a,b)=> b[1]-a[1])
+    .slice(0,30)
+    .map(e=>e[0])
+);
+
+function getVal(id){
+  const el = document.getElementById(id);
+  if(!el) return null;
+  const v = el.value;
+  return v===""? null : parseFloat(v);
+}
+
+function computeScore(terms){
+  const raw = { nvoBel: getVal('nvoBel'), nvoMat: getVal('nvoMat') };
+  gradeFields.forEach(f=> raw[f] = gradeToPoints(getVal(f)));
+
+  let total = 0, missing = [];
+  for(const key in terms){
+    const coef = terms[key];
+    const val = raw[key];
+    if(val===null || val===undefined || isNaN(val)){
+      missing.push(labels[key] || key);
+    } else {
+      total += coef*val;
+    }
+  }
+  return {total, missing};
+}
+
+function renderReco(rows){
+  const box = document.getElementById('recoBox');
+  const candidates = rows.filter(r=> r.status==='go' && r.cutoff!==null && r.cutoff!==undefined);
+  if(candidates.length===0){
+    box.innerHTML = `
+      <div class="reco empty">
+        <h3>Препоръка</h3>
+        <div class="school">Все още няма училище, в което със сигурност влизаш</div>
+        <div class="profile">Въведи всички резултати от НВО и оценки, за да видиш препоръка. Ако вече си ги въвела — балът засега не достига минимума за нито една паралелка с известни данни.</div>
+      </div>`;
+    return;
+  }
+  candidates.sort((a,b)=> b.cutoff - a.cutoff);
+  const best = candidates[0];
+  const isTop = top30Names.has(best.school);
+  box.innerHTML = `
+    <div class="reco">
+      <h3>🏆 Препоръка — най-силното училище, в което влизаш</h3>
+      <div class="school">${best.school} ${isTop ? '<span class="top30">ТОП 30</span>' : ''}</div>
+      <div class="profile">${best.profile}</div>
+      <div class="meta">Твой бал: <b>${best.total.toFixed(1)}</b> т. · Минимален бал 2025: ${best.cutoff} т. · Запас: +${(best.total-best.cutoff).toFixed(1)} т.</div>
+    </div>`;
+}
+
+function render(){
+  const sortBy = document.getElementById('sortBy').value;
+  const onlyGo = document.getElementById('onlyGo').checked;
+  const onlyTop30 = document.getElementById('onlyTop30').checked;
+  const q = document.getElementById('search').value.trim().toLowerCase();
+  const tbody = document.getElementById('schoolsList');
+  tbody.innerHTML = '';
+
+  let rows = schools.map(s=>{
+    const isTop30 = top30Names.has(s.school);
+    if(s.specialExam || !s.terms || Object.keys(s.terms).length===0){
+      return {...s, total:null, missing:[], status:'unknown', isTop30};
+    }
+    const {total, missing} = computeScore(s.terms);
+    let status = 'unknown';
+    if(missing.length===0 && s.cutoff!==null && s.cutoff!==undefined){
+      status = total >= s.cutoff ? 'go' : 'no';
+    }
+    return {...s, total, missing, status, isTop30};
+  });
+
+  renderReco(rows);
+
+  if(q){
+    rows = rows.filter(r=> (r.school+' '+r.profile).toLowerCase().includes(q));
+  }
+  if(onlyGo){
+    rows = rows.filter(r=> r.status==='go');
+  }
+  if(onlyTop30){
+    rows = rows.filter(r=> r.isTop30);
+  }
+
+  if(sortBy==='score'){
+    rows.sort((a,b)=> (b.total??-1) - (a.total??-1));
+  } else if(sortBy==='cutoff'){
+    rows.sort((a,b)=> (b.cutoff??-1) - (a.cutoff??-1));
+  } else if(sortBy==='status'){
+    const order = {go:0, no:1, unknown:2};
+    rows.sort((a,b)=> order[a.status]-order[b.status] || (b.cutoff??-1)-(a.cutoff??-1));
+  } else if(sortBy==='name'){
+    rows.sort((a,b)=> a.school.localeCompare(b.school,'bg'));
+  }
+
+  const goCount = rows.filter(r=>r.status==='go').length;
+  const noCount = rows.filter(r=>r.status==='no').length;
+  const unkCount = rows.filter(r=>r.status==='unknown').length;
+  document.getElementById('summary').textContent =
+    `Влизаш в ${goCount} от ${rows.length} паралелки · не влизаш в ${noCount} · липсват данни за ${unkCount}`;
+
+  const frag = document.createDocumentFragment();
+  rows.forEach((r,i)=>{
+    const tr = document.createElement('tr');
+    tr.className = r.status;
+    const badge = r.status==='go' ? '<span class="badge go">ВЛИЗАШ</span>'
+                : r.status==='no' ? '<span class="badge no">НЕ ВЛИЗАШ</span>'
+                : '<span class="badge unknown">НЯМА ДАННИ</span>';
+    const missingHtml = r.missing && r.missing.length ? `<div class="missing">Липсва: ${r.missing.join(', ')}</div>` : '';
+    const topBadge = r.isTop30 ? '<span class="top30">ТОП 30</span>' : '';
+    const cutoffText = (r.cutoff!==null && r.cutoff!==undefined) ? r.cutoff.toFixed(1) : '—';
+    const scoreText = (r.total!==null && r.total!==undefined && r.missing.length===0) ? r.total.toFixed(1) : '—';
+    let diffText = '—';
+    if(r.total!==null && r.total!==undefined && r.missing.length===0 && r.cutoff!==null && r.cutoff!==undefined){
+      const diff = r.total - r.cutoff;
+      diffText = (diff>=0? '+':'') + diff.toFixed(1);
+    }
+    const formulaStr = (r.terms && Object.keys(r.terms).length) ? formulaText(r.terms) : 'изисква приемен изпит (не се изчислява автоматично)';
+    tr.innerHTML = `
+      <td class="rank">${i+1}</td>
+      <td>
+        <div class="name">${r.school}${topBadge}</div>
+        <div class="profile">${r.profile}</div>
+        <div class="formula-toggle" data-idx="${i}">Формула: ${formulaStr} ▾</div>
+        ${missingHtml}
+      </td>
+      <td class="num">${scoreText}</td>
+      <td class="num">${cutoffText}</td>
+      <td class="num">${diffText}</td>
+      <td>${badge}</td>
+    `;
+    frag.appendChild(tr);
+
+    if(r.terms && Object.keys(r.terms).length){
+      const detailTr = document.createElement('tr');
+      detailTr.className = 'detail-row hidden';
+      detailTr.dataset.idx = i;
+      const breakdown = fieldOrder.filter(k=>r.terms[k]).map(k=>{
+        const coef = r.terms[k];
+        const rawVal = (k==='nvoBel'||k==='nvoMat') ? getVal(k) : getVal(k);
+        const pts = (k==='nvoBel'||k==='nvoMat') ? rawVal : gradeToPoints(rawVal);
+        const ptsText = (pts===null||pts===undefined||isNaN(pts)) ? '<span style="color:#fbbf24">няма стойност</span>' : `${pts.toFixed(1)} т.`;
+        const contrib = (pts===null||pts===undefined||isNaN(pts)) ? '' : ` × ${coef} = <b>${(pts*coef).toFixed(1)} т.</b>`;
+        return `<div>${labels[k]} (коеф. ${coef}): ${ptsText}${contrib}</div>`;
+      }).join('');
+      detailTr.innerHTML = `<td></td><td colspan="5"><div class="formula-detail">${breakdown}</div></td>`;
+      frag.appendChild(detailTr);
+    }
+  });
+  tbody.appendChild(frag);
+
+  tbody.querySelectorAll('.formula-toggle').forEach(el=>{
+    el.addEventListener('click', ()=>{
+      const idx = el.dataset.idx;
+      const detail = tbody.querySelector(`.detail-row[data-idx="${idx}"]`);
+      if(detail) detail.classList.toggle('hidden');
+    });
+  });
+}
+
+['nvoBel','nvoMat',...gradeFields].forEach(id=>{
+  document.getElementById(id).addEventListener('input', render);
+});
+document.getElementById('sortBy').addEventListener('change', render);
+document.getElementById('onlyGo').addEventListener('change', render);
+document.getElementById('onlyTop30').addEventListener('change', render);
+document.getElementById('search').addEventListener('input', render);
+
+render();
+</script>
+</body>
+</html>
