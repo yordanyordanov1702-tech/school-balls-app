@@ -95,6 +95,17 @@
   .share-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:14px;}
   .share-note{font-size:.78rem;color:var(--muted);}
 
+  /* Mobile: more compact input grid, 2 columns instead of stacking */
+  @media (max-width: 680px){
+    .grid{grid-template-columns:repeat(2,1fr);gap:8px;}
+    label{font-size:.74rem;margin-bottom:2px;}
+    input[type=number],input[type=text]{padding:7px 8px;font-size:.88rem;}
+    .card{padding:14px;}
+  }
+  @media (max-width: 400px){
+    .grid{grid-template-columns:repeat(2,1fr);gap:6px;}
+  }
+
   /* Mobile: collapse table into stacked cards */
   @media (max-width: 680px){
     table{min-width:0;}
