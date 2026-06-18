@@ -1,0 +1,5800 @@
+[
+ {
+  "school": "78. Средно училище  \"Христо Смирненски\", ГР.БАНКЯ",
+  "profile": "Извършване на термални процедури - АЕ",
+  "parallel_code": "463",
+  "district": "БАНКЯ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "78. Средно училище  \"Христо Смирненски\", ГР.БАНКЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ интензивно, НЕ",
+  "parallel_code": "4798",
+  "district": "БАНКЯ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gMat": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * М + 1 * КМИТ)",
+  "cutoff_2025": 154.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия  по туризъм \"Алеко Константинов\", ГР.БАНКЯ",
+  "profile": "Организация на хотелиерството -  АЕ",
+  "parallel_code": "344",
+  "district": "БАНКЯ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gForeign": 1,
+   "gGeography": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ИЦ + 1 * ГИ)",
+  "cutoff_2025": 146.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия  по туризъм \"Алеко Константинов\", ГР.БАНКЯ",
+  "profile": "Производство и обслужване в заведенията за хранене и развлечения - АЕ",
+  "parallel_code": "358",
+  "district": "БАНКЯ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия  по туризъм \"Алеко Константинов\", ГР.БАНКЯ",
+  "profile": "Производство на кулинарни изделия и напитки - готвач",
+  "parallel_code": "362",
+  "district": "БАНКЯ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "2 Средно училище \"Академик Емилиян Станев \", ГР.СОФИЯ",
+  "profile": "Предприемачески -АЕ интензивно, ИЕ, Предприемачество и ГИ",
+  "parallel_code": "957",
+  "district": "ВИТОША",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "2 Средно училище \"Академик Емилиян Станев \", ГР.СОФИЯ",
+  "profile": "Хуманитарни науки - АЕ интензивно,  ИЕ, БЕЛ и ИЦ",
+  "parallel_code": "958",
+  "district": "ВИТОША",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "2 Средно училище \"Академик Емилиян Станев \", ГР.СОФИЯ",
+  "profile": "Програмиране на изкуствен интелект - английски интензивно, втори чужд език немски",
+  "parallel_code": "4565",
+  "district": "ВИТОША",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 336.0,
+  "specialExam": false
+ },
+ {
+  "school": "2 Средно училище \"Академик Емилиян Станев \", ГР.СОФИЯ",
+  "profile": "Програмиране на изкуствен интелект - английски интензивно, втори чужд език испански",
+  "parallel_code": "4702",
+  "district": "ВИТОША",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 374.5,
+  "specialExam": false
+ },
+ {
+  "school": "26 Средно училище  \"Йордан Йовков\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ интензивно, РЕ",
+  "parallel_code": "965",
+  "district": "ВИТОША",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 263.5,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по екология и  биотехнологии \"Проф. д-р Асен Златаров\", ГР.СОФИЯ",
+  "profile": "Екология и опазване на околната среда - АЕ",
+  "parallel_code": "851",
+  "district": "ВИТОША",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 266.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по екология и  биотехнологии \"Проф. д-р Асен Златаров\", ГР.СОФИЯ",
+  "profile": "Технология на фармацевтичните и парфюмерийно-козметични продукти - АЕ",
+  "parallel_code": "874",
+  "district": "ВИТОША",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 119.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по екология и  биотехнологии \"Проф. д-р Асен Златаров\", ГР.СОФИЯ",
+  "profile": "Технологичен и микробиологичен контрол в химични производства - лаборант - АЕ",
+  "parallel_code": "909",
+  "district": "ВИТОША",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по екология и  биотехнологии \"Проф. д-р Асен Златаров\", ГР.СОФИЯ",
+  "profile": "Осигуряване на продуктова информация - НЕ",
+  "parallel_code": "2591",
+  "district": "ВИТОША",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 271.0,
+  "specialExam": false
+ },
+ {
+  "school": "74 СУ \"ГОЦЕ ДЕЛЧЕВ\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ интензивно",
+  "parallel_code": "1771",
+  "district": "ВРЪБНИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 152.0,
+  "specialExam": false
+ },
+ {
+  "school": "74 СУ \"ГОЦЕ ДЕЛЧЕВ\", ГР.СОФИЯ",
+  "profile": "Природни науки - АЕ интензивно",
+  "parallel_code": "1777",
+  "district": "ВРЪБНИЦА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 141.0,
+  "specialExam": false
+ },
+ {
+  "school": "140. СРЕДНО УЧИЛИЩЕ \"ИВАН БОГОРОВ\", ГР.СОФИЯ",
+  "profile": "Български танци",
+  "parallel_code": "1895",
+  "district": "ВРЪБНИЦА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИЦ + 1 * Муз.)",
+  "cutoff_2025": 273.0,
+  "specialExam": true,
+  "note": "Изпит за музикални способности (пеене/инструмент)"
+ },
+ {
+  "school": "140. СРЕДНО УЧИЛИЩЕ \"ИВАН БОГОРОВ\", ГР.СОФИЯ",
+  "profile": "Графичен дизайн",
+  "parallel_code": "1904",
+  "district": "ВРЪБНИЦА",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 1,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 1 * МАТ + 2 * ИИ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 234.75,
+  "specialExam": true,
+  "note": "Изпит за изобразителни способности (рисуване) вместо/в допълнение към НВО по математика"
+ },
+ {
+  "school": "18 Средно училище  \"Уилям Гладстон\", ГР.СОФИЯ",
+  "profile": "Математически - АЕ интензивно, НЕ; М и Инф",
+  "parallel_code": "897",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "18 Средно училище  \"Уилям Гладстон\", ГР.СОФИЯ",
+  "profile": "Природни науки - НЕ интензивно, АЕ; БЗО и ХООС",
+  "parallel_code": "902",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 384.0,
+  "specialExam": false
+ },
+ {
+  "school": "18 Средно училище  \"Уилям Гладстон\", ГР.СОФИЯ",
+  "profile": "Природни науки - ФЕ интензивно, АЕ; БЗО и ХООС",
+  "parallel_code": "905",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "18 Средно училище  \"Уилям Гладстон\", ГР.СОФИЯ",
+  "profile": "Чужди езици - ФЕ интензивно, ИЕ",
+  "parallel_code": "1631",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 448.5,
+  "specialExam": false
+ },
+ {
+  "school": "18 Средно училище  \"Уилям Гладстон\", ГР.СОФИЯ",
+  "profile": "Чужди езици - ЯЕ интензивно, АЕ",
+  "parallel_code": "1637",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 401.0,
+  "specialExam": false
+ },
+ {
+  "school": "18 Средно училище  \"Уилям Гладстон\", ГР.СОФИЯ",
+  "profile": "Хуманитарни науки - АрЕ интензивно, АЕ; БЕЛ и Фил",
+  "parallel_code": "1642",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * ИЦ)",
+  "cutoff_2025": 344.5,
+  "specialExam": false
+ },
+ {
+  "school": "18 Средно училище  \"Уилям Гладстон\", ГР.СОФИЯ",
+  "profile": "Чужди езици - КитЕ интензивно, АЕ",
+  "parallel_code": "1647",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 352.5,
+  "specialExam": false
+ },
+ {
+  "school": "18 Средно училище  \"Уилям Гладстон\", ГР.СОФИЯ",
+  "profile": "Чужди езици - КорЕ интензивно, АЕ",
+  "parallel_code": "3931",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 360.5,
+  "specialExam": false
+ },
+ {
+  "school": "30 СРЕДНО УЧИЛИЩЕ \"БРАТЯ МИЛАДИНОВИ\", ГР.СОФИЯ",
+  "profile": "Чужди езици - ИЕ интензивно, АЕ",
+  "parallel_code": "1307",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "30 СРЕДНО УЧИЛИЩЕ \"БРАТЯ МИЛАДИНОВИ\", ГР.СОФИЯ",
+  "profile": "Природни науки - ИЕ интензивно, АЕ",
+  "parallel_code": "1308",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "30 СРЕДНО УЧИЛИЩЕ \"БРАТЯ МИЛАДИНОВИ\", ГР.СОФИЯ",
+  "profile": "Природни науки - АЕ интензивно, ИЕ",
+  "parallel_code": "2602",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "32. СРЕДНО УЧИЛИЩЕ С ИЗУЧАВАНЕ НА ЧУЖДИ  ЕЗИЦИ \"СВЕТИ КЛИМЕНТ ОХРИДСКИ\", ГР.СОФИЯ",
+  "profile": "Чужди езици - АЕ интензивно, НЕ",
+  "parallel_code": "2771",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 417.5,
+  "specialExam": false
+ },
+ {
+  "school": "32. СРЕДНО УЧИЛИЩЕ С ИЗУЧАВАНЕ НА ЧУЖДИ  ЕЗИЦИ \"СВЕТИ КЛИМЕНТ ОХРИДСКИ\", ГР.СОФИЯ",
+  "profile": "Чужди езици - АЕ интензивно, ИЕ",
+  "parallel_code": "2773",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 450.5,
+  "specialExam": false
+ },
+ {
+  "school": "32. СРЕДНО УЧИЛИЩЕ С ИЗУЧАВАНЕ НА ЧУЖДИ  ЕЗИЦИ \"СВЕТИ КЛИМЕНТ ОХРИДСКИ\", ГР.СОФИЯ",
+  "profile": "Чужди езици - АЕ интензивно, ФЕ",
+  "parallel_code": "2775",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "32. СРЕДНО УЧИЛИЩЕ С ИЗУЧАВАНЕ НА ЧУЖДИ  ЕЗИЦИ \"СВЕТИ КЛИМЕНТ ОХРИДСКИ\", ГР.СОФИЯ",
+  "profile": "Хуманитарни науки - АЕ интензивно, РЕ; БЕЛ и ИЦ",
+  "parallel_code": "2777",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 422.0,
+  "specialExam": false
+ },
+ {
+  "school": "32. СРЕДНО УЧИЛИЩЕ С ИЗУЧАВАНЕ НА ЧУЖДИ  ЕЗИЦИ \"СВЕТИ КЛИМЕНТ ОХРИДСКИ\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ интензивно, НЕ",
+  "parallel_code": "3371",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "32. СРЕДНО УЧИЛИЩЕ С ИЗУЧАВАНЕ НА ЧУЖДИ  ЕЗИЦИ \"СВЕТИ КЛИМЕНТ ОХРИДСКИ\", ГР.СОФИЯ",
+  "profile": "Природни науки - АЕ интензивно, ИЕ, БЗО и ХООС",
+  "parallel_code": "3372",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "91.НЕМСКА ЕЗИКОВА ГИМНАЗИЯ Професор Константин Гълъбов\", ГР.СОФИЯ",
+  "profile": "Чужди езици - НЕ интензивно, АЕ",
+  "parallel_code": "2644",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 455.0,
+  "specialExam": false
+ },
+ {
+  "school": "134. средно училище  \"Димчо Дебелянов\", ГР.СОФИЯ",
+  "profile": "Чужди езици - АЕ интензивно, Иврит",
+  "parallel_code": "1952",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 368.25,
+  "specialExam": false
+ },
+ {
+  "school": "134. средно училище  \"Димчо Дебелянов\", ГР.СОФИЯ",
+  "profile": "Природни науки - АЕ интензивно, Иврит",
+  "parallel_code": "1961",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "134. средно училище  \"Димчо Дебелянов\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ интензивно, Иврит",
+  "parallel_code": "1968",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНА ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ПРЕЦИЗНА ТЕХНИКА И ОПТИКА \"М. В. Ломоносов\", ГР.СОФИЯ",
+  "profile": "Медицинска техника - НЕ",
+  "parallel_code": "317",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 361.5,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНА ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ПРЕЦИЗНА ТЕХНИКА И ОПТИКА \"М. В. Ломоносов\", ГР.СОФИЯ",
+  "profile": "Измервателна и организационна техника - АЕ",
+  "parallel_code": "319",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНА ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ПРЕЦИЗНА ТЕХНИКА И ОПТИКА \"М. В. Ломоносов\", ГР.СОФИЯ",
+  "profile": "Кинотехника, аудио- и видеосистеми - АЕ",
+  "parallel_code": "321",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНА ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ПРЕЦИЗНА ТЕХНИКА И ОПТИКА \"М. В. Ломоносов\", ГР.СОФИЯ",
+  "profile": "Очна оптика - НЕ",
+  "parallel_code": "324",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 360.0,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНА ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ПРЕЦИЗНА ТЕХНИКА И ОПТИКА \"М. В. Ломоносов\", ГР.СОФИЯ",
+  "profile": "Лазерна и оптична техника - АЕ",
+  "parallel_code": "325",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 359.0,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНА ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ПРЕЦИЗНА ТЕХНИКА И ОПТИКА \"М. В. Ломоносов\", ГР.СОФИЯ",
+  "profile": "Компютърна техника и технологии - АЕ",
+  "parallel_code": "328",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 371.5,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНА ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ПРЕЦИЗНА ТЕХНИКА И ОПТИКА \"М. В. Ломоносов\", ГР.СОФИЯ",
+  "profile": "Програмиране на изкуствен интелект - АЕ",
+  "parallel_code": "3955",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТЕКСТИЛНИ И КОЖЕНИ ИЗДЕЛИЯ, ГР.СОФИЯ",
+  "profile": "Моден дизайн - АЕ",
+  "parallel_code": "3251",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 286.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТЕКСТИЛНИ И КОЖЕНИ ИЗДЕЛИЯ, ГР.СОФИЯ",
+  "profile": "Организация и технология на козметичните услуги",
+  "parallel_code": "4274",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBiology": 1,
+   "gArt": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЗО + 1 * ИИ)",
+  "cutoff_2025": 250.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТЕКСТИЛНИ И КОЖЕНИ ИЗДЕЛИЯ, ГР.СОФИЯ",
+  "profile": "Организация на туризма и свободното време - АЕ",
+  "parallel_code": "4507",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gGeography": 1,
+   "gTech": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ГИ + 1 * ТП)",
+  "cutoff_2025": 255.25,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТЕКСТИЛНИ И КОЖЕНИ ИЗДЕЛИЯ, ГР.СОФИЯ",
+  "profile": "Сценичен костюм",
+  "parallel_code": "4825",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 269.5,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТЕКСТИЛНИ И КОЖЕНИ ИЗДЕЛИЯ, ГР.СОФИЯ",
+  "profile": "Бутикови облекла",
+  "parallel_code": "4827",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 260.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ ПО ПОДЕМНА, СТРОИТЕЛНА И ТРАНСПОРТНА ТЕХНИКА, ГР.СОФИЯ",
+  "profile": "Пътно-строителна техника - АЕ",
+  "parallel_code": "2524",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 140.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ ПО ПОДЕМНА, СТРОИТЕЛНА И ТРАНСПОРТНА ТЕХНИКА, ГР.СОФИЯ",
+  "profile": "Локомотиви и вагони (дуална) - РЕ",
+  "parallel_code": "3558",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 74.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ ПО ПОДЕМНА, СТРОИТЕЛНА И ТРАНСПОРТНА ТЕХНИКА, ГР.СОФИЯ",
+  "profile": "Ръководител движение - АЕ",
+  "parallel_code": "3562",
+  "district": "ВЪЗРАЖДАНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "105. СРЕДНО УЧИЛИЩЕ  \"АТАНАС ДАЛЧЕВ\", ГР.СОФИЯ",
+  "profile": "Чужди езици - ИтЕ интензивно, АЕ",
+  "parallel_code": "2514",
+  "district": "ИЗГРЕВ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 422.25,
+  "specialExam": false
+ },
+ {
+  "school": "105. СРЕДНО УЧИЛИЩЕ  \"АТАНАС ДАЛЧЕВ\", ГР.СОФИЯ",
+  "profile": "Екскурзоводско обслужване - ИтЕ интензивно, АЕ",
+  "parallel_code": "2543",
+  "district": "ИЗГРЕВ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "105. СРЕДНО УЧИЛИЩЕ  \"АТАНАС ДАЛЧЕВ\", ГР.СОФИЯ",
+  "profile": "Интериорен дизайн - ИтЕ интензивно, АЕ",
+  "parallel_code": "4826",
+  "district": "ИЗГРЕВ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 377.0,
+  "specialExam": false
+ },
+ {
+  "school": "119 Средно училище \"Академик Михаил Арнаудов\", ГР.СОФИЯ",
+  "profile": "Хуманитарни науки - АЕ интензивно",
+  "parallel_code": "1522",
+  "district": "ИЗГРЕВ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ИЦ)",
+  "cutoff_2025": 383.5,
+  "specialExam": false
+ },
+ {
+  "school": "119 Средно училище \"Академик Михаил Арнаудов\", ГР.СОФИЯ",
+  "profile": "Природни науки - АЕ интензивно",
+  "parallel_code": "1526",
+  "district": "ИЗГРЕВ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "119 Средно училище \"Академик Михаил Арнаудов\", ГР.СОФИЯ",
+  "profile": "Чужди езици - РЕ интензивно",
+  "parallel_code": "1532",
+  "district": "ИЗГРЕВ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "119 Средно училище \"Академик Михаил Арнаудов\", ГР.СОФИЯ",
+  "profile": "Икономическо развитие - АЕ интензивно",
+  "parallel_code": "4079",
+  "district": "ИЗГРЕВ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "СОФИЙСКА ПРОФЕСИОНАЛНА  ГИМНАЗИЯ по ЕЛЕКТРОНИКА \"Джон Атанасов\", ГР.СОФИЯ",
+  "profile": "Системно програмиране - АЕ, НЕ",
+  "parallel_code": "2328",
+  "district": "ИЗГРЕВ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gMat": 1,
+   "gPhysics": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
+  "cutoff_2025": 437.75,
+  "specialExam": false
+ },
+ {
+  "school": "СОФИЙСКА ПРОФЕСИОНАЛНА  ГИМНАЗИЯ по ЕЛЕКТРОНИКА \"Джон Атанасов\", ГР.СОФИЯ",
+  "profile": "Приложно програмиране - АЕ, НЕ",
+  "parallel_code": "2338",
+  "district": "ИЗГРЕВ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gMat": 1,
+   "gPhysics": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
+  "cutoff_2025": 436.75,
+  "specialExam": false
+ },
+ {
+  "school": "СОФИЙСКА ПРОФЕСИОНАЛНА  ГИМНАЗИЯ по ЕЛЕКТРОНИКА \"Джон Атанасов\", ГР.СОФИЯ",
+  "profile": "Компютърни мрежи - АЕ, НЕ",
+  "parallel_code": "2360",
+  "district": "ИЗГРЕВ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gMat": 1,
+   "gPhysics": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
+  "cutoff_2025": 404.25,
+  "specialExam": false
+ },
+ {
+  "school": "СОФИЙСКА ПРОФЕСИОНАЛНА  ГИМНАЗИЯ по ЕЛЕКТРОНИКА \"Джон Атанасов\", ГР.СОФИЯ",
+  "profile": "Компютърна техника и технологии - АЕ, НЕ",
+  "parallel_code": "2363",
+  "district": "ИЗГРЕВ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gMat": 1,
+   "gPhysics": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "СОФИЙСКА ПРОФЕСИОНАЛНА  ГИМНАЗИЯ по ЕЛЕКТРОНИКА \"Джон Атанасов\", ГР.СОФИЯ",
+  "profile": "Промишлена електроника - АЕ, НЕ",
+  "parallel_code": "2372",
+  "district": "ИЗГРЕВ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gMat": 1,
+   "gPhysics": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "СОФИЙСКА ПРОФЕСИОНАЛНА  ГИМНАЗИЯ по ЕЛЕКТРОНИКА \"Джон Атанасов\", ГР.СОФИЯ",
+  "profile": "Програмиране на роботи - АЕ, НЕ",
+  "parallel_code": "4140",
+  "district": "ИЗГРЕВ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gMat": 1,
+   "gPhysics": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Софийска професионална гимназия  \"Княгиня Евдокия\", ГР.СОФИЯ",
+  "profile": "Съдебна администрация - АЕ",
+  "parallel_code": "2837",
+  "district": "ИЗГРЕВ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gForeign": 2
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИЦ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Софийска професионална гимназия  \"Княгиня Евдокия\", ГР.СОФИЯ",
+  "profile": "Икономическо информационно осигуряване - АЕ",
+  "parallel_code": "2840",
+  "district": "ИЗГРЕВ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Софийска професионална гимназия  \"Княгиня Евдокия\", ГР.СОФИЯ",
+  "profile": "Извършване на термални процедури - АЕ",
+  "parallel_code": "2842",
+  "district": "ИЗГРЕВ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBiology": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЗО + 1 * ЧЕз)",
+  "cutoff_2025": 290.5,
+  "specialExam": false
+ },
+ {
+  "school": "Софийска професионална гимназия  \"Княгиня Евдокия\", ГР.СОФИЯ",
+  "profile": "Фризьорство",
+  "parallel_code": "2843",
+  "district": "ИЗГРЕВ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBiology": 1,
+   "gArt": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЗО + 1 * ИИ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Софийска професионална гимназия  \"Княгиня Евдокия\", ГР.СОФИЯ",
+  "profile": "Козметика",
+  "parallel_code": "2845",
+  "district": "ИЗГРЕВ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBiology": 1,
+   "gArt": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЗО + 1 * ИИ)",
+  "cutoff_2025": 307.5,
+  "specialExam": false
+ },
+ {
+  "school": "Софийска професионална гимназия  \"Княгиня Евдокия\", ГР.СОФИЯ",
+  "profile": "Промишлен дизайн - АЕ",
+  "parallel_code": "3381",
+  "district": "ИЗГРЕВ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 329.5,
+  "specialExam": false
+ },
+ {
+  "school": "Софийска професионална гимназия  \"Княгиня Евдокия\", ГР.СОФИЯ",
+  "profile": "Индустриални отношения - АЕ",
+  "parallel_code": "3382",
+  "district": "ИЗГРЕВ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gGeography": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ГИ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Софийска професионална гимназия  \"Княгиня Евдокия\", ГР.СОФИЯ",
+  "profile": "Фотография - АЕ",
+  "parallel_code": "4009",
+  "district": "ИЗГРЕВ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Софийска професионална гимназия  \"Княгиня Евдокия\", ГР.СОФИЯ",
+  "profile": "Театрален, кино и телевизионен декор - АЕ",
+  "parallel_code": "4290",
+  "district": "ИЗГРЕВ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Софийска професионална гимназия  \"Княгиня Евдокия\", ГР.СОФИЯ",
+  "profile": "Художествено осветление за театър, кино и телевизия - АЕ",
+  "parallel_code": "4292",
+  "district": "ИЗГРЕВ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "3. СУ  \"Марин Дринов\", ГР.СОФИЯ",
+  "profile": "Графичен дизайн - АЕ",
+  "parallel_code": "2914",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 344.25,
+  "specialExam": false
+ },
+ {
+  "school": "3. СУ  \"Марин Дринов\", ГР.СОФИЯ",
+  "profile": "Фотография",
+  "parallel_code": "4019",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "113 СУ \"САВА ФИЛАРЕТОВ\", ГР.СОФИЯ",
+  "profile": "Продавач-консултант /РЕ/",
+  "parallel_code": "1648",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gTech": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * ТП)",
+  "cutoff_2025": 175.0,
+  "specialExam": false
+ },
+ {
+  "school": "113 СУ \"САВА ФИЛАРЕТОВ\", ГР.СОФИЯ",
+  "profile": "Продавач-консултант /АЕ/",
+  "parallel_code": "1676",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gTech": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * ТП)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "33. Езикова гимназия  \"Света София\", ГР.СОФИЯ",
+  "profile": "Предприемачески - АЕ интензивно, НЕ",
+  "parallel_code": "2762",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gMat": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * М + 1 * КМИТ)",
+  "cutoff_2025": 322.0,
+  "specialExam": false
+ },
+ {
+  "school": "33. Езикова гимназия  \"Света София\", ГР.СОФИЯ",
+  "profile": "Чужди езици - АЕ интензивно, КитЕ/ГрЕ",
+  "parallel_code": "2767",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 319.0,
+  "specialExam": false
+ },
+ {
+  "school": "33. Езикова гимназия  \"Света София\", ГР.СОФИЯ",
+  "profile": "Чужди езици - АЕ интензивно, ФЕ или РЕ",
+  "parallel_code": "2774",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 340.0,
+  "specialExam": false
+ },
+ {
+  "school": "33. Езикова гимназия  \"Света София\", ГР.СОФИЯ",
+  "profile": "Чужди езици - ФЕ интензивно, АЕ",
+  "parallel_code": "2778",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 312.0,
+  "specialExam": false
+ },
+ {
+  "school": "33. Езикова гимназия  \"Света София\", ГР.СОФИЯ",
+  "profile": "Екскурзоводско обслужване - АЕ интензивно, ИЕ",
+  "parallel_code": "2797",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gGeography": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * ГИ)",
+  "cutoff_2025": 333.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по транспорт и енергетика \"Хенри Форд\", ГР.СОФИЯ",
+  "profile": "Промишлена електроника",
+  "parallel_code": "1911",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gPhysics": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ФА + 1 * КМИТ)",
+  "cutoff_2025": 127.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по транспорт и енергетика \"Хенри Форд\", ГР.СОФИЯ",
+  "profile": "Електрообзавеждане на ел. превозни средства за гр. транспорт (дуална)",
+  "parallel_code": "2343",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gPhysics": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ФА + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по транспорт и енергетика \"Хенри Форд\", ГР.СОФИЯ",
+  "profile": "Подемно - транспортна техника, монтирана на пътни транспортни средства",
+  "parallel_code": "2349",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gPhysics": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ФА + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по транспорт и енергетика \"Хенри Форд\", ГР.СОФИЯ",
+  "profile": "Топлоенергетика (дуална) - АЕ",
+  "parallel_code": "2352",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gPhysics": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ФА + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по транспорт и енергетика \"Хенри Форд\", ГР.СОФИЯ",
+  "profile": "Възобновяеми енергийни източници (дуална) - АЕ",
+  "parallel_code": "2357",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gPhysics": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ФА + 1 * КМИТ)",
+  "cutoff_2025": 160.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по транспорт и енергетика \"Хенри Форд\", ГР.СОФИЯ",
+  "profile": "Топлотехника - отоплителна, климатична, вентилационна и хладилна (дуална) - АЕ",
+  "parallel_code": "2362",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gPhysics": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ФА + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по транспорт и енергетика \"Хенри Форд\", ГР.СОФИЯ",
+  "profile": "Автотранспортна техника - АЕ",
+  "parallel_code": "2364",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gPhysics": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ФА + 1 * КМИТ)",
+  "cutoff_2025": 174.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по транспорт и енергетика \"Хенри Форд\", ГР.СОФИЯ",
+  "profile": "Автомобилна мехатроника (дуална) - АЕ",
+  "parallel_code": "2367",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gPhysics": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ФА + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по транспорт и енергетика \"Хенри Форд\", ГР.СОФИЯ",
+  "profile": "Автотранспортна техника (дуална) - АЕ",
+  "parallel_code": "2376",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gPhysics": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ФА + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по транспорт и енергетика \"Хенри Форд\", ГР.СОФИЯ",
+  "profile": "Електрически превозни средства - АЕ",
+  "parallel_code": "2378",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gPhysics": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ФА + 1 * КМИТ)",
+  "cutoff_2025": 177.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по транспорт и енергетика \"Хенри Форд\", ГР.СОФИЯ",
+  "profile": "Ремонт на летателни апарати - АЕ",
+  "parallel_code": "2380",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gPhysics": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ФА + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по транспорт и енергетика \"Хенри Форд\", ГР.СОФИЯ",
+  "profile": "Експлоатация на автомобилния транспорт",
+  "parallel_code": "2383",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gPhysics": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ФА + 1 * КМИТ)",
+  "cutoff_2025": 128.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ ПО ВИСОКИ ТЕХНОЛОГИИ \"А. С. ПОПОВ\", ГР.СОФИЯ",
+  "profile": "Компютърни мрежи - АЕ  - разширено; втори ЧЕ - Испански език",
+  "parallel_code": "2752",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gMat": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * КМИТ)",
+  "cutoff_2025": 307.5,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ ПО ВИСОКИ ТЕХНОЛОГИИ \"А. С. ПОПОВ\", ГР.СОФИЯ",
+  "profile": "Телекомуникационни системи - АЕ - разширено; втори ЧЕ - Руски език",
+  "parallel_code": "2756",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gMat": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * КМИТ)",
+  "cutoff_2025": 281.75,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ ПО ВИСОКИ ТЕХНОЛОГИИ \"А. С. ПОПОВ\", ГР.СОФИЯ",
+  "profile": "Приложно програмиране - АЕ интензивно; втори ЧЕ - Немски език",
+  "parallel_code": "2760",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gMat": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * КМИТ)",
+  "cutoff_2025": 320.75,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ ПО ВИСОКИ ТЕХНОЛОГИИ \"А. С. ПОПОВ\", ГР.СОФИЯ",
+  "profile": "Системно програмиране - АЕ интензивно; - втори ЧЕ - Немски език",
+  "parallel_code": "2769",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gMat": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ ПО ВИСОКИ ТЕХНОЛОГИИ \"А. С. ПОПОВ\", ГР.СОФИЯ",
+  "profile": "Програмиране на изкуствен интелект - АЕ интензивно; втори ЧЕ - Китайски език",
+  "parallel_code": "4500",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gMat": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * КМИТ)",
+  "cutoff_2025": 313.25,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ ПО ВИСОКИ ТЕХНОЛОГИИ \"А. С. ПОПОВ\", ГР.СОФИЯ",
+  "profile": "Микропроцесорна техника АЕ - разширено; втори ЧЕ - Испански език",
+  "parallel_code": "5005",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gMat": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по хранително-вкусови технологии \"Проф. д-р Георги Павлов\", ГР.СОФИЯ",
+  "profile": "Производство на захар и захарни изделия - АЕ",
+  "parallel_code": "448",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 218.5,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по хранително-вкусови технологии \"Проф. д-р Георги Павлов\", ГР.СОФИЯ",
+  "profile": "Производство и преработка на мляко и млечни продукти - АЕ",
+  "parallel_code": "452",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 197.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по хранително-вкусови технологии \"Проф. д-р Георги Павлов\", ГР.СОФИЯ",
+  "profile": "Производство на месо, месни продукти и риба - оператор",
+  "parallel_code": "3671",
+  "district": "ИЛИНДЕН",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 77.0,
+  "specialExam": false
+ },
+ {
+  "school": "68. Средно училище \"Академик Никола Обрешков\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ разширено",
+  "parallel_code": "2629",
+  "district": "ИСКЪР",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "68. Средно училище \"Академик Никола Обрешков\", ГР.СОФИЯ",
+  "profile": "Природни науки - АЕ разширено",
+  "parallel_code": "3634",
+  "district": "ИСКЪР",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 176.5,
+  "specialExam": false
+ },
+ {
+  "school": "68. Средно училище \"Академик Никола Обрешков\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ интензивно",
+  "parallel_code": "4454",
+  "district": "ИСКЪР",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "69 Средно  училище \"Димитър Маринов\", ГР.СОФИЯ",
+  "profile": "Икономическо развитие - АЕ, НЕ",
+  "parallel_code": "887",
+  "district": "ИСКЪР",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gMat": 1,
+   "gGeography": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * М + 1 * ГИ)",
+  "cutoff_2025": 54.0,
+  "specialExam": false
+ },
+ {
+  "school": "108 Средно училище  \"Никола Беловеждов\", ГР.СОФИЯ",
+  "profile": "Предприемачески  - АЕ разширено, РЕ",
+  "parallel_code": "1852",
+  "district": "ИСКЪР",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gGeography": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ГИ + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "108 Средно училище  \"Никола Беловеждов\", ГР.СОФИЯ",
+  "profile": "Сътрудник в малък и среден бизнес - АЕ разширено, НЕ",
+  "parallel_code": "5067",
+  "district": "ИСКЪР",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gGeography": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ГИ + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТРАНСПОРТ, ГР.СОФИЯ",
+  "profile": "Митническа и данъчна администрация - АЕ, ИЕ",
+  "parallel_code": "1656",
+  "district": "ИСКЪР",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * КМИТ)",
+  "cutoff_2025": 124.5,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТРАНСПОРТ, ГР.СОФИЯ",
+  "profile": "Спедиция транспортна и складова логистика - АЕ, НЕ",
+  "parallel_code": "1665",
+  "district": "ИСКЪР",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * КМИТ)",
+  "cutoff_2025": 121.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТРАНСПОРТ, ГР.СОФИЯ",
+  "profile": "Автомобилна мехатроника - АЕ, НЕ",
+  "parallel_code": "1677",
+  "district": "ИСКЪР",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gIT": 1,
+   "gTech": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ТП)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТРАНСПОРТ, ГР.СОФИЯ",
+  "profile": "Митническа и данъчна администрация - АЕ, НЕ",
+  "parallel_code": "4808",
+  "district": "ИСКЪР",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * КМИТ)",
+  "cutoff_2025": 178.75,
+  "specialExam": false
+ },
+ {
+  "school": "17 СУ \"Дамян Груев\"  , ГР.СОФИЯ",
+  "profile": "Туристическа анимация - АЕ",
+  "parallel_code": "2379",
+  "district": "КРАСНА ПОЛЯНА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gGeography": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ГИ + 1 * ЧЕз)",
+  "cutoff_2025": 179.5,
+  "specialExam": false
+ },
+ {
+  "school": "28 Средно училище  \"Алеко Константинов\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ интензивно, ИЕ",
+  "parallel_code": "372",
+  "district": "КРАСНА ПОЛЯНА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gMat": 1,
+   "gPhysics": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * М + 1 * ФА)",
+  "cutoff_2025": 76.0,
+  "specialExam": false
+ },
+ {
+  "school": "28 Средно училище  \"Алеко Константинов\", ГР.СОФИЯ",
+  "profile": "Физическо възпитание и спорт - АЕ, ИЕ",
+  "parallel_code": "374",
+  "district": "КРАСНА ПОЛЯНА",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 1,
+   "gBiology": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 1 * МАТ + 2 * СПО) + (1 * БЗО + 1 * ЧЕз)",
+  "cutoff_2025": null,
+  "specialExam": true,
+  "note": "Изпит за спортно-двигателни способности (физическо възпитание и спорт паралелка)"
+ },
+ {
+  "school": "28 Средно училище  \"Алеко Константинов\", ГР.СОФИЯ",
+  "profile": "Електронна търговия - АЕ интензивно, ИЕ",
+  "parallel_code": "4126",
+  "district": "КРАСНА ПОЛЯНА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 150.0,
+  "specialExam": false
+ },
+ {
+  "school": "123 Средно училищe \"Стефан Стамболов\", ГР.СОФИЯ",
+  "profile": "Логистика на товари и услуги",
+  "parallel_code": "631",
+  "district": "КРАСНА ПОЛЯНА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "123 Средно училищe \"Стефан Стамболов\", ГР.СОФИЯ",
+  "profile": "Обществени науки",
+  "parallel_code": "4004",
+  "district": "КРАСНА ПОЛЯНА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gForeign": 1,
+   "gGeography": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИЦ + 1 * ГИ)",
+  "cutoff_2025": 101.0,
+  "specialExam": false
+ },
+ {
+  "school": "135 средно училище \"Ян Амос Коменски\", ГР.СОФИЯ",
+  "profile": "Социална работа с деца и семейства в риск - АЕ",
+  "parallel_code": "2783",
+  "district": "КРАСНА ПОЛЯНА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Софийска гимназия  по хлебни   и сладкарски технологии, ГР.СОФИЯ",
+  "profile": "Производство на хляб хлебни и сладкарски изделия - АЕ, НЕ",
+  "parallel_code": "547",
+  "district": "КРАСНА ПОЛЯНА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gBiology": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * БЗО)",
+  "cutoff_2025": 120.5,
+  "specialExam": false
+ },
+ {
+  "school": "Софийска гимназия  по хлебни   и сладкарски технологии, ГР.СОФИЯ",
+  "profile": "Декорация на сладкарски изделия - АЕ",
+  "parallel_code": "563",
+  "district": "КРАСНА ПОЛЯНА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gArt": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ИИ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Софийска гимназия  по хлебни   и сладкарски технологии, ГР.СОФИЯ",
+  "profile": "Производство на хляб, хлебни и сладкарски изделия - АЕ, ИспанскиЕ",
+  "parallel_code": "4101",
+  "district": "КРАСНА ПОЛЯНА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gBiology": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * БЗО)",
+  "cutoff_2025": 78.0,
+  "specialExam": false
+ },
+ {
+  "school": "19 СРЕДНО УЧИЛИЩЕ  \"ЕЛИН ПЕЛИН\", ГР.СОФИЯ",
+  "profile": "Предприемачески - НЕ интензивно, НорвЕ",
+  "parallel_code": "4939",
+  "district": "КРАСНО СЕЛО",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "19 СРЕДНО УЧИЛИЩЕ  \"ЕЛИН ПЕЛИН\", ГР.СОФИЯ",
+  "profile": "Предприемачески - НЕ интензивно, ДатЕ",
+  "parallel_code": "4940",
+  "district": "КРАСНО СЕЛО",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "19 СРЕДНО УЧИЛИЩЕ  \"ЕЛИН ПЕЛИН\", ГР.СОФИЯ",
+  "profile": "Предприемачески - АЕ интензивно, ШвЕ",
+  "parallel_code": "4941",
+  "district": "КРАСНО СЕЛО",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * КМИТ)",
+  "cutoff_2025": 351.5,
+  "specialExam": false
+ },
+ {
+  "school": "36 Средно училище  \"Максим Горки\", ГР.СОФИЯ",
+  "profile": "Екскурзоводско обслужване - ИтЕ интензивно, АЕ",
+  "parallel_code": "778",
+  "district": "КРАСНО СЕЛО",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gGeography": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ГИ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "36 Средно училище  \"Максим Горки\", ГР.СОФИЯ",
+  "profile": "Природни науки - АЕ интензивно, ИтЕ",
+  "parallel_code": "784",
+  "district": "КРАСНО СЕЛО",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "51 СРЕДНО УЧИЛИЩЕ \"ЕЛИСАВЕТА БАГРЯНА\", ГР.СОФИЯ",
+  "profile": "Компютърна графика - АЕ интензивно, Японски език",
+  "parallel_code": "2276",
+  "district": "КРАСНО СЕЛО",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "51 СРЕДНО УЧИЛИЩЕ \"ЕЛИСАВЕТА БАГРЯНА\", ГР.СОФИЯ",
+  "profile": "Изобразително изкуство - АЕ интензивно, ИтЕ",
+  "parallel_code": "2291",
+  "district": "КРАСНО СЕЛО",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gArt": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 1 * МАТ + 2 * ИИ) + (1 * БЕЛ + 1 * ИИ)",
+  "cutoff_2025": 0.0,
+  "specialExam": true,
+  "note": "Изпит за изобразителни способности (рисуване) вместо/в допълнение към НВО по математика"
+ },
+ {
+  "school": "51 СРЕДНО УЧИЛИЩЕ \"ЕЛИСАВЕТА БАГРЯНА\", ГР.СОФИЯ",
+  "profile": "Компютърна анимация - АЕ интензивно, ИтЕ",
+  "parallel_code": "3998",
+  "district": "КРАСНО СЕЛО",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "132. Средно училище  \"Ваня Войнова\", ГР.СОФИЯ",
+  "profile": "Помощник-инструктор по спортно туристическа дейност - АЕ",
+  "parallel_code": "424",
+  "district": "КРАСНО СЕЛО",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gSport": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ФВС + 1 * ЧЕз)",
+  "cutoff_2025": 296.25,
+  "specialExam": false
+ },
+ {
+  "school": "132. Средно училище  \"Ваня Войнова\", ГР.СОФИЯ",
+  "profile": "Физическо възпитание и спорт - АЕ",
+  "parallel_code": "3191",
+  "district": "КРАСНО СЕЛО",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 1,
+   "gBiology": 1,
+   "gSport": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 1 * МАТ + 2 * СПО) + (1 * БЗО + 1 * ФВС)",
+  "cutoff_2025": null,
+  "specialExam": true,
+  "note": "Изпит за спортно-двигателни способности (физическо възпитание и спорт паралелка)"
+ },
+ {
+  "school": "132. Средно училище  \"Ваня Войнова\", ГР.СОФИЯ",
+  "profile": "Пространствен дизайн",
+  "parallel_code": "4283",
+  "district": "КРАСНО СЕЛО",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 314.5,
+  "specialExam": false
+ },
+ {
+  "school": "203 Профилирана езикова гимназия \"Свети Методий\", ГР.СОФИЯ",
+  "profile": "Чужди езици - АЕ интензивно,  НЕ или ИЕ",
+  "parallel_code": "2904",
+  "district": "КРАСНО СЕЛО",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "203 Профилирана езикова гимназия \"Свети Методий\", ГР.СОФИЯ",
+  "profile": "Природни науки -  ИЕ интензивно, НЕ или АЕ",
+  "parallel_code": "2909",
+  "district": "КРАСНО СЕЛО",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 302.5,
+  "specialExam": false
+ },
+ {
+  "school": "203 Профилирана езикова гимназия \"Свети Методий\", ГР.СОФИЯ",
+  "profile": "Предприемачески - АЕ интензивно, ИЕ или НЕ",
+  "parallel_code": "2910",
+  "district": "КРАСНО СЕЛО",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gGeography": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ГИ)",
+  "cutoff_2025": 342.25,
+  "specialExam": false
+ },
+ {
+  "school": "203 Профилирана езикова гимназия \"Свети Методий\", ГР.СОФИЯ",
+  "profile": "Природни науки - АЕ интензивно, ИЕ или НЕ",
+  "parallel_code": "3271",
+  "district": "КРАСНО СЕЛО",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gBiology": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * БЗО)",
+  "cutoff_2025": 336.0,
+  "specialExam": false
+ },
+ {
+  "school": "203 Профилирана езикова гимназия \"Свети Методий\", ГР.СОФИЯ",
+  "profile": "Обществени науки - АЕ интензивно,  ИЕ или НЕ",
+  "parallel_code": "4980",
+  "district": "КРАСНО СЕЛО",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ИЦ)",
+  "cutoff_2025": 350.5,
+  "specialExam": false
+ },
+ {
+  "school": "85 Средно училище \"Отец Паисий\", ГР.СОФИЯ",
+  "profile": "Търговия на едро и дребно - АЕ, РЕ",
+  "parallel_code": "1929",
+  "district": "КРЕМИКОВЦИ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gGeography": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ГИ)",
+  "cutoff_2025": 125.5,
+  "specialExam": false
+ },
+ {
+  "school": "117. СУ, ГР.СОФИЯ",
+  "profile": "Предприемачески",
+  "parallel_code": "975",
+  "district": "КРЕМИКОВЦИ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "162 Обединено училище \"Отец Паисий\", ГР.СОФИЯ",
+  "profile": "Предприемачески",
+  "parallel_code": "2956",
+  "district": "КРЕМИКОВЦИ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * КМИТ)",
+  "cutoff_2025": 139.0,
+  "specialExam": false
+ },
+ {
+  "school": "162 Обединено училище \"Отец Паисий\", ГР.СОФИЯ",
+  "profile": "Изобразително изкуство",
+  "parallel_code": "4591",
+  "district": "КРЕМИКОВЦИ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gArt": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 1 * МАТ + 2 * ИИ) + (1 * БЕЛ + 1 * ИИ)",
+  "cutoff_2025": 0.0,
+  "specialExam": true,
+  "note": "Изпит за изобразителни способности (рисуване) вместо/в допълнение към НВО по математика"
+ },
+ {
+  "school": "21 СРЕДНО УЧИЛИЩЕ \"ХРИСТО БОТЕВ\", ГР.СОФИЯ",
+  "profile": "Предприемачески - АЕ интензивно, ИЕ",
+  "parallel_code": "906",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 333.5,
+  "specialExam": false
+ },
+ {
+  "school": "21 СРЕДНО УЧИЛИЩЕ \"ХРИСТО БОТЕВ\", ГР.СОФИЯ",
+  "profile": "Предприемачески - ИЕ интензивно, АЕ",
+  "parallel_code": "3676",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 345.0,
+  "specialExam": false
+ },
+ {
+  "school": "35. СРЕДНО ЕЗИКОВО УЧИЛИЩЕ  \"ДОБРИ ВОЙНИКОВ\", ГР.СОФИЯ",
+  "profile": "Чужди езици - НЕ интензивно, РЕ",
+  "parallel_code": "388",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 427.0,
+  "specialExam": false
+ },
+ {
+  "school": "35. СРЕДНО ЕЗИКОВО УЧИЛИЩЕ  \"ДОБРИ ВОЙНИКОВ\", ГР.СОФИЯ",
+  "profile": "Чужди езици - интензивно НЕ,  РЕ",
+  "parallel_code": "389",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 385.5,
+  "specialExam": false
+ },
+ {
+  "school": "35. СРЕДНО ЕЗИКОВО УЧИЛИЩЕ  \"ДОБРИ ВОЙНИКОВ\", ГР.СОФИЯ",
+  "profile": "Чужди езици - ФЕ интензивно, РЕ",
+  "parallel_code": "390",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 430.0,
+  "specialExam": false
+ },
+ {
+  "school": "35. СРЕДНО ЕЗИКОВО УЧИЛИЩЕ  \"ДОБРИ ВОЙНИКОВ\", ГР.СОФИЯ",
+  "profile": "Природни науки -  интензивно ФЕ, РЕ",
+  "parallel_code": "392",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 441.5,
+  "specialExam": false
+ },
+ {
+  "school": "35. СРЕДНО ЕЗИКОВО УЧИЛИЩЕ  \"ДОБРИ ВОЙНИКОВ\", ГР.СОФИЯ",
+  "profile": "Природни науки - БЗО ХООС интензивно НЕ, РЕ",
+  "parallel_code": "3505",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Национална природо-математическа  гимназия \"Академик Любомир Чакалов\", ГР.СОФИЯ",
+  "profile": "Математически - АЕ М Инф",
+  "parallel_code": "814",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 488.0,
+  "specialExam": false
+ },
+ {
+  "school": "Национална природо-математическа  гимназия \"Академик Любомир Чакалов\", ГР.СОФИЯ",
+  "profile": "Математически - НЕ М Инф",
+  "parallel_code": "821",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 487.5,
+  "specialExam": false
+ },
+ {
+  "school": "Национална природо-математическа  гимназия \"Академик Любомир Чакалов\", ГР.СОФИЯ",
+  "profile": "Математически - АЕ ФА М",
+  "parallel_code": "830",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {},
+  "formula_raw": "(1 * БЕЛ + 2 * МАТ + 1 * НПМГ, Ф) + (1 * М + 1 * ФА) или (1 * БЕЛ + 2 * МАТ + 1 * ФИЗ, ОК) + (1 * М + 1 * ФА)",
+  "cutoff_2025": 458.38,
+  "specialExam": true,
+  "note": "Паралелка с олимпиада/състезание като алтернативен балообразуващ елемент (НПМГ собствен изпит) - вижте официалния документ за пълната формула"
+ },
+ {
+  "school": "Национална природо-математическа  гимназия \"Академик Любомир Чакалов\", ГР.СОФИЯ",
+  "profile": "Природни науки - АЕ БЗО ХООС",
+  "parallel_code": "835",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {},
+  "formula_raw": "(1 * БЕЛ + 1 * МАТ + 2 * БИО, ОК) + (1 * БЗО + 1 * ХООС) или (1 * БЕЛ + 1 * МАТ + 2 * НПМГ, Б) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 458.72,
+  "specialExam": true,
+  "note": "Паралелка с олимпиада/състезание като алтернативен балообразуващ елемент (НПМГ собствен изпит) - вижте официалния документ за пълната формула"
+ },
+ {
+  "school": "Национална природо-математическа  гимназия \"Академик Любомир Чакалов\", ГР.СОФИЯ",
+  "profile": "Природни науки - АЕ ХООС БЗО",
+  "parallel_code": "843",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {},
+  "formula_raw": "(1 * БЕЛ + 2 * МАТ + 1 * ХИМ, ОК) + (1 * БЗО + 1 * ХООС) или (1 * БЕЛ + 2 * МАТ + 1 * НПМГ, Х) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 472.2,
+  "specialExam": true,
+  "note": "Паралелка с олимпиада/състезание като алтернативен балообразуващ елемент (НПМГ собствен изпит) - вижте официалния документ за пълната формула"
+ },
+ {
+  "school": "Национална природо-математическа  гимназия \"Академик Любомир Чакалов\", ГР.СОФИЯ",
+  "profile": "Икономическо развитие - АЕ ГИ М",
+  "parallel_code": "847",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {},
+  "formula_raw": "(1 * БЕЛ + 2 * МАТ + 1 * ГЕО, ОК) + (1 * М + 1 * ГИ) или (1 * БЕЛ + 2 * МАТ + 1 * НПМГ, Г) + (1 * М + 1 * ГИ)",
+  "cutoff_2025": 445.0,
+  "specialExam": true,
+  "note": "Паралелка с олимпиада/състезание като алтернативен балообразуващ елемент (НПМГ собствен изпит) - вижте официалния документ за пълната формула"
+ },
+ {
+  "school": "Национална природо-математическа  гимназия \"Академик Любомир Чакалов\", ГР.СОФИЯ",
+  "profile": "Природни науки - НЕ БЗО ХООС",
+  "parallel_code": "4091",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 1,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 1 * МАТ + 1 * НПМГ, Х + 1 * НПМГ, Б) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 431.32,
+  "specialExam": true,
+  "note": "unrecognized NVO term: НПМГ,; unrecognized NVO term: НПМГ,"
+ },
+ {
+  "school": "Професионална гимназия по облекло  \"Княгиня Мария Луиза\", ГР.СОФИЯ",
+  "profile": "Моден дизайн - ИтЕ, АЕ",
+  "parallel_code": "462",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 349.25,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по облекло  \"Княгиня Мария Луиза\", ГР.СОФИЯ",
+  "profile": "Бутикови облекла - ИтЕ, АЕ",
+  "parallel_code": "472",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по облекло  \"Княгиня Мария Луиза\", ГР.СОФИЯ",
+  "profile": "Конструиране, моделиране и технология на облекло от текстил - АЕ, ФЕ",
+  "parallel_code": "491",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по облекло  \"Княгиня Мария Луиза\", ГР.СОФИЯ",
+  "profile": "Сценичен костюм - АЕ, ФЕ",
+  "parallel_code": "505",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 348.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по облекло  \"Княгиня Мария Луиза\", ГР.СОФИЯ",
+  "profile": "Театрален грим и перуки, АЕ, ФЕ",
+  "parallel_code": "4674",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "СОФИЙСКА ГИМНАЗИЯ ПО СТРОИТЕЛСТВО, АРХИТЕКТУРА И ГЕОДЕЗИЯ  \"ХРИСТО БОТЕВ\", ГР.СОФИЯ",
+  "profile": "Строителство и архитектура - АЕ",
+  "parallel_code": "719",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gPhysics": 1,
+   "gArt": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * ФА + 1 * ИИ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "СОФИЙСКА ГИМНАЗИЯ ПО СТРОИТЕЛСТВО, АРХИТЕКТУРА И ГЕОДЕЗИЯ  \"ХРИСТО БОТЕВ\", ГР.СОФИЯ",
+  "profile": "Водно строителство - АЕ",
+  "parallel_code": "735",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gPhysics": 1,
+   "gArt": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * ФА + 1 * ИИ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "СОФИЙСКА ГИМНАЗИЯ ПО СТРОИТЕЛСТВО, АРХИТЕКТУРА И ГЕОДЕЗИЯ  \"ХРИСТО БОТЕВ\", ГР.СОФИЯ",
+  "profile": "Транспортно строителство - АЕ",
+  "parallel_code": "748",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gPhysics": 1,
+   "gArt": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * ФА + 1 * ИИ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "СОФИЙСКА ГИМНАЗИЯ ПО СТРОИТЕЛСТВО, АРХИТЕКТУРА И ГЕОДЕЗИЯ  \"ХРИСТО БОТЕВ\", ГР.СОФИЯ",
+  "profile": "Геодезия - АЕ",
+  "parallel_code": "762",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gPhysics": 1,
+   "gArt": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * ФА + 1 * ИИ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "СОФИЙСКА ГИМНАЗИЯ ПО СТРОИТЕЛСТВО, АРХИТЕКТУРА И ГЕОДЕЗИЯ  \"ХРИСТО БОТЕВ\", ГР.СОФИЯ",
+  "profile": "Парково строителство и озеленяване - АЕ",
+  "parallel_code": "772",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gBiology": 1,
+   "gArt": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * БЗО + 1 * ИИ)",
+  "cutoff_2025": 387.25,
+  "specialExam": false
+ },
+ {
+  "school": "СОФИЙСКА ГИМНАЗИЯ ПО СТРОИТЕЛСТВО, АРХИТЕКТУРА И ГЕОДЕЗИЯ  \"ХРИСТО БОТЕВ\", ГР.СОФИЯ",
+  "profile": "Брокер недвижими имоти - АЕ",
+  "parallel_code": "838",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gBel": 1,
+   "gGeography": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * БЕЛ + 1 * ГИ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "СОФИЙСКА ГИМНАЗИЯ ПО СТРОИТЕЛСТВО, АРХИТЕКТУРА И ГЕОДЕЗИЯ  \"ХРИСТО БОТЕВ\", ГР.СОФИЯ",
+  "profile": "Строителство и архитектура - НЕ",
+  "parallel_code": "973",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gPhysics": 1,
+   "gArt": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * ФА + 1 * ИИ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНА ФИНАНСОВО-СТОПАНСКА ГИМНАЗИЯ, ГР.СОФИЯ",
+  "profile": "Икономическа информатика - АЕ",
+  "parallel_code": "2749",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНА ФИНАНСОВО-СТОПАНСКА ГИМНАЗИЯ, ГР.СОФИЯ",
+  "profile": "Икономика и мениджмънт - АЕ",
+  "parallel_code": "2754",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 446.0,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНА ФИНАНСОВО-СТОПАНСКА ГИМНАЗИЯ, ГР.СОФИЯ",
+  "profile": "Икономика и мениджмънт - НЕ",
+  "parallel_code": "2764",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНА ФИНАНСОВО-СТОПАНСКА ГИМНАЗИЯ, ГР.СОФИЯ",
+  "profile": "Икономическа информатика - НЕ",
+  "parallel_code": "3603",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНА ФИНАНСОВО-СТОПАНСКА ГИМНАЗИЯ, ГР.СОФИЯ",
+  "profile": "Икономика и мениджмънт - ИЕ",
+  "parallel_code": "3604",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 420.5,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНА ФИНАНСОВО-СТОПАНСКА ГИМНАЗИЯ, ГР.СОФИЯ",
+  "profile": "Оперативно счетоводство - АЕ",
+  "parallel_code": "4388",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНА ФИНАНСОВО-СТОПАНСКА ГИМНАЗИЯ, ГР.СОФИЯ",
+  "profile": "Икономика и мениджмънт - ФЕ",
+  "parallel_code": "4717",
+  "district": "ЛОЗЕНЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "27. Средно училище \"Акад. Георги Караславов\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки",
+  "parallel_code": "2387",
+  "district": "ЛЮЛИН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 119.0,
+  "specialExam": false
+ },
+ {
+  "school": "37. Средно училище \"Райна Княгиня\", ГР.СОФИЯ",
+  "profile": "Търговия на едро и дребно - Испански език разширено, АЕ",
+  "parallel_code": "4471",
+  "district": "ЛЮЛИН",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gGeography": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ГИ + 1 * КМИТ)",
+  "cutoff_2025": 251.0,
+  "specialExam": false
+ },
+ {
+  "school": "40 Средно училище  \"Луи Пастьор\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ интензивно, РЕ",
+  "parallel_code": "508",
+  "district": "ЛЮЛИН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 170.5,
+  "specialExam": false
+ },
+ {
+  "school": "40 Средно училище  \"Луи Пастьор\", ГР.СОФИЯ",
+  "profile": "Компютърна графика - АЕ, РЕ",
+  "parallel_code": "3883",
+  "district": "ЛЮЛИН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 187.0,
+  "specialExam": false
+ },
+ {
+  "school": "56. Средно училище  \"Професор Константин Иречек\", ГР.СОФИЯ",
+  "profile": "Икономическо развитие - АЕ интензивно, ИЕ",
+  "parallel_code": "2200",
+  "district": "ЛЮЛИН",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gGeography": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ГИ + 1 * ЧЕз)",
+  "cutoff_2025": 52.0,
+  "specialExam": false
+ },
+ {
+  "school": "56. Средно училище  \"Професор Константин Иречек\", ГР.СОФИЯ",
+  "profile": "Електронна търговия - АЕ, НЕ",
+  "parallel_code": "3640",
+  "district": "ЛЮЛИН",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 211.0,
+  "specialExam": false
+ },
+ {
+  "school": "79 средно училище \"Индира Ганди\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ интензивно, ИЕ",
+  "parallel_code": "4199",
+  "district": "ЛЮЛИН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gMat": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * М + 1 * КМИТ)",
+  "cutoff_2025": 256.5,
+  "specialExam": false
+ },
+ {
+  "school": "79 средно училище \"Индира Ганди\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ разширено, ИЕ",
+  "parallel_code": "4201",
+  "district": "ЛЮЛИН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gMat": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * М + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "90 Средно училище  \"Генерал Хосе де Сан Мартин\", ГР.СОФИЯ",
+  "profile": "Предприемачески - ИЕ, АЕ",
+  "parallel_code": "1384",
+  "district": "ЛЮЛИН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * КМИТ)",
+  "cutoff_2025": 211.0,
+  "specialExam": false
+ },
+ {
+  "school": "90 Средно училище  \"Генерал Хосе де Сан Мартин\", ГР.СОФИЯ",
+  "profile": "Природни науки - АЕ, ИЕ",
+  "parallel_code": "1390",
+  "district": "ЛЮЛИН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 161.0,
+  "specialExam": false
+ },
+ {
+  "school": "96 Средно училище \"Лев Николаевич Толстой\", ГР.СОФИЯ",
+  "profile": "Обществени науки - АЕ интензивно, ИЕ/РЕ",
+  "parallel_code": "903",
+  "district": "ЛЮЛИН",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "96 Средно училище \"Лев Николаевич Толстой\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ интензивно, ИЕ/РЕ",
+  "parallel_code": "4109",
+  "district": "ЛЮЛИН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "96 Средно училище \"Лев Николаевич Толстой\", ГР.СОФИЯ",
+  "profile": "Обществени науки - ИЕ интензивно, АЕ/РЕ",
+  "parallel_code": "4449",
+  "district": "ЛЮЛИН",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 332.25,
+  "specialExam": false
+ },
+ {
+  "school": "97 Средно училище  \"Братя Миладинови\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ разширено",
+  "parallel_code": "2506",
+  "district": "ЛЮЛИН",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "97 Средно училище  \"Братя Миладинови\", ГР.СОФИЯ",
+  "profile": "Търговия (дуална) - АЕ разширено",
+  "parallel_code": "2512",
+  "district": "ЛЮЛИН",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gGeography": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ГИ + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "97 Средно училище  \"Братя Миладинови\", ГР.СОФИЯ",
+  "profile": "Търговия (дуална) - НЕ разширено",
+  "parallel_code": "3037",
+  "district": "ЛЮЛИН",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gGeography": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ГИ + 1 * КМИТ)",
+  "cutoff_2025": 313.25,
+  "specialExam": false
+ },
+ {
+  "school": "137 средно училище  \"Ангел Кънчев\", ГР.СОФИЯ",
+  "profile": "Предприемачески - АЕ интензивно, НЕ",
+  "parallel_code": "1834",
+  "district": "ЛЮЛИН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "137 средно училище  \"Ангел Кънчев\", ГР.СОФИЯ",
+  "profile": "Хуманитарни науки - АЕ интензивно, НЕ",
+  "parallel_code": "1838",
+  "district": "ЛЮЛИН",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ИЦ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "137 средно училище  \"Ангел Кънчев\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ интензивно, НЕ",
+  "parallel_code": "1844",
+  "district": "ЛЮЛИН",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "10 Средно училище  \" Теодор Траянов \", ГР.СОФИЯ",
+  "profile": "Обществени науки - АЕ, ИЕ",
+  "parallel_code": "2101",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gForeign": 1,
+   "gGeography": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИЦ + 1 * ГИ)",
+  "cutoff_2025": 319.75,
+  "specialExam": false
+ },
+ {
+  "school": "10 Средно училище  \" Теодор Траянов \", ГР.СОФИЯ",
+  "profile": "Природни науки - АЕ, ИЕ",
+  "parallel_code": "3075",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "39 Средно училище \"Петър Динеков\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ интензивно, РЕ/ИЕ",
+  "parallel_code": "1802",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "39 Средно училище \"Петър Динеков\", ГР.СОФИЯ",
+  "profile": "Предприемачески - АЕ интензивно, РЕ/ИЕ",
+  "parallel_code": "4110",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 285.0,
+  "specialExam": false
+ },
+ {
+  "school": "39 Средно училище \"Петър Динеков\", ГР.СОФИЯ",
+  "profile": "Предприемачески - АЕ разширено, РЕ/ИЕ",
+  "parallel_code": "4447",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "81. Средно училище  \"Виктор Юго\", ГР.СОФИЯ",
+  "profile": "Чужди езици - АЕ интензивно",
+  "parallel_code": "2566",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "81. Средно училище  \"Виктор Юго\", ГР.СОФИЯ",
+  "profile": "Хуманитарни науки",
+  "parallel_code": "2579",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gSport": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ФВС)",
+  "cutoff_2025": 320.25,
+  "specialExam": false
+ },
+ {
+  "school": "81. Средно училище  \"Виктор Юго\", ГР.СОФИЯ",
+  "profile": "Хуманитарни науки - ЯЕ",
+  "parallel_code": "4739",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ИЦ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "118 Средно училище  \"Академик Людмил Стоянов\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ интензивно, ИЕ",
+  "parallel_code": "2943",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gMat": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * М + 1 * ЧЕз)",
+  "cutoff_2025": 318.0,
+  "specialExam": false
+ },
+ {
+  "school": "118 Средно училище  \"Академик Людмил Стоянов\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ интензивно, НЕ",
+  "parallel_code": "4462",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gMat": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * М + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "125 СУ \"Боян Пенев\" с изучаване на чужди езици, ГР.СОФИЯ",
+  "profile": "Хуманитарни науки - АЕ интензивно",
+  "parallel_code": "1546",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ИЦ)",
+  "cutoff_2025": 356.25,
+  "specialExam": false
+ },
+ {
+  "school": "125 СУ \"Боян Пенев\" с изучаване на чужди езици, ГР.СОФИЯ",
+  "profile": "Природни науки - АЕ интензивно",
+  "parallel_code": "1557",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gPhysics": 1,
+   "gBiology": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ФА + 1 * БЗО)",
+  "cutoff_2025": 352.0,
+  "specialExam": false
+ },
+ {
+  "school": "128 СРЕДНО УЧИЛИЩЕ \"АЛБЕРТ АЙНЩАЙН\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ",
+  "parallel_code": "1660",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 329.5,
+  "specialExam": false
+ },
+ {
+  "school": "128 СРЕДНО УЧИЛИЩЕ \"АЛБЕРТ АЙНЩАЙН\", ГР.СОФИЯ",
+  "profile": "Икономическо информационно осигуряване - АЕ",
+  "parallel_code": "1670",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "131. СУ \"Климент Аркадиевич Тимирязев\", ГР.СОФИЯ",
+  "profile": "Търговия на едро и дребно - АЕ",
+  "parallel_code": "2449",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gMat": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * М + 1 * ЧЕз)",
+  "cutoff_2025": 229.0,
+  "specialExam": false
+ },
+ {
+  "school": "131. СУ \"Климент Аркадиевич Тимирязев\", ГР.СОФИЯ",
+  "profile": "Бизнес администрация - АЕ, ИЕ",
+  "parallel_code": "3905",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 219.0,
+  "specialExam": false
+ },
+ {
+  "school": "131. СУ \"Климент Аркадиевич Тимирязев\", ГР.СОФИЯ",
+  "profile": "Бизнес администрация - ИЕ, АЕ",
+  "parallel_code": "4460",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 206.0,
+  "specialExam": false
+ },
+ {
+  "school": "144 Средно училище \"Народни будители\", ГР.СОФИЯ",
+  "profile": "Музика - АЕ",
+  "parallel_code": "1118",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 1,
+   "gBel": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 1 * МАТ + 2 * МУЗ) + (1 * БЕЛ + 1 * Муз.)",
+  "cutoff_2025": 0.0,
+  "specialExam": true,
+  "note": "Изпит за музикални способности; Изпит за музикални способности (пеене/инструмент)"
+ },
+ {
+  "school": "144 Средно училище \"Народни будители\", ГР.СОФИЯ",
+  "profile": "Рекламна графика - АЕ",
+  "parallel_code": "1123",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gArt": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 1 * МАТ + 2 * ИИ) + (1 * БЕЛ + 1 * ИИ)",
+  "cutoff_2025": 357.5,
+  "specialExam": true,
+  "note": "Изпит за изобразителни способности (рисуване) вместо/в допълнение към НВО по математика"
+ },
+ {
+  "school": "144 Средно училище \"Народни будители\", ГР.СОФИЯ",
+  "profile": "Български танци - АЕ",
+  "parallel_code": "1142",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 1,
+   "gBel": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 1 * МАТ + 2 * МиФВС) + (1 * БЕЛ + 1 * Муз.)",
+  "cutoff_2025": 0.0,
+  "specialExam": true,
+  "note": "Изпит за музикални и физически способности (танци); Изпит за музикални способности (пеене/инструмент)"
+ },
+ {
+  "school": "144 Средно училище \"Народни будители\", ГР.СОФИЯ",
+  "profile": "Рекламна графика - ИЕ",
+  "parallel_code": "3559",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gArt": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 1 * МАТ + 2 * ИИ) + (1 * БЕЛ + 1 * ИИ)",
+  "cutoff_2025": 171.75,
+  "specialExam": true,
+  "note": "Изпит за изобразителни способности (рисуване) вместо/в допълнение към НВО по математика"
+ },
+ {
+  "school": "Технологично училище \"Електронни системи\" към Технически Университет - София, ГР.СОФИЯ",
+  "profile": "Системно програмиране - АЕ, РЕ",
+  "parallel_code": "2127",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gMat": 1,
+   "gPhysics": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Технологично училище \"Електронни системи\" към Технически Университет - София, ГР.СОФИЯ",
+  "profile": "Компютърни мрежи - АЕ, РЕ",
+  "parallel_code": "2132",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gMat": 1,
+   "gPhysics": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Технологично училище \"Електронни системи\" към Технически Университет - София, ГР.СОФИЯ",
+  "profile": "Системно програмиране - АЕ, НЕ",
+  "parallel_code": "4921",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gMat": 1,
+   "gPhysics": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
+  "cutoff_2025": 452.0,
+  "specialExam": false
+ },
+ {
+  "school": "Технологично училище \"Електронни системи\" към Технически Университет - София, ГР.СОФИЯ",
+  "profile": "Програмиране на изкуствен интелект - АЕ, НЕ",
+  "parallel_code": "4922",
+  "district": "МЛАДОСТ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gMat": 1,
+   "gPhysics": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "15 Средно училище \" Адам Мицкевич\", ГР.СОФИЯ",
+  "profile": "Предприемачески - АЕ",
+  "parallel_code": "2582",
+  "district": "НАДЕЖДА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 101.0,
+  "specialExam": false
+ },
+ {
+  "school": "15 Средно училище \" Адам Мицкевич\", ГР.СОФИЯ",
+  "profile": "Митническо и данъчно обслужване - АЕ",
+  "parallel_code": "3015",
+  "district": "НАДЕЖДА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 166.5,
+  "specialExam": false
+ },
+ {
+  "school": "15 Средно училище \" Адам Мицкевич\", ГР.СОФИЯ",
+  "profile": "Митническо и данъчно обслужване",
+  "parallel_code": "4438",
+  "district": "НАДЕЖДА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 203.0,
+  "specialExam": false
+ },
+ {
+  "school": "54. СРЕДНО УЧИЛИЩЕ \"Свети ИВАН РИЛСКИ\", ГР.СОФИЯ",
+  "profile": "Чужди езици - АЕ интензивно, ИЕ",
+  "parallel_code": "749",
+  "district": "НАДЕЖДА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "54. СРЕДНО УЧИЛИЩЕ \"Свети ИВАН РИЛСКИ\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ интензивно, РЕ",
+  "parallel_code": "758",
+  "district": "НАДЕЖДА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gMat": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * М + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "54. СРЕДНО УЧИЛИЩЕ \"Свети ИВАН РИЛСКИ\", ГР.СОФИЯ",
+  "profile": "Икономическо развитие - АЕ интензивно, НЕ",
+  "parallel_code": "4040",
+  "district": "НАДЕЖДА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gGeography": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ГИ)",
+  "cutoff_2025": 344.5,
+  "specialExam": false
+ },
+ {
+  "school": "101. СРЕДНО УЧИЛИЩЕ \"БАЧО КИРО\", ГР.СОФИЯ",
+  "profile": "Икономическо развитие - АЕ интензивно, НЕ",
+  "parallel_code": "2886",
+  "district": "НАДЕЖДА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gGeography": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ГИ + 1 * КМИТ)",
+  "cutoff_2025": 389.5,
+  "specialExam": false
+ },
+ {
+  "school": "101. СРЕДНО УЧИЛИЩЕ \"БАЧО КИРО\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ интензивно, НЕ",
+  "parallel_code": "2889",
+  "district": "НАДЕЖДА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gMat": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * М + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "170 Средно  училище \"Васил Левски\", ГР.НОВИ ИСКЪР",
+  "profile": "Компютърна графика- АЕ",
+  "parallel_code": "2972",
+  "district": "НОВИ ИСКЪР",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "170 Средно  училище \"Васил Левски\", ГР.НОВИ ИСКЪР",
+  "profile": "Организация на туризма и свободното време - АЕ",
+  "parallel_code": "3971",
+  "district": "НОВИ ИСКЪР",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "172 Обединено училище \"Христо Ботев\", ГР.НОВИ ИСКЪР",
+  "profile": "Производство на облекло от текстил",
+  "parallel_code": "2807",
+  "district": "НОВИ ИСКЪР",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gArt": 1,
+   "gTech": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ИИ + 1 * ТП)",
+  "cutoff_2025": 249.5,
+  "specialExam": false
+ },
+ {
+  "school": "1 Средно  училище  \"Пенчо П. Славейков\", ГР.СОФИЯ",
+  "profile": "Обществени науки - ИЕ интензивно, АЕ",
+  "parallel_code": "1900",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 386.5,
+  "specialExam": false
+ },
+ {
+  "school": "1 Средно  училище  \"Пенчо П. Славейков\", ГР.СОФИЯ",
+  "profile": "Хуманитарни науки - ИЕ интензивно, АЕ",
+  "parallel_code": "1906",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 421.0,
+  "specialExam": false
+ },
+ {
+  "school": "1 Средно  училище  \"Пенчо П. Славейков\", ГР.СОФИЯ",
+  "profile": "Природни науки - БЗО и ХООС - АЕ интензивно, ИЕ",
+  "parallel_code": "1907",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBiology": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЗО + 1 * ЧЕз)",
+  "cutoff_2025": 409.0,
+  "specialExam": false
+ },
+ {
+  "school": "1 Средно  училище  \"Пенчо П. Славейков\", ГР.СОФИЯ",
+  "profile": "Икономическо развитие - АЕ разширено, ГИ",
+  "parallel_code": "4407",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gGeography": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ГИ)",
+  "cutoff_2025": 380.5,
+  "specialExam": false
+ },
+ {
+  "school": "1 Средно  училище  \"Пенчо П. Славейков\", ГР.СОФИЯ",
+  "profile": "Маркетингови проучвания -  АЕ интензивно, ИЕ",
+  "parallel_code": "4880",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 410.5,
+  "specialExam": false
+ },
+ {
+  "school": "164. гимназия с преподаване  на испански език \"Мигел де Сервантес\", ГР.СОФИЯ",
+  "profile": "Чужди езици - ИЕ интензивно, АЕ",
+  "parallel_code": "2561",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "164. гимназия с преподаване  на испански език \"Мигел де Сервантес\", ГР.СОФИЯ",
+  "profile": "Чужди езици - ИЕ интензивно, ФЕ",
+  "parallel_code": "2562",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 456.0,
+  "specialExam": false
+ },
+ {
+  "school": "164. гимназия с преподаване  на испански език \"Мигел де Сервантес\", ГР.СОФИЯ",
+  "profile": "Чужди езици - ИЕ интензивно, ИтЕ",
+  "parallel_code": "2564",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "164. гимназия с преподаване  на испански език \"Мигел де Сервантес\", ГР.СОФИЯ",
+  "profile": "Чужди езици - ИЕ интензивно, ПортЕ",
+  "parallel_code": "2569",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Първа английска езикова гимназия, ГР.СОФИЯ",
+  "profile": "Чужди езици - АЕ интензивно, РЕ",
+  "parallel_code": "649",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Първа английска езикова гимназия, ГР.СОФИЯ",
+  "profile": "Чужди езици - АЕ интензивно, ИЕ",
+  "parallel_code": "672",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 431.0,
+  "specialExam": false
+ },
+ {
+  "school": "Първа английска езикова гимназия, ГР.СОФИЯ",
+  "profile": "Чужди езици - АЕ интензивно, НЕ",
+  "parallel_code": "727",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 435.0,
+  "specialExam": false
+ },
+ {
+  "school": "Първа английска езикова гимназия, ГР.СОФИЯ",
+  "profile": "Чужди езици - АЕ интензивно, ФЕ",
+  "parallel_code": "752",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 432.0,
+  "specialExam": false
+ },
+ {
+  "school": "Първа английска езикова гимназия, ГР.СОФИЯ",
+  "profile": "Предприемачески - АЕ интензивно, НЕ",
+  "parallel_code": "3349",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Софийска математическа гимназия  \"Паисий Хилендарски\", ГР.СОФИЯ",
+  "profile": "Математически (математика и информатика) - АЕ (РИЧЕ)",
+  "parallel_code": "2277",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Софийска математическа гимназия  \"Паисий Хилендарски\", ГР.СОФИЯ",
+  "profile": "Математически (математика и информатика) - НЕ (ИИЧЕ)",
+  "parallel_code": "3909",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 473.75,
+  "specialExam": false
+ },
+ {
+  "school": "Софийска математическа гимназия  \"Паисий Хилендарски\", ГР.СОФИЯ",
+  "profile": "Математически (математика и физика) - АЕ (РИЧЕ)",
+  "parallel_code": "4486",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Софийска математическа гимназия  \"Паисий Хилендарски\", ГР.СОФИЯ",
+  "profile": "Математически (математика и физика) - НЕ (ИИЧЕ)",
+  "parallel_code": "5011",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 472.25,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по  механоелектротехника \"Н.Й.Вапцаров\", ГР.СОФИЯ",
+  "profile": "Електрообзавеждане на производството - електромонтьор",
+  "parallel_code": "2177",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 89.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по  механоелектротехника \"Н.Й.Вапцаров\", ГР.СОФИЯ",
+  "profile": "Промишлена електроника - АЕ",
+  "parallel_code": "2193",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 185.0,
+  "specialExam": false
+ },
+ {
+  "school": "СОФИЙСКА ПРОФЕСИОНАЛНА ГИМНАЗИЯ ПО ТУРИЗЪМ, ГР.СОФИЯ",
+  "profile": "Кетъринг - РЕ",
+  "parallel_code": "1277",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gBiology": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * БЗО)",
+  "cutoff_2025": 254.0,
+  "specialExam": false
+ },
+ {
+  "school": "СОФИЙСКА ПРОФЕСИОНАЛНА ГИМНАЗИЯ ПО ТУРИЗЪМ, ГР.СОФИЯ",
+  "profile": "Кетъринг - ИЕ",
+  "parallel_code": "1281",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gBiology": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * БЗО)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "СОФИЙСКА ПРОФЕСИОНАЛНА ГИМНАЗИЯ ПО ТУРИЗЪМ, ГР.СОФИЯ",
+  "profile": "Производство и обслужване в заведенията за хранене и развлечения - ИтЕ",
+  "parallel_code": "1283",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gBiology": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * БЗО)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "СОФИЙСКА ПРОФЕСИОНАЛНА ГИМНАЗИЯ ПО ТУРИЗЪМ, ГР.СОФИЯ",
+  "profile": "Производство и обслужване в заведенията за хранене и развлечения - НЕ",
+  "parallel_code": "1284",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gBiology": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * БЗО)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "СОФИЙСКА ПРОФЕСИОНАЛНА ГИМНАЗИЯ ПО ТУРИЗЪМ, ГР.СОФИЯ",
+  "profile": "Организация на хотелиерството - АЕ",
+  "parallel_code": "1285",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gBiology": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * БЗО)",
+  "cutoff_2025": 254.0,
+  "specialExam": false
+ },
+ {
+  "school": "СОФИЙСКА ПРОФЕСИОНАЛНА ГИМНАЗИЯ ПО ТУРИЗЪМ, ГР.СОФИЯ",
+  "profile": "Организация на обслужването в хотелиерството - АЕ",
+  "parallel_code": "1286",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gBiology": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * БЗО)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "СОФИЙСКА ПРОФЕСИОНАЛНА ГИМНАЗИЯ ПО ТУРИЗЪМ, ГР.СОФИЯ",
+  "profile": "Екскурзоводско обслужване - АЕ",
+  "parallel_code": "1287",
+  "district": "ОБОРИЩЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gBiology": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * БЗО)",
+  "cutoff_2025": 295.0,
+  "specialExam": false
+ },
+ {
+  "school": "66 Средно училище \"Филип Станиславов\", ГР.СОФИЯ",
+  "profile": "Бизнес администрация - АЕ интензивно",
+  "parallel_code": "3935",
+  "district": "ОВЧА КУПЕЛ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 156.0,
+  "specialExam": false
+ },
+ {
+  "school": "88. Средно училище  \"Димитър Попниколов\", ГР.СОФИЯ",
+  "profile": "Чужди езици - АЕ интензивно",
+  "parallel_code": "1353",
+  "district": "ОВЧА КУПЕЛ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 235.5,
+  "specialExam": false
+ },
+ {
+  "school": "88. Средно училище  \"Димитър Попниколов\", ГР.СОФИЯ",
+  "profile": "Туристическа анимация - АЕ интензивно",
+  "parallel_code": "1356",
+  "district": "ОВЧА КУПЕЛ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 228.0,
+  "specialExam": false
+ },
+ {
+  "school": "149  Средно училище ,,Иван Хаджийски\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ интензивно, НЕ",
+  "parallel_code": "1060",
+  "district": "ОВЧА КУПЕЛ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 245.75,
+  "specialExam": false
+ },
+ {
+  "school": "149  Средно училище ,,Иван Хаджийски\", ГР.СОФИЯ",
+  "profile": "Електронна търговия - АЕ интензивно, НЕ",
+  "parallel_code": "4456",
+  "district": "ОВЧА КУПЕЛ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * КМИТ)",
+  "cutoff_2025": 180.0,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНО СРЕДНО УЧИЛИЩЕ \"СОФИЯ\", ГР.СОФИЯ",
+  "profile": "Изобразително изкуство - АЕ",
+  "parallel_code": "4623",
+  "district": "ОВЧА КУПЕЛ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 1,
+   "gArt": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 1 * МАТ + 2 * ИИ) + (1 * ИИ + 1 * ЧЕз)",
+  "cutoff_2025": 343.5,
+  "specialExam": true,
+  "note": "Изпит за изобразителни способности (рисуване) вместо/в допълнение към НВО по математика"
+ },
+ {
+  "school": "НАЦИОНАЛНО СРЕДНО УЧИЛИЩЕ \"СОФИЯ\", ГР.СОФИЯ",
+  "profile": "Природни науки - АЕ",
+  "parallel_code": "5108",
+  "district": "ОВЧА КУПЕЛ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 275.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ЕЛЕКТРОТЕХНИКА И АВТОМАТИКА, ГР.СОФИЯ",
+  "profile": "Компютърни мрежи - АЕ",
+  "parallel_code": "2115",
+  "district": "ОВЧА КУПЕЛ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 144.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ЕЛЕКТРОТЕХНИКА И АВТОМАТИКА, ГР.СОФИЯ",
+  "profile": "Компютърна техника и технологии - АЕ",
+  "parallel_code": "2123",
+  "district": "ОВЧА КУПЕЛ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ЕЛЕКТРОТЕХНИКА И АВТОМАТИКА, ГР.СОФИЯ",
+  "profile": "Системно програмиране - АЕ",
+  "parallel_code": "2133",
+  "district": "ОВЧА КУПЕЛ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 191.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ЕЛЕКТРОТЕХНИКА И АВТОМАТИКА, ГР.СОФИЯ",
+  "profile": "Програмиране на изкуствен интелект - АЕ",
+  "parallel_code": "3864",
+  "district": "ОВЧА КУПЕЛ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ЕЛЕКТРОТЕХНИКА И АВТОМАТИКА, ГР.СОФИЯ",
+  "profile": "Програмиране на роботи - АЕ",
+  "parallel_code": "4333",
+  "district": "ОВЧА КУПЕЛ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ \"Д-Р СТАМЕН ГРИГОРОВ\", ГР.СОФИЯ",
+  "profile": "Трайни насаждения",
+  "parallel_code": "2901",
+  "district": "ОВЧА КУПЕЛ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 64.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ \"Д-Р СТАМЕН ГРИГОРОВ\", ГР.СОФИЯ",
+  "profile": "Цветарство",
+  "parallel_code": "2903",
+  "district": "ОВЧА КУПЕЛ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 99.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ \"Д-Р СТАМЕН ГРИГОРОВ\", ГР.СОФИЯ",
+  "profile": "Ветеринарен лаборант - разширено изучаване на АЕ",
+  "parallel_code": "4727",
+  "district": "ОВЧА КУПЕЛ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 102.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ \"Д-Р СТАМЕН ГРИГОРОВ\", ГР.СОФИЯ",
+  "profile": "Помощник - възпитател в отглеждането и възпитанието на деца",
+  "parallel_code": "4731",
+  "district": "ОВЧА КУПЕЛ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gBiology": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * БЗО)",
+  "cutoff_2025": 111.0,
+  "specialExam": false
+ },
+ {
+  "school": "71 Средно училище \"Пейо Яворов\", С.КАЗИЧЕНЕ",
+  "profile": "Предприемачески",
+  "parallel_code": "4445",
+  "district": "ПАНЧАРЕВО",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "192. СРЕДНО УЧИЛИЩЕ  \"ХРИСТО БОТЕВ\", С.БИСТРИЦА",
+  "profile": "Туристическа анимация",
+  "parallel_code": "2952",
+  "district": "ПАНЧАРЕВО",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gGeography": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ГИ + 1 * ЧЕз)",
+  "cutoff_2025": 188.0,
+  "specialExam": false
+ },
+ {
+  "school": "24 Средно училище  \"П.К.Яворов\", ГР.СОФИЯ",
+  "profile": "Предприемачески",
+  "parallel_code": "2439",
+  "district": "ПОДУЯНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * ЧЕз)",
+  "cutoff_2025": 169.5,
+  "specialExam": false
+ },
+ {
+  "school": "44. Средно училище \"Неофит Бозвели\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ интензивно, ИЕ",
+  "parallel_code": "1536",
+  "district": "ПОДУЯНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 313.5,
+  "specialExam": false
+ },
+ {
+  "school": "44. Средно училище \"Неофит Бозвели\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - НЕ интензивно, АЕ",
+  "parallel_code": "1538",
+  "district": "ПОДУЯНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "95 СУ \"Проф. Иван Шишманов\", ГР.СОФИЯ",
+  "profile": "Бизнес администрация - РЕ интензивно; АЕ",
+  "parallel_code": "2359",
+  "district": "ПОДУЯНЕ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 251.0,
+  "specialExam": false
+ },
+ {
+  "school": "95 СУ \"Проф. Иван Шишманов\", ГР.СОФИЯ",
+  "profile": "Природни науки - АЕ интензивно; РЕ",
+  "parallel_code": "2459",
+  "district": "ПОДУЯНЕ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 241.0,
+  "specialExam": false
+ },
+ {
+  "school": "95 СУ \"Проф. Иван Шишманов\", ГР.СОФИЯ",
+  "profile": "Предприемачески - АЕ интензивно; РЕ",
+  "parallel_code": "3354",
+  "district": "ПОДУЯНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * КМИТ)",
+  "cutoff_2025": 283.0,
+  "specialExam": false
+ },
+ {
+  "school": "95 СУ \"Проф. Иван Шишманов\", ГР.СОФИЯ",
+  "profile": "Екскурзоводско обслужване - АЕ интензивно, ИЕ",
+  "parallel_code": "4818",
+  "district": "ПОДУЯНЕ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gGeography": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ГИ)",
+  "cutoff_2025": 249.0,
+  "specialExam": false
+ },
+ {
+  "school": "130. средно училище \"Стефан Караджа\", ГР.СОФИЯ",
+  "profile": "Икономическо развитие - АЕ, НЕ",
+  "parallel_code": "3506",
+  "district": "ПОДУЯНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * ЧЕз)",
+  "cutoff_2025": 30.0,
+  "specialExam": false
+ },
+ {
+  "school": "130. средно училище \"Стефан Караджа\", ГР.СОФИЯ",
+  "profile": "Помощник-възпитател",
+  "parallel_code": "4713",
+  "district": "ПОДУЯНЕ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gBiology": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * БЗО)",
+  "cutoff_2025": 105.0,
+  "specialExam": false
+ },
+ {
+  "school": "Профилирана гимназия с интензивно изучаване на румънски език  \"МИХАЙ ЕМИНЕСКУ\", ГР.СОФИЯ",
+  "profile": "Чужди езици - РумЕ интензивно, АЕ",
+  "parallel_code": "2934",
+  "district": "СЕРДИКА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 302.0,
+  "specialExam": false
+ },
+ {
+  "school": "Профилирана гимназия с интензивно изучаване на румънски език  \"МИХАЙ ЕМИНЕСКУ\", ГР.СОФИЯ",
+  "profile": "Хуманитарни науки - ИЕ интензивно, РумЕ, БЕЛ и Философия",
+  "parallel_code": "2935",
+  "district": "СЕРДИКА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 320.75,
+  "specialExam": false
+ },
+ {
+  "school": "Профилирана гимназия с интензивно изучаване на румънски език  \"МИХАЙ ЕМИНЕСКУ\", ГР.СОФИЯ",
+  "profile": "Хуманитарни науки - ИтЕ интензивно, РумЕ, БЕЛ, ИЦ",
+  "parallel_code": "4299",
+  "district": "СЕРДИКА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 313.25,
+  "specialExam": false
+ },
+ {
+  "school": "14. средно училище \"Проф. д-р Асен Златаров\", ГР.СОФИЯ",
+  "profile": "Обществени науки - АЕ, РЕ",
+  "parallel_code": "1312",
+  "district": "СЕРДИКА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gGeography": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ГИ)",
+  "cutoff_2025": 250.0,
+  "specialExam": false
+ },
+ {
+  "school": "29. Средно училище  \"Кузман Шапкарев\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ интензивно",
+  "parallel_code": "2408",
+  "district": "СЕРДИКА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 360.0,
+  "specialExam": false
+ },
+ {
+  "school": "29. Средно училище  \"Кузман Шапкарев\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки /АЕ/",
+  "parallel_code": "3515",
+  "district": "СЕРДИКА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 315.0,
+  "specialExam": false
+ },
+ {
+  "school": "29. Средно училище  \"Кузман Шапкарев\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - ИЕ разширено",
+  "parallel_code": "4405",
+  "district": "СЕРДИКА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 344.25,
+  "specialExam": false
+ },
+ {
+  "school": "29. Средно училище  \"Кузман Шапкарев\", ГР.СОФИЯ",
+  "profile": "Природни науки - АЕ разширено, БЗО и ХООС",
+  "parallel_code": "4459",
+  "district": "СЕРДИКА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBiology": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЗО + 1 * ЧЕз)",
+  "cutoff_2025": 333.75,
+  "specialExam": false
+ },
+ {
+  "school": "59 ОБЕДИНЕНО УЧИЛИЩЕ  \"ВАСИЛ ЛЕВСКИ\", ГР.СОФИЯ",
+  "profile": "Готвач",
+  "parallel_code": "1530",
+  "district": "СЕРДИКА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gGeography": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * ГИ)",
+  "cutoff_2025": 94.0,
+  "specialExam": false
+ },
+ {
+  "school": "Профилирана гимназия за изобразителни изкуства  \"Професор Николай Райнов\", ГР.СОФИЯ",
+  "profile": "Компютърна графика",
+  "parallel_code": "1572",
+  "district": "СЕРДИКА",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gArt": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 1 * МАТ + 2 * ИИ) + (1 * БЕЛ + 1 * ИИ)",
+  "cutoff_2025": 343.5,
+  "specialExam": true,
+  "note": "Изпит за изобразителни способности (рисуване) вместо/в допълнение към НВО по математика"
+ },
+ {
+  "school": "23 Средно училище \"Фредерик Жолио-Кюри\", ГР.СОФИЯ",
+  "profile": "Чужди езици - ИтЕ интензивно, АЕ",
+  "parallel_code": "916",
+  "district": "СЛАТИНА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 375.25,
+  "specialExam": false
+ },
+ {
+  "school": "23 Средно училище \"Фредерик Жолио-Кюри\", ГР.СОФИЯ",
+  "profile": "Предприемачески - АЕ, ИтЕ",
+  "parallel_code": "930",
+  "district": "СЛАТИНА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 355.0,
+  "specialExam": false
+ },
+ {
+  "school": "23 Средно училище \"Фредерик Жолио-Кюри\", ГР.СОФИЯ",
+  "profile": "Икономическо развитие - АЕ, ИтЕ",
+  "parallel_code": "939",
+  "district": "СЛАТИНА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 337.0,
+  "specialExam": false
+ },
+ {
+  "school": "31 Средно училище за чужди езици  и математика \"Иван Вазов\", ГР.СОФИЯ",
+  "profile": "Чужди езици - АЕ интензивно,   ИЕ",
+  "parallel_code": "2755",
+  "district": "СЛАТИНА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 433.0,
+  "specialExam": false
+ },
+ {
+  "school": "31 Средно училище за чужди езици  и математика \"Иван Вазов\", ГР.СОФИЯ",
+  "profile": "Чужди езици - НЕ интензивно,   АЕ",
+  "parallel_code": "2759",
+  "district": "СЛАТИНА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 415.0,
+  "specialExam": false
+ },
+ {
+  "school": "31 Средно училище за чужди езици  и математика \"Иван Вазов\", ГР.СОФИЯ",
+  "profile": "Чужди езици - ИЕ интензивно,   АЕ",
+  "parallel_code": "2766",
+  "district": "СЛАТИНА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "31 Средно училище за чужди езици  и математика \"Иван Вазов\", ГР.СОФИЯ",
+  "profile": "Математически - АЕ интензивно, НЕ",
+  "parallel_code": "3018",
+  "district": "СЛАТИНА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 404.0,
+  "specialExam": false
+ },
+ {
+  "school": "93-то Средно училище \"Александър Теодоров - Балан\", ГР.СОФИЯ",
+  "profile": "Обществени науки - РЕ интензивно, АЕ",
+  "parallel_code": "2876",
+  "district": "СЛАТИНА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gForeign": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИЦ + 1 * КМИТ)",
+  "cutoff_2025": 354.75,
+  "specialExam": false
+ },
+ {
+  "school": "93-то Средно училище \"Александър Теодоров - Балан\", ГР.СОФИЯ",
+  "profile": "Обществени науки - АЕ интензивно, РЕ",
+  "parallel_code": "2878",
+  "district": "СЛАТИНА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * КМИТ)",
+  "cutoff_2025": 368.75,
+  "specialExam": false
+ },
+ {
+  "school": "93-то Средно училище \"Александър Теодоров - Балан\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ интензивно, РЕ",
+  "parallel_code": "4038",
+  "district": "СЛАТИНА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "94 СРЕДНО УЧИЛИЩЕ \"Димитър Страшимиров\", ГР.СОФИЯ",
+  "profile": "Производство на облекло от текстил",
+  "parallel_code": "2535",
+  "district": "СЛАТИНА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gArt": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * ИИ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "94 СРЕДНО УЧИЛИЩЕ \"Димитър Страшимиров\", ГР.СОФИЯ",
+  "profile": "Логистика на товари и услуги - куриер",
+  "parallel_code": "2539",
+  "district": "СЛАТИНА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gGeography": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * ГИ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "138. СРЕДНО УЧИЛИЩЕ ЗА ЗАПАДНИ И ИЗТОЧНИ ЕЗИЦИ \"ПРОФ. ВАСИЛ ЗЛАТАРСКИ\", ГР.СОФИЯ",
+  "profile": "Математически - АЕ интензивно, ИЕ",
+  "parallel_code": "1354",
+  "district": "СЛАТИНА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 370.5,
+  "specialExam": false
+ },
+ {
+  "school": "138. СРЕДНО УЧИЛИЩЕ ЗА ЗАПАДНИ И ИЗТОЧНИ ЕЗИЦИ \"ПРОФ. ВАСИЛ ЗЛАТАРСКИ\", ГР.СОФИЯ",
+  "profile": "Чужди езици - КитЕ интензивно,    АЕ",
+  "parallel_code": "2451",
+  "district": "СЛАТИНА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 357.75,
+  "specialExam": false
+ },
+ {
+  "school": "138. СРЕДНО УЧИЛИЩЕ ЗА ЗАПАДНИ И ИЗТОЧНИ ЕЗИЦИ \"ПРОФ. ВАСИЛ ЗЛАТАРСКИ\", ГР.СОФИЯ",
+  "profile": "Чужди езици - ЯЕ интензивно,   АЕ",
+  "parallel_code": "2456",
+  "district": "СЛАТИНА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "138. СРЕДНО УЧИЛИЩЕ ЗА ЗАПАДНИ И ИЗТОЧНИ ЕЗИЦИ \"ПРОФ. ВАСИЛ ЗЛАТАРСКИ\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуени науки - АЕ интензивно, КорЕ",
+  "parallel_code": "2466",
+  "district": "СЛАТИНА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * КМИТ)",
+  "cutoff_2025": 339.0,
+  "specialExam": false
+ },
+ {
+  "school": "157 Гимназия с изучаване на чужд език \"Сесар Вайехо\", ГР.СОФИЯ",
+  "profile": "Чужди езици - ИЕ интензивно, АЕ",
+  "parallel_code": "1023",
+  "district": "СЛАТИНА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 297.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТРАНСПОРТ \"МАКГАХАН\", ГР.СОФИЯ",
+  "profile": "Автомобилна мехатроника - АЕ",
+  "parallel_code": "2165",
+  "district": "СЛАТИНА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 172.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТРАНСПОРТ \"МАКГАХАН\", ГР.СОФИЯ",
+  "profile": "Ремонт на летателни апарати - АЕ",
+  "parallel_code": "2178",
+  "district": "СЛАТИНА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 117.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТРАНСПОРТ \"МАКГАХАН\", ГР.СОФИЯ",
+  "profile": "Спедиция транспортна и складова логистика - АЕ (дневна)",
+  "parallel_code": "2187",
+  "district": "СЛАТИНА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 103.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТРАНСПОРТ \"МАКГАХАН\", ГР.СОФИЯ",
+  "profile": "Спедиция транспортна и складова логистика - АЕ (дуална)",
+  "parallel_code": "2212",
+  "district": "СЛАТИНА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТРАНСПОРТ \"МАКГАХАН\", ГР.СОФИЯ",
+  "profile": "Автотранспортна техника - техник АЕ",
+  "parallel_code": "3500",
+  "district": "СЛАТИНА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТРАНСПОРТ \"МАКГАХАН\", ГР.СОФИЯ",
+  "profile": "Електрически превозни средства - техник АЕ",
+  "parallel_code": "3934",
+  "district": "СЛАТИНА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 68.0,
+  "specialExam": false
+ },
+ {
+  "school": "7. СРЕДНО УЧИЛИЩЕ  \"СВ. СЕДМОЧИСЛЕНИЦИ\", ГР.СОФИЯ",
+  "profile": "Чужди езици - АЕ интензивно, ИЕ",
+  "parallel_code": "359",
+  "district": "СРЕДЕЦ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 440.75,
+  "specialExam": false
+ },
+ {
+  "school": "7. СРЕДНО УЧИЛИЩЕ  \"СВ. СЕДМОЧИСЛЕНИЦИ\", ГР.СОФИЯ",
+  "profile": "Икономическо развитие - АЕ интензивно, НЕ",
+  "parallel_code": "360",
+  "district": "СРЕДЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "7. СРЕДНО УЧИЛИЩЕ  \"СВ. СЕДМОЧИСЛЕНИЦИ\", ГР.СОФИЯ",
+  "profile": "Природни науки - БЗО, ХООС, АЕ интензивно, НЕ",
+  "parallel_code": "4450",
+  "district": "СРЕДЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "7. СРЕДНО УЧИЛИЩЕ  \"СВ. СЕДМОЧИСЛЕНИЦИ\", ГР.СОФИЯ",
+  "profile": "Природни науки - БЗО, ХООС, АЕ интензивно, ФЕ",
+  "parallel_code": "4814",
+  "district": "СРЕДЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ЧЕз)",
+  "cutoff_2025": 372.5,
+  "specialExam": false
+ },
+ {
+  "school": "9 Френска езикова гимназия  \"Алфонс дьо Ламартин\", ГР.СОФИЯ",
+  "profile": "Чужди езици - ФЕ интензивно,   АЕ",
+  "parallel_code": "2158",
+  "district": "СРЕДЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "9 Френска езикова гимназия  \"Алфонс дьо Ламартин\", ГР.СОФИЯ",
+  "profile": "Чужди езици - ФЕ интензивно,  ИЕ",
+  "parallel_code": "2163",
+  "district": "СРЕДЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "9 Френска езикова гимназия  \"Алфонс дьо Ламартин\", ГР.СОФИЯ",
+  "profile": "Чужди езици - ФЕ интензивно,  НЕ",
+  "parallel_code": "2168",
+  "district": "СРЕДЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 450.0,
+  "specialExam": false
+ },
+ {
+  "school": "9 Френска езикова гимназия  \"Алфонс дьо Ламартин\", ГР.СОФИЯ",
+  "profile": "Чужди езици - ФЕ интензивно,   Латински език",
+  "parallel_code": "4338",
+  "district": "СРЕДЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "12 Средно  училище \" Цар Иван Асен II\", ГР.СОФИЯ",
+  "profile": "Природни науки - АЕ интензивно, НЕ",
+  "parallel_code": "2159",
+  "district": "СРЕДЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 363.5,
+  "specialExam": false
+ },
+ {
+  "school": "12 Средно  училище \" Цар Иван Асен II\", ГР.СОФИЯ",
+  "profile": "Чужди езици - НЕ интензивно, АЕ/РЕ по избор",
+  "parallel_code": "2209",
+  "district": "СРЕДЕЦ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "12 Средно  училище \" Цар Иван Асен II\", ГР.СОФИЯ",
+  "profile": "Предприемачески - ФЕ интензивно, АЕ",
+  "parallel_code": "2215",
+  "district": "СРЕДЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * КМИТ)",
+  "cutoff_2025": 376.0,
+  "specialExam": false
+ },
+ {
+  "school": "12 Средно  училище \" Цар Иван Асен II\", ГР.СОФИЯ",
+  "profile": "Предприемачески - АЕ интензивно, НЕ",
+  "parallel_code": "4446",
+  "district": "СРЕДЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * КМИТ)",
+  "cutoff_2025": 381.5,
+  "specialExam": false
+ },
+ {
+  "school": "127 СРЕДНО УЧИЛИЩЕ \"Иван Николаевич Денкоглу\", ГР.СОФИЯ",
+  "profile": "Хуманитарни науки - АЕ интензивно, ИЕ",
+  "parallel_code": "1358",
+  "district": "СРЕДЕЦ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 410.5,
+  "specialExam": false
+ },
+ {
+  "school": "127 СРЕДНО УЧИЛИЩЕ \"Иван Николаевич Денкоглу\", ГР.СОФИЯ",
+  "profile": "Хуманитарни науки - ИЕ интензивно, АЕ",
+  "parallel_code": "1362",
+  "district": "СРЕДЕЦ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "127 СРЕДНО УЧИЛИЩЕ \"Иван Николаевич Денкоглу\", ГР.СОФИЯ",
+  "profile": "Природни науки - АЕ интензивно, ИЕ",
+  "parallel_code": "1364",
+  "district": "СРЕДЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "127 СРЕДНО УЧИЛИЩЕ \"Иван Николаевич Денкоглу\", ГР.СОФИЯ",
+  "profile": "Природни науки - ИЕ интензивно, АЕ",
+  "parallel_code": "1365",
+  "district": "СРЕДЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "127 СРЕДНО УЧИЛИЩЕ \"Иван Николаевич Денкоглу\", ГР.СОФИЯ",
+  "profile": "Икономическо развитие - АЕ разширено, ИЕ",
+  "parallel_code": "1366",
+  "district": "СРЕДЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "127 СРЕДНО УЧИЛИЩЕ \"Иван Николаевич Денкоглу\", ГР.СОФИЯ",
+  "profile": "Предприемачески - ИЕ интензивно, АЕ",
+  "parallel_code": "3148",
+  "district": "СРЕДЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "127 СРЕДНО УЧИЛИЩЕ \"Иван Николаевич Денкоглу\", ГР.СОФИЯ",
+  "profile": "Обществени науки - ИЕ разширено, АЕ",
+  "parallel_code": "4401",
+  "district": "СРЕДЕЦ",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 389.5,
+  "specialExam": false
+ },
+ {
+  "school": "133 Средно училище  „Александър Сергеевич Пушкин”, ГР.СОФИЯ",
+  "profile": "Чужди езици - АЕ интензивно, РЕ",
+  "parallel_code": "2269",
+  "district": "СРЕДЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 430.5,
+  "specialExam": false
+ },
+ {
+  "school": "133 Средно училище  „Александър Сергеевич Пушкин”, ГР.СОФИЯ",
+  "profile": "Чужди езици - ФЕ интензивно, РЕ",
+  "parallel_code": "2270",
+  "district": "СРЕДЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "133 Средно училище  „Александър Сергеевич Пушкин”, ГР.СОФИЯ",
+  "profile": "Чужди езици - РЕ интензивно, АЕ",
+  "parallel_code": "2272",
+  "district": "СРЕДЕЦ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 424.0,
+  "specialExam": false
+ },
+ {
+  "school": "8. Средно училище \"Васил Левски\", ГР.СОФИЯ",
+  "profile": "Предприемачески - АЕ разширено, РЕ",
+  "parallel_code": "4284",
+  "district": "СТУДЕНТСКИ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * КМИТ)",
+  "cutoff_2025": 297.0,
+  "specialExam": false
+ },
+ {
+  "school": "55 СРЕДНО УЧИЛИЩЕ  \"ПЕТКО КАРАВЕЛОВ\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ интензивно, НЕ",
+  "parallel_code": "2144",
+  "district": "СТУДЕНТСКИ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 346.5,
+  "specialExam": false
+ },
+ {
+  "school": "55 СРЕДНО УЧИЛИЩЕ  \"ПЕТКО КАРАВЕЛОВ\", ГР.СОФИЯ",
+  "profile": "Програмиране на изкуствен интелект - АЕ",
+  "parallel_code": "5038",
+  "district": "СТУДЕНТСКИ",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gIT": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТЕЛЕКОМУНИКАЦИИ, ГР.СОФИЯ",
+  "profile": "Електронна търговия - АЕ",
+  "parallel_code": "707",
+  "district": "СТУДЕНТСКИ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gMat": 1,
+   "gPhysics": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТЕЛЕКОМУНИКАЦИИ, ГР.СОФИЯ",
+  "profile": "Компютърни мрежи - АЕ",
+  "parallel_code": "722",
+  "district": "СТУДЕНТСКИ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gMat": 1,
+   "gPhysics": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТЕЛЕКОМУНИКАЦИИ, ГР.СОФИЯ",
+  "profile": "Компютърна техника и технологии - АЕ",
+  "parallel_code": "730",
+  "district": "СТУДЕНТСКИ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gMat": 1,
+   "gPhysics": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТЕЛЕКОМУНИКАЦИИ, ГР.СОФИЯ",
+  "profile": "Системно програмиране - АЕ",
+  "parallel_code": "738",
+  "district": "СТУДЕНТСКИ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gMat": 1,
+   "gPhysics": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТЕЛЕКОМУНИКАЦИИ, ГР.СОФИЯ",
+  "profile": "Приложно програмиране - АЕ",
+  "parallel_code": "743",
+  "district": "СТУДЕНТСКИ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gMat": 1,
+   "gPhysics": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТЕЛЕКОМУНИКАЦИИ, ГР.СОФИЯ",
+  "profile": "Икономическа информатика - АЕ",
+  "parallel_code": "746",
+  "district": "СТУДЕНТСКИ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gMat": 1,
+   "gPhysics": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТЕЛЕКОМУНИКАЦИИ, ГР.СОФИЯ",
+  "profile": "Телекомуникационни системи-АЕ",
+  "parallel_code": "3215",
+  "district": "СТУДЕНТСКИ",
+  "formula": {
+   "nvoBel": 1,
+   "nvoMat": 3,
+   "gMat": 1,
+   "gPhysics": 1
+  },
+  "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Втора английска езикова гимназия  \"Томас Джеферсън\", ГР.СОФИЯ",
+  "profile": "Чужди езици - АЕ интензивно, НЕ",
+  "parallel_code": "2018",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 438.5,
+  "specialExam": false
+ },
+ {
+  "school": "Втора английска езикова гимназия  \"Томас Джеферсън\", ГР.СОФИЯ",
+  "profile": "Чужди езици АЕ интензивно, ИЕ",
+  "parallel_code": "2025",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 444.5,
+  "specialExam": false
+ },
+ {
+  "school": "Втора английска езикова гимназия  \"Томас Джеферсън\", ГР.СОФИЯ",
+  "profile": "Чужди езици - АЕ интензивно, РЕ",
+  "parallel_code": "2034",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 438.0,
+  "specialExam": false
+ },
+ {
+  "school": "22 Средно езиково училище  \"Георги Стойков Раковски\", ГР.СОФИЯ",
+  "profile": "Хуманитарен - БЕЛ/Фил, АЕ интензивно, ИЕ",
+  "parallel_code": "2565",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * ИЦ)",
+  "cutoff_2025": 417.0,
+  "specialExam": false
+ },
+ {
+  "school": "22 Средно езиково училище  \"Георги Стойков Раковски\", ГР.СОФИЯ",
+  "profile": "Обществени науки  - Ист/Фил, АЕ интензивно, ИЕ",
+  "parallel_code": "2577",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * ИЦ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "22 Средно езиково училище  \"Георги Стойков Раковски\", ГР.СОФИЯ",
+  "profile": "Природни науки - Биол, Хим, АЕ интензивно, НЕ",
+  "parallel_code": "3017",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "22 Средно езиково училище  \"Георги Стойков Раковски\", ГР.СОФИЯ",
+  "profile": "Природни науки БЗО, ХООС, ИЕ - интензивно, АЕ",
+  "parallel_code": "3635",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBiology": 1,
+   "gChemistry": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
+  "cutoff_2025": 427.0,
+  "specialExam": false
+ },
+ {
+  "school": "22 Средно езиково училище  \"Георги Стойков Раковски\", ГР.СОФИЯ",
+  "profile": "Хуманитарен - БЕЛ/Фил, ИЕ интензивно, АЕ",
+  "parallel_code": "4766",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * ИЦ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "22 Средно езиково училище  \"Георги Стойков Раковски\", ГР.СОФИЯ",
+  "profile": "Обществени науки  - Ист/Фил, ИЕ интензивно, АЕ",
+  "parallel_code": "4767",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * ИЦ)",
+  "cutoff_2025": 433.5,
+  "specialExam": false
+ },
+ {
+  "school": "47 Средно училище \"Христо Груев Данов\", ГР.СОФИЯ",
+  "profile": "Предприемачески - АЕ интензивно, НЕ",
+  "parallel_code": "515",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * КМИТ)",
+  "cutoff_2025": 319.0,
+  "specialExam": false
+ },
+ {
+  "school": "47 Средно училище \"Христо Груев Данов\", ГР.СОФИЯ",
+  "profile": "Предприемачески - НЕ разширено, АЕ",
+  "parallel_code": "3873",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "47 Средно училище \"Христо Груев Данов\", ГР.СОФИЯ",
+  "profile": "Предприемачески - АЕ разширено, ИЕ",
+  "parallel_code": "4439",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gGeography": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * КМИТ)",
+  "cutoff_2025": 320.0,
+  "specialExam": false
+ },
+ {
+  "school": "73.СУ с преподаване на чужди езици  \"Владислав Граматик\", ГР.СОФИЯ",
+  "profile": "Чужди езици - НЕ интензивно, ФЕ",
+  "parallel_code": "2656",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 435.0,
+  "specialExam": false
+ },
+ {
+  "school": "73.СУ с преподаване на чужди езици  \"Владислав Граматик\", ГР.СОФИЯ",
+  "profile": "Чужди езици - НЕ интензивно, АЕ",
+  "parallel_code": "2658",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "73.СУ с преподаване на чужди езици  \"Владислав Граматик\", ГР.СОФИЯ",
+  "profile": "Обществени науки - НЕ интензивно, РЕ, ИЦ и ГИ",
+  "parallel_code": "5127",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 435.0,
+  "specialExam": false
+ },
+ {
+  "school": "73.СУ с преподаване на чужди езици  \"Владислав Граматик\", ГР.СОФИЯ",
+  "profile": "Математически - НЕ интензивно, РЕ, М и ФА",
+  "parallel_code": "5128",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 455.0,
+  "specialExam": false
+ },
+ {
+  "school": "121 СРЕДНО УЧИЛИЩЕ \"ГЕОРГИ ИЗМИРЛИЕВ\", ГР.СОФИЯ",
+  "profile": "Софтуерни и хардуерни науки - АЕ; ИЕ",
+  "parallel_code": "2637",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gMat": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * М + 1 * КМИТ)",
+  "cutoff_2025": 361.0,
+  "specialExam": false
+ },
+ {
+  "school": "121 СРЕДНО УЧИЛИЩЕ \"ГЕОРГИ ИЗМИРЛИЕВ\", ГР.СОФИЯ",
+  "profile": "Предприемачески - ИЕ, АЕ",
+  "parallel_code": "2647",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gGeography": 1,
+   "gForeign": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ГИ + 1 * ЧЕз)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "121 СРЕДНО УЧИЛИЩЕ \"ГЕОРГИ ИЗМИРЛИЕВ\", ГР.СОФИЯ",
+  "profile": "Обществени науки - АЕ, ИЕ",
+  "parallel_code": "4448",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gForeign": 1,
+   "gGeography": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИЦ + 1 * ГИ)",
+  "cutoff_2025": 356.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по дизайн \"Елисавета Вазова\", ГР.СОФИЯ",
+  "profile": "Интериорен дизайн - ИтЕ",
+  "parallel_code": "1292",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по дизайн \"Елисавета Вазова\", ГР.СОФИЯ",
+  "profile": "Графичен дизайн - НЕ",
+  "parallel_code": "1294",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по дизайн \"Елисавета Вазова\", ГР.СОФИЯ",
+  "profile": "Рекламна графика - АЕ",
+  "parallel_code": "1296",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по дизайн \"Елисавета Вазова\", ГР.СОФИЯ",
+  "profile": "Интериорен дизайн - ФЕ",
+  "parallel_code": "3856",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "Професионална гимназия по дизайн \"Елисавета Вазова\", ГР.СОФИЯ",
+  "profile": "Компютърна анимация - ИЕ",
+  "parallel_code": "4855",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 3,
+   "nvoMat": 1,
+   "gArt": 1,
+   "gIT": 1
+  },
+  "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНА ТЪРГОВСКО - БАНКОВА ГИМНАЗИЯ, ГР.СОФИЯ",
+  "profile": "Банково дело - АЕ интензивно, ИЕ",
+  "parallel_code": "751",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНА ТЪРГОВСКО - БАНКОВА ГИМНАЗИЯ, ГР.СОФИЯ",
+  "profile": "Застрахователно и осигурително дело - AE интензивно, ИЕ",
+  "parallel_code": "775",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 371.5,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНА ТЪРГОВСКО - БАНКОВА ГИМНАЗИЯ, ГР.СОФИЯ",
+  "profile": "Оперативно счетоводство - РЕ интензивно, АЕ",
+  "parallel_code": "777",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНА ТЪРГОВСКО - БАНКОВА ГИМНАЗИЯ, ГР.СОФИЯ",
+  "profile": "Бизнес администрация - ИЕ интензивно, АЕ",
+  "parallel_code": "779",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНА ТЪРГОВСКО - БАНКОВА ГИМНАЗИЯ, ГР.СОФИЯ",
+  "profile": "Електронна търговия - АЕ интензивно, ИЕ",
+  "parallel_code": "788",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 375.5,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНА ТЪРГОВСКО - БАНКОВА ГИМНАЗИЯ, ГР.СОФИЯ",
+  "profile": "Икономическа информатика - АЕ интензивно, ИЕ",
+  "parallel_code": "802",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНА ТЪРГОВСКО - БАНКОВА ГИМНАЗИЯ, ГР.СОФИЯ",
+  "profile": "Банково дело - ФЕ интензивно, АЕ",
+  "parallel_code": "933",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНА ТЪРГОВСКО - БАНКОВА ГИМНАЗИЯ, ГР.СОФИЯ",
+  "profile": "Банково дело - НЕ интензивно, АЕ",
+  "parallel_code": "937",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 0.0,
+  "specialExam": false
+ },
+ {
+  "school": "НАЦИОНАЛНА ТЪРГОВСКО - БАНКОВА ГИМНАЗИЯ, ГР.СОФИЯ",
+  "profile": "Електронна търговия - РЕ интензивно, АЕ",
+  "parallel_code": "941",
+  "district": "ТРИАДИЦА",
+  "formula": {
+   "nvoBel": 2,
+   "nvoMat": 2,
+   "gBel": 1,
+   "gMat": 1
+  },
+  "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
+  "cutoff_2025": 369.0,
+  "specialExam": false
+ }
+]
