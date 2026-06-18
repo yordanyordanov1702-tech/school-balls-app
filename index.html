@@ -430,7 +430,8 @@ function render(){
                 : '<span class="badge unknown">НЯМА ДАННИ</span>';
     const missingHtml = r.missing && r.missing.length ? `<div class="missing">Липсва: ${r.missing.join(', ')}</div>` : '';
     const topBadge = r.isTop30 ? '<span class="top30">ТОП 30</span>' : '';
-    const cutoffText = (r.cutoff!==null && r.cutoff!==undefined) ? r.cutoff.toFixed(1) : '—';
+    const cutoffText = (r.cutoff===0) ? '0 <span style="color:#fbbf24;font-weight:400;font-size:.72em;">(незапълнена 2025)</span>'
+                      : (r.cutoff!==null && r.cutoff!==undefined) ? r.cutoff.toFixed(1) : '—';
     const scoreText = (r.total!==null && r.total!==undefined && r.missing.length===0) ? r.total.toFixed(1) : '—';
     let diffText = '—';
     if(r.total!==null && r.total!==undefined && r.missing.length===0 && r.cutoff!==null && r.cutoff!==undefined){
