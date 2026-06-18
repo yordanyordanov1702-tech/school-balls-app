@@ -187,31 +187,17 @@
       <span><span class="dot unknown"></span>Липсват данни</span>
       <span><span class="top30">ТОП 30</span> сред най-силните училища в София</span>
     </div>
-    <div class="filter-row">
-      <input type="text" id="search" placeholder="Търси по име на училище или профил..." style="flex:1;min-width:220px;">
-      <select id="sortBy">
-        <option value="status" selected>Сортирай по статус (влизаш първо, по най-висок бал)</option>
-        <option value="cutoff">Сортирай по минимален бал 2025 (низходящо)</option>
-        <option value="score">Сортирай по твой бал (низходящо)</option>
-        <option value="name">Сортирай по име на училище</option>
-      </select>
-    </div>
-    <div class="filter-row">
-      <label class="checkbox-row"><input type="checkbox" id="onlyGo" style="width:auto"> Само „Влизаш“</label>
-      <label class="checkbox-row"><input type="checkbox" id="onlyTop30" style="width:auto"> Само ТОП 30 училища</label>
-      <label class="checkbox-row"><input type="checkbox" id="hideZero" style="width:auto" checked> Скрий незапълнените (бал 0) паралелки</label>
-    </div>
     <div class="summary" id="summary"></div>
     <div class="table-wrap">
       <table>
         <thead>
           <tr>
             <th style="width:36px">#</th>
-            <th class="sortable" data-sort="name">Училище / профил<span class="arrow">▾</span></th>
-            <th class="num sortable" data-sort="score">Твой бал<span class="arrow">▾</span></th>
-            <th class="num sortable" data-sort="cutoff">Минимален бал 2025<span class="arrow">▾</span></th>
-            <th class="num sortable" data-sort="diff">Разлика<span class="arrow">▾</span></th>
-            <th class="sortable" data-sort="status">Статус<span class="arrow">▾</span></th>
+            <th>Училище / профил</th>
+            <th class="num">Твой бал</th>
+            <th class="num">Минимален бал 2025</th>
+            <th class="num">Разлика</th>
+            <th>Статус</th>
           </tr>
         </thead>
         <tbody id="schoolsList"></tbody>
@@ -353,13 +339,7 @@ function renderReco(rows){
     </div>`;
 }
 
-let sortState = {key:'status', dir:1};
-
 function render(){
-  const onlyGo = document.getElementById('onlyGo').checked;
-  const onlyTop30 = document.getElementById('onlyTop30').checked;
-  const hideZero = document.getElementById('hideZero').checked;
-  const q = document.getElementById('search').value.trim().toLowerCase();
   const tbody = document.getElementById('schoolsList');
   tbody.innerHTML = '';
   saveInputs();
@@ -379,41 +359,8 @@ function render(){
 
   renderReco(rows);
 
-  if(q){
-    rows = rows.filter(r=> (r.school+' '+r.profile).toLowerCase().includes(q));
-  }
-  if(onlyGo){
-    rows = rows.filter(r=> r.status==='go');
-  }
-  if(onlyTop30){
-    rows = rows.filter(r=> r.isTop30);
-  }
-  if(hideZero){
-    rows = rows.filter(r=> !(r.cutoff===0));
-  }
-
-  const dir = sortState.dir;
-  if(sortState.key==='score'){
-    rows.sort((a,b)=> dir*((b.total??-1) - (a.total??-1)));
-  } else if(sortState.key==='cutoff'){
-    rows.sort((a,b)=> dir*((b.cutoff??-1) - (a.cutoff??-1)));
-  } else if(sortState.key==='diff'){
-    const d = r=> (r.total!==null && r.total!==undefined && r.missing.length===0 && r.cutoff!==null && r.cutoff!==undefined) ? r.total-r.cutoff : -9999;
-    rows.sort((a,b)=> dir*(d(b)-d(a)));
-  } else if(sortState.key==='status'){
-    const order = {go:0, no:1, unknown:2};
-    rows.sort((a,b)=> dir*(order[a.status]-order[b.status]) || (b.cutoff??-1)-(a.cutoff??-1));
-  } else if(sortState.key==='name'){
-    rows.sort((a,b)=> dir*a.school.localeCompare(b.school,'bg'));
-  }
-
-  document.querySelectorAll('th.sortable').forEach(th=>{
-    th.classList.toggle('active', th.dataset.sort===sortState.key);
-    const arrow = th.querySelector('.arrow');
-    if(th.dataset.sort===sortState.key) arrow.textContent = dir===1 ? '▴' : '▾';
-  });
-  const sortSelect = document.getElementById('sortBy');
-  if([...sortSelect.options].some(o=>o.value===sortState.key)) sortSelect.value = sortState.key;
+  // Fixed order: highest minimum bal first (hardest/red at top) down to lowest (easiest/green at bottom)
+  rows.sort((a,b)=> (b.cutoff??-1) - (a.cutoff??-1));
 
   const goCount = rows.filter(r=>r.status==='go').length;
   const noCount = rows.filter(r=>r.status==='no').length;
@@ -483,24 +430,6 @@ function render(){
 
 inputIds.forEach(id=>{
   document.getElementById(id).addEventListener('input', render);
-});
-document.getElementById('onlyGo').addEventListener('change', render);
-document.getElementById('onlyTop30').addEventListener('change', render);
-document.getElementById('hideZero').addEventListener('change', render);
-document.getElementById('search').addEventListener('input', render);
-
-document.querySelectorAll('th.sortable').forEach(th=>{
-  th.addEventListener('click', ()=>{
-    const key = th.dataset.sort;
-    if(sortState.key===key){ sortState.dir *= -1; }
-    else { sortState.key = key; sortState.dir = (key==='name' || key==='status') ? 1 : -1; }
-    render();
-  });
-});
-
-document.getElementById('sortBy').addEventListener('change', (e)=>{
-  sortState = {key:e.target.value, dir: (e.target.value==='name' || e.target.value==='status') ? 1 : -1};
-  render();
 });
 
 document.getElementById('shareBtn').addEventListener('click', ()=>{
