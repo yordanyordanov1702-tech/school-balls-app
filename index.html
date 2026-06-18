@@ -95,12 +95,27 @@
   .share-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:14px;}
   .share-note{font-size:.78rem;color:var(--muted);}
 
-  /* Mobile: more compact input grid, 2 columns instead of stacking */
+  /* Mobile: more compact layout overall */
   @media (max-width: 680px){
+    body{padding:14px 10px 60px;}
+    h1{font-size:1.2rem;}
+    .sub{font-size:.82rem;margin-bottom:14px;}
+    .card{padding:12px;margin-bottom:14px;}
     .grid{grid-template-columns:repeat(2,1fr);gap:8px;}
-    label{font-size:.74rem;margin-bottom:2px;}
+    label{font-size:.72rem;margin-bottom:2px;}
     input[type=number],input[type=text]{padding:7px 8px;font-size:.88rem;}
-    .card{padding:14px;}
+    .legend{gap:8px 12px;font-size:.74rem;margin-bottom:10px;}
+    .filter-row{gap:6px 10px;margin-bottom:10px;}
+    .checkbox-row{font-size:.76rem;}
+    select{font-size:.82rem;padding:6px;}
+    .reco{padding:12px 14px;margin-bottom:14px;}
+    .reco h3{font-size:.88rem;}
+    .reco .school{font-size:1rem;}
+    .reco .profile, .reco .meta{font-size:.78rem;}
+    .share-row{gap:6px;}
+    .share-btn{padding:7px 12px;font-size:.78rem;}
+    .share-note{font-size:.7rem;}
+    .summary{font-size:.78rem;}
   }
   @media (max-width: 400px){
     .grid{grid-template-columns:repeat(2,1fr);gap:6px;}
