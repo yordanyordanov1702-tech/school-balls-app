@@ -223,7 +223,7 @@ const schools = [
 "gBel": 1,
 "gMat": 1
 },
-"cutoff": 0.0,
+"cutoff": 412.0,
 "specialExam": false
 },
 {
@@ -247,7 +247,7 @@ const schools = [
 "gBiology": 1,
 "gChemistry": 1
 },
-"cutoff": 0.0,
+"cutoff": 397.0,
 "specialExam": false
 },
 {
@@ -2864,7 +2864,7 @@ const schools = [
 "gBel": 1,
 "gMat": 1
 },
-"cutoff": 0.0,
+"cutoff": 475.5,
 "specialExam": false
 },
 {
@@ -2888,7 +2888,7 @@ const schools = [
 "gBel": 1,
 "gMat": 1
 },
-"cutoff": 0.0,
+"cutoff": 467.0,
 "specialExam": false
 },
 {
@@ -2900,7 +2900,7 @@ const schools = [
 "gBel": 1,
 "gMat": 1
 },
-"cutoff": 0.0,
+"cutoff": 461.0,
 "specialExam": false
 },
 {
@@ -2912,7 +2912,7 @@ const schools = [
 "gBel": 1,
 "gMat": 1
 },
-"cutoff": 0.0,
+"cutoff": 443.5,
 "specialExam": false
 },
 {
@@ -2960,7 +2960,7 @@ const schools = [
 "gBel": 1,
 "gMat": 1
 },
-"cutoff": 0.0,
+"cutoff": 448.5,
 "specialExam": false
 },
 {
@@ -4388,7 +4388,7 @@ const schools = [
 "gBel": 1,
 "gMat": 1
 },
-"cutoff": 0.0,
+"cutoff": 463.5,
 "specialExam": false
 },
 {
