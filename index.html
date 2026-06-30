@@ -132,8 +132,11 @@
 </head>
 <body>
 <div class="wrap">
-  <h1>Софи 🎓 — калкулатор на бал за прием след 7. клас (София)</h1>
-  <div class="sub">Въведи резултатите от НВО и оценките от свидетелството — приложението изчислява бала за всяка от 387-те паралелки в София по нейната собствена формула за балообразуване и показва къде влизаш (зелено) и къде не (червено). Топ 30-те най-силни училища (по бал за прием) са маркирани със златен етикет.</div>
+  <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:4px;">
+    <h1 style="margin:0" id="mainTitle">Софи 🎓 — калкулатор на бал за прием след 7. клас (София)</h1>
+    <button id="genderBtn" onclick="toggleGender()" style="background:#1e293b;border:2px solid #3b82f6;color:#e2e8f0;padding:7px 16px;border-radius:20px;font-size:1rem;cursor:pointer;white-space:nowrap;font-weight:600;">👧 Момиче</button>
+  </div>
+  <div class="sub" id="mainSub">Въведи резултатите от НВО и оценките от свидетелството — приложението изчислява бала за всяка от 387-те паралелки в София по нейната собствена формула за балообразуване и показва къде влиза (зелено) и къде не (червено). Топ 30-те най-силни училища (по бал за прием) са маркирани със златен етикет.</div>
 
   <div class="card">
     <h3 style="margin-top:0">НВО резултати (0–100 точки)</h3>
@@ -471,6 +474,27 @@ document.getElementById('shareBtn').addEventListener('click', ()=>{
   });
 });
 
+let gender = localStorage.getItem('gender') || 'f';
+
+function applyGender(){
+  const isF = gender==='f';
+  document.getElementById('genderBtn').textContent = isF ? '👧 Момиче' : '👦 Момче';
+  document.getElementById('genderBtn').style.borderColor = isF ? '#ec4899' : '#3b82f6';
+  document.getElementById('mainTitle').textContent = isF
+    ? 'Софи 🎓 — калкулатор на бал за прием след 7. клас (София)'
+    : '🎓 Калкулатор на бал за прием след 7. клас (София)';
+  document.getElementById('mainSub').textContent = isF
+    ? 'Въведи резултатите от НВО и оценките от свидетелството — приложението изчислява бала за всяка от 387-те паралелки в София и показва къде влиза момичето (зелено) и къде не (червено).'
+    : 'Въведи резултатите от НВО и оценките от свидетелството — приложението изчислява бала за всяка от 387-те паралелки в София и показва къде влиза момчето (зелено) и къде не (червено).';
+}
+
+function toggleGender(){
+  gender = gender==='f' ? 'm' : 'f';
+  localStorage.setItem('gender', gender);
+  applyGender();
+}
+
+applyGender();
 loadInputs();
 render();
 </script>
