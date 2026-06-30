@@ -2624,7 +2624,7 @@ const schools = [
 "gMat": 1,
 "gPhysics": 1
 },
-"cutoff": 0.0,
+"cutoff": 471.75,
 "specialExam": false
 },
 {
@@ -2636,7 +2636,7 @@ const schools = [
 "gMat": 1,
 "gPhysics": 1
 },
-"cutoff": 0.0,
+"cutoff": 464.25,
 "specialExam": false
 },
 {
@@ -2660,7 +2660,7 @@ const schools = [
 "gMat": 1,
 "gPhysics": 1
 },
-"cutoff": 0.0,
+"cutoff": 474.75,
 "specialExam": false
 },
 {
@@ -2972,7 +2972,7 @@ const schools = [
 "gBel": 1,
 "gMat": 1
 },
-"cutoff": 0.0,
+"cutoff": 490.5,
 "specialExam": false
 },
 {
@@ -2996,7 +2996,7 @@ const schools = [
 "gBel": 1,
 "gMat": 1
 },
-"cutoff": 0.0,
+"cutoff": 493.25,
 "specialExam": false
 },
 {
