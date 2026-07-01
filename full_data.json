@@ -318,10 +318,10 @@
       "gMat": 1
     },
     "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-    "cutoff_2025": 0.0,
+    "cutoff_2025": 412.0,
     "specialExam": false,
-    "cutoff_m": 0.0,
-    "cutoff_f": 0.0
+    "cutoff_m": null,
+    "cutoff_f": null
   },
   {
     "school": "18 Средно училище  \"Уилям Гладстон\", ГР.СОФИЯ",
@@ -352,10 +352,10 @@
       "gChemistry": 1
     },
     "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
-    "cutoff_2025": 0.0,
+    "cutoff_2025": 397.0,
     "specialExam": false,
-    "cutoff_m": 0.0,
-    "cutoff_f": 0.0
+    "cutoff_m": null,
+    "cutoff_f": null
   },
   {
     "school": "18 Средно училище  \"Уилям Гладстон\", ГР.СОФИЯ",
@@ -3742,10 +3742,10 @@
       "gPhysics": 1
     },
     "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
-    "cutoff_2025": 0.0,
+    "cutoff_2025": 471.75,
     "specialExam": false,
-    "cutoff_m": 0.0,
-    "cutoff_f": 0.0
+    "cutoff_m": null,
+    "cutoff_f": null
   },
   {
     "school": "Технологично училище \"Електронни системи\" към Технически Университет - София, ГР.СОФИЯ",
@@ -3759,10 +3759,10 @@
       "gPhysics": 1
     },
     "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
-    "cutoff_2025": 0.0,
+    "cutoff_2025": 464.25,
     "specialExam": false,
-    "cutoff_m": 0.0,
-    "cutoff_f": 0.0
+    "cutoff_m": null,
+    "cutoff_f": null
   },
   {
     "school": "Технологично училище \"Електронни системи\" към Технически Университет - София, ГР.СОФИЯ",
@@ -3793,10 +3793,10 @@
       "gPhysics": 1
     },
     "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
-    "cutoff_2025": 0.0,
+    "cutoff_2025": 474.75,
     "specialExam": false,
-    "cutoff_m": 0.0,
-    "cutoff_f": 0.0
+    "cutoff_m": null,
+    "cutoff_f": null
   },
   {
     "school": "15 Средно училище \" Адам Мицкевич\", ГР.СОФИЯ",
@@ -4082,10 +4082,10 @@
       "gMat": 1
     },
     "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-    "cutoff_2025": 0.0,
+    "cutoff_2025": 475.5,
     "specialExam": false,
-    "cutoff_m": 0.0,
-    "cutoff_f": 0.0
+    "cutoff_m": null,
+    "cutoff_f": null
   },
   {
     "school": "164. гимназия с преподаване  на испански език \"Мигел де Сервантес\", ГР.СОФИЯ",
@@ -4116,10 +4116,10 @@
       "gMat": 1
     },
     "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-    "cutoff_2025": 0.0,
+    "cutoff_2025": 467.0,
     "specialExam": false,
-    "cutoff_m": 0.0,
-    "cutoff_f": 0.0
+    "cutoff_m": null,
+    "cutoff_f": null
   },
   {
     "school": "164. гимназия с преподаване  на испански език \"Мигел де Сервантес\", ГР.СОФИЯ",
@@ -4133,10 +4133,10 @@
       "gMat": 1
     },
     "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-    "cutoff_2025": 0.0,
+    "cutoff_2025": 461.0,
     "specialExam": false,
-    "cutoff_m": 0.0,
-    "cutoff_f": 0.0
+    "cutoff_m": null,
+    "cutoff_f": null
   },
   {
     "school": "Първа английска езикова гимназия, ГР.СОФИЯ",
@@ -4150,10 +4150,10 @@
       "gMat": 1
     },
     "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-    "cutoff_2025": 0.0,
+    "cutoff_2025": 443.5,
     "specialExam": false,
-    "cutoff_m": 0.0,
-    "cutoff_f": 0.0
+    "cutoff_m": null,
+    "cutoff_f": null
   },
   {
     "school": "Първа английска езикова гимназия, ГР.СОФИЯ",
@@ -4218,10 +4218,10 @@
       "gMat": 1
     },
     "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-    "cutoff_2025": 0.0,
+    "cutoff_2025": 448.5,
     "specialExam": false,
-    "cutoff_m": 0.0,
-    "cutoff_f": 0.0
+    "cutoff_m": null,
+    "cutoff_f": null
   },
   {
     "school": "Софийска математическа гимназия  \"Паисий Хилендарски\", ГР.СОФИЯ",
@@ -4235,10 +4235,10 @@
       "gMat": 1
     },
     "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * БЕЛ + 1 * М)",
-    "cutoff_2025": 0.0,
+    "cutoff_2025": 490.5,
     "specialExam": false,
-    "cutoff_m": 0.0,
-    "cutoff_f": 0.0
+    "cutoff_m": null,
+    "cutoff_f": null
   },
   {
     "school": "Софийска математическа гимназия  \"Паисий Хилендарски\", ГР.СОФИЯ",
@@ -4269,10 +4269,10 @@
       "gMat": 1
     },
     "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * БЕЛ + 1 * М)",
-    "cutoff_2025": 0.0,
+    "cutoff_2025": 493.25,
     "specialExam": false,
-    "cutoff_m": 0.0,
-    "cutoff_f": 0.0
+    "cutoff_m": null,
+    "cutoff_f": null
   },
   {
     "school": "Софийска математическа гимназия  \"Паисий Хилендарски\", ГР.СОФИЯ",
@@ -6243,10 +6243,10 @@
       "gMat": 1
     },
     "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-    "cutoff_2025": 0.0,
+    "cutoff_2025": 463.5,
     "specialExam": false,
-    "cutoff_m": 0.0,
-    "cutoff_f": 0.0
+    "cutoff_m": null,
+    "cutoff_f": null
   },
   {
     "school": "73.СУ с преподаване на чужди езици  \"Владислав Граматик\", ГР.СОФИЯ",
