@@ -187,9 +187,9 @@
     <h3 style="margin-top:0;color:#fde68a;">📉 Корекция за 2026 г. — по-трудни изпити</h3>
     <div class="grid" style="grid-template-columns:1fr 1fr;max-width:500px;">
       <div>
-        <label>Очаквано понижение на минималния бал (%)</label>
-        <input type="number" id="cutoffAdj" min="0" max="30" step="0.5" placeholder="напр. 5" style="border-color:#854d0e;">
-        <div class="note">Ако НВО изпитите тази година са по-трудни, минималните балове ще паднат. Въведи прогнозния % спад (0 = без корекция). Сравнението ще използва намалените прагове.</div>
+        <label>Очаквано понижение на минималния бал (точки)</label>
+        <input type="number" id="cutoffAdj" min="0" max="100" step="0.5" placeholder="напр. 4" style="border-color:#854d0e;">
+        <div class="note">Ако НВО изпитите тази година са по-трудни, минималните балове ще паднат с определен брой точки (напр. МОН отчете среден спад от 4 точки на изпита по математика). Въведи прогнозния спад в точки (0 = без корекция) — ще се извади еднакво от всички паралелки.</div>
       </div>
     </div>
   </div>
@@ -318,7 +318,7 @@ function buildShareUrl(){
 
 function getCutoffAdj(){
   const v = parseFloat(document.getElementById('cutoffAdj').value);
-  return (isNaN(v) || v<=0) ? 0 : Math.min(v, 30);
+  return (isNaN(v) || v<=0) ? 0 : Math.min(v, 100);
 }
 
 function computeScore(terms){
@@ -385,7 +385,7 @@ function renderReco(rows){
   candidates.sort((a,b)=> b.effCutoff - a.effCutoff);
   const best = candidates[0];
   const isTop = top30Names.has(best.school);
-  const cutoffLabel = adj>0 ? `Очакван мин. бал 2026: ${best.effCutoff.toFixed(1)} т. (от ${best.rawCutoff} т. −${adj}%)` : `Минимален бал (${rm.label}, ${rm.date}): ${best.rawCutoff} т.`;
+  const cutoffLabel = adj>0 ? `Очакван мин. бал 2026: ${best.effCutoff.toFixed(1)} т. (от ${best.rawCutoff} т. −${adj} т.)` : `Минимален бал (${rm.label}, ${rm.date}): ${best.rawCutoff} т.`;
   box.innerHTML = `
     <div class="reco">
       <h3>🏆 Препоръка — най-силното училище, в което влизаш</h3>
@@ -424,7 +424,7 @@ function render(){
         baseCutoff = null;
       }
     }
-    const effCutoff = (baseCutoff !== null && baseCutoff !== undefined) ? baseCutoff * (1 - adj/100) : null;
+    const effCutoff = (baseCutoff !== null && baseCutoff !== undefined) ? baseCutoff - adj : null;
 
     if(s.specialExam || !s.terms || Object.keys(s.terms).length===0){
       return {...s, total:null, missing:[], status: notAdmittedForGender ? 'gender-no' : 'unknown', isTop30, effCutoff, rawCutoff, notAdmittedForGender};
@@ -443,7 +443,7 @@ function render(){
 
   // Update column header based on adjustment / selected ranking
   const cutoffHeader = document.getElementById('cutoffColHeader');
-  if(cutoffHeader) cutoffHeader.textContent = adj > 0 ? `Очакван мин. бал 2026 (−${adj}%)` : `Минимален бал — ${rm.label} (${rm.date})`;
+  if(cutoffHeader) cutoffHeader.textContent = adj > 0 ? `Очакван мин. бал 2026 (−${adj} т.)` : `Минимален бал — ${rm.label} (${rm.date})`;
 
   // Fixed order: highest minimum bal first (hardest/red at top) down to lowest (easiest/green at bottom)
   rows.sort((a,b)=> (b.rawCutoff??-1) - (a.rawCutoff??-1));
@@ -475,7 +475,7 @@ function render(){
       cutoffText = `0 <span style="color:#fbbf24;font-weight:400;font-size:.72em;">(незапълнена към ${rankingMeta[ranking].date})</span>`;
     } else if(r.effCutoff!==null && r.effCutoff!==undefined){
       cutoffText = r.effCutoff.toFixed(1);
-      if(adjPct>0) cutoffText += ` <span style="color:#fbbf24;font-size:.72em;">(${r.rawCutoff.toFixed(1)} −${adjPct}%)</span>`;
+      if(adjPct>0) cutoffText += ` <span style="color:#fbbf24;font-size:.72em;">(${r.rawCutoff.toFixed(1)} −${adjPct} т.)</span>`;
     } else {
       cutoffText = '—';
     }
