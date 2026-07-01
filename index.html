@@ -375,13 +375,13 @@ function renderReco(rows){
   const box = document.getElementById('recoBox');
   const adj = getCutoffAdj();
   const rm = rankingMeta[ranking];
-  const candidates = rows.filter(r=> r.status==='go' && !r.notAdmittedForGender && r.effCutoff!==null && r.effCutoff!==undefined);
+  const candidates = rows.filter(r=> r.status==='go' && !r.notAdmittedForGender && r.effCutoff!==null && r.effCutoff!==undefined && r.isTop30);
   if(candidates.length===0){
     box.innerHTML = `
       <div class="reco empty">
         <h3>Препоръка</h3>
-        <div class="school">Все още няма училище, в което със сигурност влизаш</div>
-        <div class="profile">Въведи всички резултати от НВО и оценки, за да видиш препоръка. Ако вече си ги въвела — балът засега не достига минимума за нито една паралелка с известни данни (${rm.label}).</div>
+        <div class="school">Все още няма ТОП 30 училище, в което със сигурност влизаш</div>
+        <div class="profile">Въведи всички резултати от НВО и оценки, за да видиш препоръка. Ако вече си ги въвела — балът засега не достига минимума за нито една паралелка от ТОП 30 с известни данни (${rm.label}). Провери пълната таблица долу — там влизаш в много други паралелки.</div>
       </div>`;
     return;
   }
@@ -413,7 +413,7 @@ function renderReco(rows){
 
   box.innerHTML = `
     <div class="reco">
-      <h3>🏆 Топ ${bestPerSchool.length} препоръки — най-силните училища, в които влизаш</h3>
+      <h3>🏆 Топ ${bestPerSchool.length} препоръки от ТОП 30 училищата, в които влизаш</h3>
       ${items}
     </div>`;
 }
