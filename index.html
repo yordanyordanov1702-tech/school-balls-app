@@ -385,7 +385,7 @@ function renderReco(rows){
       </div>`;
     return;
   }
-  candidates.sort((a,b)=> b.effCutoff - a.effCutoff);
+  candidates.sort((a,b)=> b.total - a.total);
 
   // Keep only the strongest qualifying profile per school, so the top 5 show 5 different schools.
   const TOP_N = 5;
@@ -468,8 +468,8 @@ function render(){
   const cutoffHeader = document.getElementById('cutoffColHeader');
   if(cutoffHeader) cutoffHeader.textContent = adj > 0 ? `Очакван мин. бал 2026 (−${adj} т.)` : `Минимален бал — ${rm.label} (${rm.date})`;
 
-  // Fixed order: highest minimum bal first (hardest/red at top) down to lowest (easiest/green at bottom)
-  rows.sort((a,b)=> (b.rawCutoff??-1) - (a.rawCutoff??-1));
+  // Order by the student's own bal for that parallel, highest first.
+  rows.sort((a,b)=> (b.total??-1) - (a.total??-1));
 
   const goCount  = rows.filter(r=>r.status==='go').length;
   const noCount  = rows.filter(r=>r.status==='no').length;
