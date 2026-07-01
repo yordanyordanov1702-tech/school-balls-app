@@ -387,17 +387,18 @@ function renderReco(rows){
   }
   candidates.sort((a,b)=> b.effCutoff - a.effCutoff);
 
-  // Keep only the strongest qualifying profile per school, so the top 3 show 3 different schools.
+  // Keep only the strongest qualifying profile per school, so the top 5 show 5 different schools.
+  const TOP_N = 5;
   const bestPerSchool = [];
   const seenSchools = new Set();
   for(const c of candidates){
     if(seenSchools.has(c.school)) continue;
     seenSchools.add(c.school);
     bestPerSchool.push(c);
-    if(bestPerSchool.length===3) break;
+    if(bestPerSchool.length===TOP_N) break;
   }
 
-  const medals = ['🥇','🥈','🥉'];
+  const medals = ['🥇','🥈','🥉','🏅','🏅'];
   const items = bestPerSchool.map((r,i)=>{
     const isTop = top30Names.has(r.school);
     const cutoffLabel = adj>0 ? `Очакван мин. бал 2026: ${r.effCutoff.toFixed(1)} т. (от ${r.rawCutoff} т. −${adj} т.)` : `Минимален бал (${rm.label}, ${rm.date}): ${r.rawCutoff} т.`;
