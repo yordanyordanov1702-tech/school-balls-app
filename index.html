@@ -141,6 +141,11 @@
   </div>
   <div class="sub" id="mainSub">Въведи резултатите от НВО и оценките от свидетелството — приложението изчислява бала за всяка от 387-те паралелки в София по нейната собствена формула за балообразуване и показва къде влиза (зелено) и къде не (червено). Топ 30-те най-силни училища (по бал за прием) са маркирани със златен етикет.</div>
 
+  <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:20px;">
+    <span style="color:var(--muted);font-size:.85rem;">Класиране:</span>
+    <div id="rankingGroup" style="display:flex;gap:6px;flex-wrap:wrap;"></div>
+  </div>
+
   <div class="card">
     <h3 style="margin-top:0">НВО резултати (0–100 точки)</h3>
     <div class="grid">
@@ -207,7 +212,7 @@
             <th style="width:36px">#</th>
             <th>Училище / профил</th>
             <th class="num">Твой бал</th>
-            <th class="num cutoff-col">Минимален бал 2025</th>
+            <th class="num cutoff-col" id="cutoffColHeader">Минимален бал 2025</th>
             <th class="num">Разлика</th>
             <th>Статус</th>
           </tr>
@@ -216,11 +221,12 @@
       </table>
     </div>
     <div class="disclaimer">
-      Данните за балообразуващите формули са от официалния списък на РУО София-град за учебната 2025/2026 г. (387 паралелки), а минималните балове са от финалното класиране към 06.08.2025 г.
+      Данните за балообразуващите формули са от официалния списък на РУО София-град за учебната 2025/2026 г. (387 паралелки). Минималните балове са от официалните справки на РУО София-град за трите класирания: 1-во (14.07.2025 г.), 2-ро (21.07.2025 г.) и финално/3-то (06.08.2025 г.) — превключи между тях с бутоните „Класиране“ по-горе.
       Балът за следващата учебна година може да е различен (формулите и план-приемът се определят наново всяка година).
       Конвертирането на оценки в точки е по приближена/линейно-интерполирана скала и е <b>ориентировъчно</b> — за точен резултат провери официалния калкулатор на МОН/РУО София-град преди да подадеш документи.
-      Паралелки с прием чрез приемен изпит (рисуване, музика, спорт) са маркирани като „Няма данни”, защото изпитният резултат не може да се изчисли автоматично. Бал 0 обикновено означава, че паралелката не е била запълнена/конкурентна през 2025 г. — но при няколко училища официалният финален файл (06.08.2025) е имал технически пропуск; коригирахме НПМГ, СМГ и ТУЕС с данни от 1-во класиране (14.07.2025 г., danybon.com) — тези стойности може да са малко по-високи от финалните. Ако виждаш бал 0 при иначе силно/търсено училище, провери допълнително в официалния сайт на РУО София-град.
-      „ТОП 30“ е класация на 30-те училища с най-висок минимален бал за прием през 2025 г. (по най-силната им паралелка) — приближение за престижност, не официална класация.
+      Паралелки с прием чрез приемен изпит (рисуване, музика, спорт) са маркирани като „Няма данни”, защото изпитният резултат не може да се изчисли автоматично. Липсващ бал за избраното класиране обикновено означава, че паралелката все още не е била запълнена към тази дата — провери и другите класирания или официалния сайт на РУО София-град.
+      Паралелки с прием по пол (квоти) показват отделен минимален бал за момчета и момичета според избраното класиране; ако за твоя пол няма бал, а за другия има — тази паралелка не приема твоя пол на съответното класиране.
+      „ТОП 30“ е класация на 30-те училища с най-висок минимален бал за прием (финално класиране, по най-силната им паралелка) — приближение за престижност, не официална класация.
     </div>
   </div>
 </div>
@@ -332,23 +338,54 @@ function computeScore(terms){
   return {total, missing};
 }
 
+// The three official RUO Sofia-grad rankings; each school entry carries one field set per round.
+const rankingMeta = {
+  r1:    {label:'1-во класиране',  short:'1-во',    date:'14.07.2025', cutoffKey:'cutoffR1', mKey:'cutoffR1M', fKey:'cutoffR1F'},
+  r2:    {label:'2-ро класиране',  short:'2-ро',    date:'21.07.2025', cutoffKey:'cutoffR2', mKey:'cutoffR2M', fKey:'cutoffR2F'},
+  final: {label:'Финално класиране', short:'Финално', date:'06.08.2025', cutoffKey:'cutoff',   mKey:'cutoffM',   fKey:'cutoffF'},
+};
+let ranking = localStorage.getItem('ranking') || 'final';
+if(!rankingMeta[ranking]) ranking = 'final';
+
+function setRanking(r){
+  ranking = r;
+  localStorage.setItem('ranking', r);
+  applyRanking();
+  render();
+}
+
+function applyRanking(){
+  const group = document.getElementById('rankingGroup');
+  group.innerHTML = '';
+  Object.keys(rankingMeta).forEach(key=>{
+    const meta = rankingMeta[key];
+    const btn = document.createElement('button');
+    const active = key === ranking;
+    btn.textContent = `${meta.short} (${meta.date})`;
+    btn.onclick = ()=> setRanking(key);
+    btn.style.cssText = `background:${active?'#3b82f6':'#1e293b'};border:1px solid #3b82f6;color:#fff;padding:5px 12px;border-radius:16px;font-size:.8rem;cursor:pointer;white-space:nowrap;font-weight:${active?'700':'400'};`;
+    group.appendChild(btn);
+  });
+}
+
 function renderReco(rows){
   const box = document.getElementById('recoBox');
   const adj = getCutoffAdj();
+  const rm = rankingMeta[ranking];
   const candidates = rows.filter(r=> r.status==='go' && !r.notAdmittedForGender && r.effCutoff!==null && r.effCutoff!==undefined);
   if(candidates.length===0){
     box.innerHTML = `
       <div class="reco empty">
         <h3>Препоръка</h3>
         <div class="school">Все още няма училище, в което със сигурност влизаш</div>
-        <div class="profile">Въведи всички резултати от НВО и оценки, за да видиш препоръка. Ако вече си ги въвела — балът засега не достига минимума за нито една паралелка с известни данни.</div>
+        <div class="profile">Въведи всички резултати от НВО и оценки, за да видиш препоръка. Ако вече си ги въвела — балът засега не достига минимума за нито една паралелка с известни данни (${rm.label}).</div>
       </div>`;
     return;
   }
   candidates.sort((a,b)=> b.effCutoff - a.effCutoff);
   const best = candidates[0];
   const isTop = top30Names.has(best.school);
-  const cutoffLabel = adj>0 ? `Очакван мин. бал 2026: ${best.effCutoff.toFixed(1)} т. (от ${best.cutoff} т. −${adj}%)` : `Минимален бал 2025: ${best.cutoff} т.`;
+  const cutoffLabel = adj>0 ? `Очакван мин. бал 2026: ${best.effCutoff.toFixed(1)} т. (от ${best.rawCutoff} т. −${adj}%)` : `Минимален бал (${rm.label}, ${rm.date}): ${best.rawCutoff} т.`;
   box.innerHTML = `
     <div class="reco">
       <h3>🏆 Препоръка — най-силното училище, в което влизаш</h3>
@@ -363,30 +400,22 @@ function render(){
   tbody.innerHTML = '';
   saveInputs();
 
+  const rm = rankingMeta[ranking];
+  const adj = getCutoffAdj();
+  const isF = gender === 'f';
+
   let rows = schools.map(s=>{
     const isTop30 = top30Names.has(s.school);
-    const adjPct0 = getCutoffAdj();
-    const isF0 = gender === 'f';
-    let base0 = s.cutoff, notAdm0 = false;
-    if(s.hasQuota){
-      const gC0 = isF0 ? s.cutoffF : s.cutoffM;
-      const oC0 = isF0 ? s.cutoffM : s.cutoffF;
-      if(gC0 !== null && gC0 !== undefined){ base0 = gC0; }
-      else if(oC0 !== null && oC0 !== undefined && oC0 > 0){ notAdm0 = true; base0 = null; }
-    }
-    const effC0 = base0 ? base0*(1-adjPct0/100) : null;
-    if(s.specialExam || !s.terms || Object.keys(s.terms).length===0){
-      return {...s, total:null, missing:[], status: notAdm0 ? 'gender-no' : 'unknown', isTop30, effCutoff:effC0, notAdmittedForGender:notAdm0};
-    }
-    const {total, missing} = computeScore(s.terms);
-    const adj = getCutoffAdj();
-    const isF = gender === 'f';
+    const rawCutoff = s[rm.cutoffKey];
+    const rawCutoffM = s[rm.mKey];
+    const rawCutoffF = s[rm.fKey];
+
     // Only apply gender-specific cutoff for quota parallels (hasQuota:true)
-    let baseCutoff = s.cutoff;
+    let baseCutoff = rawCutoff;
     let notAdmittedForGender = false;
     if(s.hasQuota){
-      const genderCutoff = isF ? s.cutoffF : s.cutoffM;
-      const otherCutoff  = isF ? s.cutoffM : s.cutoffF;
+      const genderCutoff = isF ? rawCutoffF : rawCutoffM;
+      const otherCutoff  = isF ? rawCutoffM : rawCutoffF;
       if(genderCutoff !== null && genderCutoff !== undefined){
         baseCutoff = genderCutoff;
       } else if(otherCutoff !== null && otherCutoff !== undefined && otherCutoff > 0){
@@ -396,24 +425,28 @@ function render(){
       }
     }
     const effCutoff = (baseCutoff !== null && baseCutoff !== undefined) ? baseCutoff * (1 - adj/100) : null;
+
+    if(s.specialExam || !s.terms || Object.keys(s.terms).length===0){
+      return {...s, total:null, missing:[], status: notAdmittedForGender ? 'gender-no' : 'unknown', isTop30, effCutoff, rawCutoff, notAdmittedForGender};
+    }
+    const {total, missing} = computeScore(s.terms);
     let status = 'unknown';
     if(notAdmittedForGender){
       status = 'gender-no';
     } else if(missing.length===0 && effCutoff!==null){
       status = total >= effCutoff ? 'go' : 'no';
     }
-    return {...s, total, missing, status, isTop30, effCutoff, notAdmittedForGender};
+    return {...s, total, missing, status, isTop30, effCutoff, rawCutoff, notAdmittedForGender};
   });
 
   renderReco(rows);
 
-  // Update column header based on adjustment
-  const adj = getCutoffAdj();
-  const cutoffHeader = document.querySelector('thead th.cutoff-col');
-  if(cutoffHeader) cutoffHeader.textContent = adj > 0 ? `Очакван мин. бал 2026 (−${adj}%)` : 'Минимален бал 2025';
+  // Update column header based on adjustment / selected ranking
+  const cutoffHeader = document.getElementById('cutoffColHeader');
+  if(cutoffHeader) cutoffHeader.textContent = adj > 0 ? `Очакван мин. бал 2026 (−${adj}%)` : `Минимален бал — ${rm.label} (${rm.date})`;
 
   // Fixed order: highest minimum bal first (hardest/red at top) down to lowest (easiest/green at bottom)
-  rows.sort((a,b)=> (b.cutoff??-1) - (a.cutoff??-1));
+  rows.sort((a,b)=> (b.rawCutoff??-1) - (a.rawCutoff??-1));
 
   const goCount  = rows.filter(r=>r.status==='go').length;
   const noCount  = rows.filter(r=>r.status==='no').length;
@@ -436,11 +469,13 @@ function render(){
     const topBadge = r.isTop30 ? '<span class="top30">ТОП 30</span>' : '';
     const adjPct = getCutoffAdj();
     let cutoffText;
-    if(r.cutoff===0){
-      cutoffText = '0 <span style="color:#fbbf24;font-weight:400;font-size:.72em;">(незапълнена 2025)</span>';
-    } else if(r.cutoff!==null && r.cutoff!==undefined){
+    if(r.notAdmittedForGender){
+      cutoffText = '—';
+    } else if(r.rawCutoff===0){
+      cutoffText = `0 <span style="color:#fbbf24;font-weight:400;font-size:.72em;">(незапълнена към ${rankingMeta[ranking].date})</span>`;
+    } else if(r.effCutoff!==null && r.effCutoff!==undefined){
       cutoffText = r.effCutoff.toFixed(1);
-      if(adjPct>0) cutoffText += ` <span style="color:#fbbf24;font-size:.72em;">(${r.cutoff.toFixed(1)} −${adjPct}%)</span>`;
+      if(adjPct>0) cutoffText += ` <span style="color:#fbbf24;font-size:.72em;">(${r.rawCutoff.toFixed(1)} −${adjPct}%)</span>`;
     } else {
       cutoffText = '—';
     }
@@ -460,7 +495,7 @@ function render(){
         ${missingHtml}
       </td>
       <td class="num" data-label="Твой бал">${scoreText}</td>
-      <td class="num" data-label="Минимален бал 2025">${cutoffText}</td>
+      <td class="num" data-label="${document.getElementById('cutoffColHeader').textContent}">${cutoffText}</td>
       <td class="num" data-label="Разлика">${diffText}</td>
       <td data-label="Статус">${badge}</td>
     `;
@@ -525,9 +560,11 @@ function toggleGender(){
   gender = gender==='f' ? 'm' : 'f';
   localStorage.setItem('gender', gender);
   applyGender();
+  render();
 }
 
 applyGender();
+applyRanking();
 loadInputs();
 render();
 </script>
