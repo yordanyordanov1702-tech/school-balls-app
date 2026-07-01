@@ -367,28 +367,35 @@ function render(){
     const isTop30 = top30Names.has(s.school);
     const adjPct0 = getCutoffAdj();
     const isF0 = gender === 'f';
-    const gC0 = isF0 ? s.cutoffF : s.cutoffM;
-    const oC0 = isF0 ? s.cutoffM : s.cutoffF;
-    const notAdm0 = (gC0===null||gC0===undefined) && (oC0!==null&&oC0!==undefined&&oC0>0);
-    const base0 = (gC0!==null&&gC0!==undefined) ? gC0 : (s.cutoff||null);
+    let base0 = s.cutoff, notAdm0 = false;
+    if(s.hasQuota){
+      const gC0 = isF0 ? s.cutoffF : s.cutoffM;
+      const oC0 = isF0 ? s.cutoffM : s.cutoffF;
+      if(gC0 !== null && gC0 !== undefined){ base0 = gC0; }
+      else if(oC0 !== null && oC0 !== undefined && oC0 > 0){ notAdm0 = true; base0 = null; }
+    }
     const effC0 = base0 ? base0*(1-adjPct0/100) : null;
     if(s.specialExam || !s.terms || Object.keys(s.terms).length===0){
       return {...s, total:null, missing:[], status: notAdm0 ? 'gender-no' : 'unknown', isTop30, effCutoff:effC0, notAdmittedForGender:notAdm0};
     }
     const {total, missing} = computeScore(s.terms);
     const adj = getCutoffAdj();
-    // Pick gender-specific cutoff
     const isF = gender === 'f';
-    const genderCutoff = isF ? s.cutoffF : s.cutoffM;
-    const otherCutoff  = isF ? s.cutoffM : s.cutoffF;
-    // baseCutoff: gender-specific if available, else total
-    const baseCutoff = (genderCutoff !== null && genderCutoff !== undefined)
-      ? genderCutoff
-      : (s.cutoff !== null && s.cutoff !== undefined ? s.cutoff : null);
-    const effCutoff = (baseCutoff !== null) ? baseCutoff * (1 - adj/100) : null;
-    // If gender-specific cutoff is null but the OTHER gender has one → not admitted
-    const notAdmittedForGender = (genderCutoff === null || genderCutoff === undefined)
-      && (otherCutoff !== null && otherCutoff !== undefined && otherCutoff > 0);
+    // Only apply gender-specific cutoff for quota parallels (hasQuota:true)
+    let baseCutoff = s.cutoff;
+    let notAdmittedForGender = false;
+    if(s.hasQuota){
+      const genderCutoff = isF ? s.cutoffF : s.cutoffM;
+      const otherCutoff  = isF ? s.cutoffM : s.cutoffF;
+      if(genderCutoff !== null && genderCutoff !== undefined){
+        baseCutoff = genderCutoff;
+      } else if(otherCutoff !== null && otherCutoff !== undefined && otherCutoff > 0){
+        // This gender has no quota spot → not admitted
+        notAdmittedForGender = true;
+        baseCutoff = null;
+      }
+    }
+    const effCutoff = (baseCutoff !== null && baseCutoff !== undefined) ? baseCutoff * (1 - adj/100) : null;
     let status = 'unknown';
     if(notAdmittedForGender){
       status = 'gender-no';
