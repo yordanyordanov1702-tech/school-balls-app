@@ -385,7 +385,8 @@ function renderReco(rows){
       </div>`;
     return;
   }
-  candidates.sort((a,b)=> b.total - a.total);
+  // Rank by school strength (highest cutoff first) so the recommendation pushes for the best TOP 30 school you qualify for.
+  candidates.sort((a,b)=> b.rawCutoff - a.rawCutoff);
 
   // Keep only the strongest qualifying profile per school, so the top 5 show 5 different schools.
   const TOP_N = 5;
