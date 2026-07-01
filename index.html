@@ -73,6 +73,9 @@
   .badge.no{background:var(--red);color:#fff;}
   .badge.unknown{background:var(--gray);color:#fff;}
   .missing{color:#fbbf24;font-size:.76rem;margin-top:2px;}
+  tbody tr.gender-no{background:#1c0e2a;}
+  tbody tr.gender-no:hover{background:#261040;}
+  .badge.gender-no{background:#7c3aed;color:#fff;}
   .rank{color:var(--muted);text-align:center;}
   .formula-toggle{color:var(--accent);font-size:.76rem;margin-top:3px;cursor:pointer;}
   .formula-toggle:hover{text-decoration:underline;}
@@ -192,6 +195,7 @@
     <div class="legend">
       <span><span class="dot go"></span>Влизаш</span>
       <span><span class="dot no"></span>Не влизаш</span>
+      <span><span class="dot" style="background:#7c3aed"></span>Не приема този пол</span>
       <span><span class="dot unknown"></span>Липсват данни</span>
       <span><span class="top30">ТОП 30</span> сред най-силните училища в София</span>
     </div>
@@ -331,7 +335,7 @@ function computeScore(terms){
 function renderReco(rows){
   const box = document.getElementById('recoBox');
   const adj = getCutoffAdj();
-  const candidates = rows.filter(r=> r.status==='go' && r.effCutoff!==null && r.effCutoff!==undefined);
+  const candidates = rows.filter(r=> r.status==='go' && !r.notAdmittedForGender && r.effCutoff!==null && r.effCutoff!==undefined);
   if(candidates.length===0){
     box.innerHTML = `
       <div class="reco empty">
@@ -362,18 +366,36 @@ function render(){
   let rows = schools.map(s=>{
     const isTop30 = top30Names.has(s.school);
     const adjPct0 = getCutoffAdj();
-    const effC0 = (s.cutoff!==null && s.cutoff!==undefined) ? s.cutoff*(1-adjPct0/100) : s.cutoff;
+    const isF0 = gender === 'f';
+    const gC0 = isF0 ? s.cutoffF : s.cutoffM;
+    const oC0 = isF0 ? s.cutoffM : s.cutoffF;
+    const notAdm0 = (gC0===null||gC0===undefined) && (oC0!==null&&oC0!==undefined&&oC0>0);
+    const base0 = (gC0!==null&&gC0!==undefined) ? gC0 : (s.cutoff||null);
+    const effC0 = base0 ? base0*(1-adjPct0/100) : null;
     if(s.specialExam || !s.terms || Object.keys(s.terms).length===0){
-      return {...s, total:null, missing:[], status:'unknown', isTop30, effCutoff:effC0};
+      return {...s, total:null, missing:[], status: notAdm0 ? 'gender-no' : 'unknown', isTop30, effCutoff:effC0, notAdmittedForGender:notAdm0};
     }
     const {total, missing} = computeScore(s.terms);
     const adj = getCutoffAdj();
-    const effCutoff = (s.cutoff!==null && s.cutoff!==undefined) ? s.cutoff * (1 - adj/100) : s.cutoff;
+    // Pick gender-specific cutoff
+    const isF = gender === 'f';
+    const genderCutoff = isF ? s.cutoffF : s.cutoffM;
+    const otherCutoff  = isF ? s.cutoffM : s.cutoffF;
+    // baseCutoff: gender-specific if available, else total
+    const baseCutoff = (genderCutoff !== null && genderCutoff !== undefined)
+      ? genderCutoff
+      : (s.cutoff !== null && s.cutoff !== undefined ? s.cutoff : null);
+    const effCutoff = (baseCutoff !== null) ? baseCutoff * (1 - adj/100) : null;
+    // If gender-specific cutoff is null but the OTHER gender has one → not admitted
+    const notAdmittedForGender = (genderCutoff === null || genderCutoff === undefined)
+      && (otherCutoff !== null && otherCutoff !== undefined && otherCutoff > 0);
     let status = 'unknown';
-    if(missing.length===0 && effCutoff!==null && effCutoff!==undefined){
+    if(notAdmittedForGender){
+      status = 'gender-no';
+    } else if(missing.length===0 && effCutoff!==null){
       status = total >= effCutoff ? 'go' : 'no';
     }
-    return {...s, total, missing, status, isTop30, effCutoff};
+    return {...s, total, missing, status, isTop30, effCutoff, notAdmittedForGender};
   });
 
   renderReco(rows);
@@ -386,18 +408,22 @@ function render(){
   // Fixed order: highest minimum bal first (hardest/red at top) down to lowest (easiest/green at bottom)
   rows.sort((a,b)=> (b.cutoff??-1) - (a.cutoff??-1));
 
-  const goCount = rows.filter(r=>r.status==='go').length;
-  const noCount = rows.filter(r=>r.status==='no').length;
+  const goCount  = rows.filter(r=>r.status==='go').length;
+  const noCount  = rows.filter(r=>r.status==='no').length;
+  const gnCount  = rows.filter(r=>r.status==='gender-no').length;
   const unkCount = rows.filter(r=>r.status==='unknown').length;
+  const gLabel   = gender==='f' ? 'момичета' : 'момчета';
   document.getElementById('summary').textContent =
-    `Влизаш в ${goCount} от ${rows.length} паралелки · не влизаш в ${noCount} · липсват данни за ${unkCount}`;
+    `Влизаш в ${goCount} от ${rows.length} паралелки · не влизаш в ${noCount} · не приемат ${gLabel}: ${gnCount} · липсват данни: ${unkCount}`;
 
   const frag = document.createDocumentFragment();
   rows.forEach((r,i)=>{
     const tr = document.createElement('tr');
     tr.className = r.status;
-    const badge = r.status==='go' ? '<span class="badge go">ВЛИЗАШ</span>'
-                : r.status==='no' ? '<span class="badge no">НЕ ВЛИЗАШ</span>'
+    const genderLabel = gender==='f' ? 'момичета' : 'момчета';
+    const badge = r.status==='go'        ? '<span class="badge go">ВЛИЗАШ</span>'
+                : r.status==='no'        ? '<span class="badge no">НЕ ВЛИЗАШ</span>'
+                : r.status==='gender-no' ? `<span class="badge gender-no">НЕ ПРИЕМА ${genderLabel.toUpperCase()}</span>`
                 : '<span class="badge unknown">НЯМА ДАННИ</span>';
     const missingHtml = r.missing && r.missing.length ? `<div class="missing">Липсва: ${r.missing.join(', ')}</div>` : '';
     const topBadge = r.isTop30 ? '<span class="top30">ТОП 30</span>' : '';
