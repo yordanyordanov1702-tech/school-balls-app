@@ -11,7 +11,7 @@
    "gChemistry": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 74,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -21,7 +21,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 0,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r1"
  },
  {
   "school": "78. Средно училище  \"Христо Смирненски\", ГР.БАНКЯ",
@@ -83,7 +84,7 @@
    "gChemistry": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 82,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -93,7 +94,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 0,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r1"
  },
  {
   "school": "Професионална гимназия  по туризъм \"Алеко Константинов\", ГР.БАНКЯ",
@@ -107,7 +109,7 @@
    "gChemistry": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 125,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -117,7 +119,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 125,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "2 Средно училище \"Академик Емилиян Станев \", ГР.СОФИЯ",
@@ -131,7 +134,7 @@
    "gForeign": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 385.75,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -141,7 +144,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 385.75,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "2 Средно училище \"Академик Емилиян Станев \", ГР.СОФИЯ",
@@ -155,7 +159,7 @@
    "gForeign": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 376.75,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -165,7 +169,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 376.75,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "2 Средно училище \"Академик Емилиян Станев \", ГР.СОФИЯ",
@@ -299,7 +304,7 @@
    "gChemistry": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 161,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -309,7 +314,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 161,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "Професионална гимназия по екология и  биотехнологии \"Проф. д-р Асен Златаров\", ГР.СОФИЯ",
@@ -636,7 +642,7 @@
    "gForeign": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 387,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -646,7 +652,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 387,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "30 СРЕДНО УЧИЛИЩЕ \"БРАТЯ МИЛАДИНОВИ\", ГР.СОФИЯ",
@@ -660,7 +667,7 @@
    "gForeign": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 365,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -670,7 +677,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 365,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "30 СРЕДНО УЧИЛИЩЕ \"БРАТЯ МИЛАДИНОВИ\", ГР.СОФИЯ",
@@ -684,7 +692,7 @@
    "gForeign": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 356,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -694,7 +702,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 356,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "32. СРЕДНО УЧИЛИЩЕ С ИЗУЧАВАНЕ НА ЧУЖДИ  ЕЗИЦИ \"СВЕТИ КЛИМЕНТ ОХРИДСКИ\", ГР.СОФИЯ",
@@ -756,7 +765,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 411.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -766,7 +775,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 411.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "32. СРЕДНО УЧИЛИЩЕ С ИЗУЧАВАНЕ НА ЧУЖДИ  ЕЗИЦИ \"СВЕТИ КЛИМЕНТ ОХРИДСКИ\", ГР.СОФИЯ",
@@ -804,7 +814,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 418,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -814,7 +824,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 418,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "32. СРЕДНО УЧИЛИЩЕ С ИЗУЧАВАНЕ НА ЧУЖДИ  ЕЗИЦИ \"СВЕТИ КЛИМЕНТ ОХРИДСКИ\", ГР.СОФИЯ",
@@ -828,7 +839,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 429.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -838,7 +849,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 429.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "91.НЕМСКА ЕЗИКОВА ГИМНАЗИЯ Професор Константин Гълъбов\", ГР.СОФИЯ",
@@ -900,7 +912,7 @@
    "gChemistry": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 362.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -910,7 +922,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 362.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "134. средно училище  \"Димчо Дебелянов\", ГР.СОФИЯ",
@@ -924,7 +937,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 348,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -934,7 +947,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 348,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "НАЦИОНАЛНА ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ПРЕЦИЗНА ТЕХНИКА И ОПТИКА \"М. В. Ломоносов\", ГР.СОФИЯ",
@@ -972,7 +986,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 306.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -982,7 +996,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 306.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "НАЦИОНАЛНА ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ПРЕЦИЗНА ТЕХНИКА И ОПТИКА \"М. В. Ломоносов\", ГР.СОФИЯ",
@@ -996,7 +1011,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 325.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -1006,7 +1021,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 325.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "НАЦИОНАЛНА ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ПРЕЦИЗНА ТЕХНИКА И ОПТИКА \"М. В. Ломоносов\", ГР.СОФИЯ",
@@ -1092,7 +1108,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 384.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -1102,7 +1118,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 384.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТЕКСТИЛНИ И КОЖЕНИ ИЗДЕЛИЯ, ГР.СОФИЯ",
@@ -1284,7 +1301,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 149,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -1294,7 +1311,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 149,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "105. СРЕДНО УЧИЛИЩЕ  \"АТАНАС ДАЛЧЕВ\", ГР.СОФИЯ",
@@ -1332,17 +1350,18 @@
    "gForeign": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 357,
   "specialExam": false,
-  "cutoff_m": null,
-  "cutoff_f": null,
+  "cutoff_m": 357,
+  "cutoff_f": 378,
   "hasQuota": true,
   "cutoff_r1": 371,
   "cutoff_r1_m": 371,
   "cutoff_r1_f": 393.5,
   "cutoff_r2": 357,
   "cutoff_r2_m": 357,
-  "cutoff_r2_f": 378
+  "cutoff_r2_f": 378,
+  "cutoff_source": "r2"
  },
  {
   "school": "105. СРЕДНО УЧИЛИЩЕ  \"АТАНАС ДАЛЧЕВ\", ГР.СОФИЯ",
@@ -1404,7 +1423,7 @@
    "gChemistry": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 364.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -1414,7 +1433,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 364.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "119 Средно училище \"Академик Михаил Арнаудов\", ГР.СОФИЯ",
@@ -1428,7 +1448,7 @@
    "gForeign": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 375.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -1438,7 +1458,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 375.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "119 Средно училище \"Академик Михаил Арнаудов\", ГР.СОФИЯ",
@@ -1452,7 +1473,7 @@
    "gForeign": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 366.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -1462,7 +1483,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 366.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "СОФИЙСКА ПРОФЕСИОНАЛНА  ГИМНАЗИЯ по ЕЛЕКТРОНИКА \"Джон Атанасов\", ГР.СОФИЯ",
@@ -1548,7 +1570,7 @@
    "gPhysics": 1
   },
   "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 412.75,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -1558,7 +1580,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 412.75,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "СОФИЙСКА ПРОФЕСИОНАЛНА  ГИМНАЗИЯ по ЕЛЕКТРОНИКА \"Джон Атанасов\", ГР.СОФИЯ",
@@ -1572,7 +1595,7 @@
    "gPhysics": 1
   },
   "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 395,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -1582,7 +1605,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 395,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "СОФИЙСКА ПРОФЕСИОНАЛНА  ГИМНАЗИЯ по ЕЛЕКТРОНИКА \"Джон Атанасов\", ГР.СОФИЯ",
@@ -1596,7 +1620,7 @@
    "gPhysics": 1
   },
   "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 434.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -1606,7 +1630,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 434.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "Софийска професионална гимназия  \"Княгиня Евдокия\", ГР.СОФИЯ",
@@ -1619,7 +1644,7 @@
    "gForeign": 2
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИЦ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 306,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -1629,7 +1654,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 306,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "Софийска професионална гимназия  \"Княгиня Евдокия\", ГР.СОФИЯ",
@@ -1643,7 +1669,7 @@
    "gForeign": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 246.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -1653,7 +1679,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 246.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "Софийска професионална гимназия  \"Княгиня Евдокия\", ГР.СОФИЯ",
@@ -1691,7 +1718,7 @@
    "gArt": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЗО + 1 * ИИ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 290.75,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -1701,7 +1728,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 290.75,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "Софийска професионална гимназия  \"Княгиня Евдокия\", ГР.СОФИЯ",
@@ -1763,7 +1791,7 @@
    "gForeign": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ГИ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 270.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -1773,7 +1801,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 270.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "Софийска професионална гимназия  \"Княгиня Евдокия\", ГР.СОФИЯ",
@@ -1787,7 +1816,7 @@
    "gIT": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 330,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -1797,7 +1826,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 330,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "Софийска професионална гимназия  \"Княгиня Евдокия\", ГР.СОФИЯ",
@@ -1811,7 +1841,7 @@
    "gIT": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 319.75,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -1821,7 +1851,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 319.75,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "Софийска професионална гимназия  \"Княгиня Евдокия\", ГР.СОФИЯ",
@@ -1835,7 +1866,7 @@
    "gIT": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 303.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -1845,7 +1876,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 303.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "3. СУ  \"Марин Дринов\", ГР.СОФИЯ",
@@ -1883,7 +1915,7 @@
    "gIT": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 321.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -1893,7 +1925,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 321.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "113 СУ \"САВА ФИЛАРЕТОВ\", ГР.СОФИЯ",
@@ -1931,7 +1964,7 @@
    "gTech": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * ТП)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 48,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -1941,7 +1974,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 0,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r1"
  },
  {
   "school": "33. Езикова гимназия  \"Света София\", ГР.СОФИЯ",
@@ -2099,7 +2133,7 @@
    "gIT": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ФА + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 168,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -2109,7 +2143,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 168,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "Професионална гимназия по транспорт и енергетика \"Хенри Форд\", ГР.СОФИЯ",
@@ -2123,7 +2158,7 @@
    "gIT": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ФА + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 96,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -2133,7 +2168,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 0,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r1"
  },
  {
   "school": "Професионална гимназия по транспорт и енергетика \"Хенри Форд\", ГР.СОФИЯ",
@@ -2147,7 +2183,7 @@
    "gIT": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ФА + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 179,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -2157,7 +2193,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 0,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r1"
  },
  {
   "school": "Професионална гимназия по транспорт и енергетика \"Хенри Форд\", ГР.СОФИЯ",
@@ -2195,7 +2232,7 @@
    "gIT": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ФА + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 158,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -2205,7 +2242,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 158,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "Професионална гимназия по транспорт и енергетика \"Хенри Форд\", ГР.СОФИЯ",
@@ -2243,7 +2281,7 @@
    "gIT": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ФА + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 242.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -2253,7 +2291,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 242.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "Професионална гимназия по транспорт и енергетика \"Хенри Форд\", ГР.СОФИЯ",
@@ -2267,7 +2306,7 @@
    "gIT": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ФА + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 187,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -2277,7 +2316,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 187,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "Професионална гимназия по транспорт и енергетика \"Хенри Форд\", ГР.СОФИЯ",
@@ -2315,7 +2355,7 @@
    "gIT": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ФА + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 218.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -2325,7 +2365,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 218.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "Професионална гимназия по транспорт и енергетика \"Хенри Форд\", ГР.СОФИЯ",
@@ -2435,7 +2476,7 @@
    "gIT": 1
   },
   "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 237,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -2445,7 +2486,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 237,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ ПО ВИСОКИ ТЕХНОЛОГИИ \"А. С. ПОПОВ\", ГР.СОФИЯ",
@@ -2483,7 +2525,7 @@
    "gIT": 1
   },
   "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 199.25,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -2493,7 +2535,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 199.25,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "Професионална гимназия по хранително-вкусови технологии \"Проф. д-р Георги Павлов\", ГР.СОФИЯ",
@@ -2579,7 +2622,7 @@
    "gForeign": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 167,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -2589,7 +2632,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 167,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "68. Средно училище \"Академик Никола Обрешков\", ГР.СОФИЯ",
@@ -2627,7 +2671,7 @@
    "gForeign": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 164,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -2637,7 +2681,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 164,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "69 Средно  училище \"Димитър Маринов\", ГР.СОФИЯ",
@@ -2675,7 +2720,7 @@
    "gIT": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ГИ + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 265,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -2685,7 +2730,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 265,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "108 Средно училище  \"Никола Беловеждов\", ГР.СОФИЯ",
@@ -2699,7 +2745,7 @@
    "gIT": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ГИ + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 231,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -2709,7 +2755,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 231,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТРАНСПОРТ, ГР.СОФИЯ",
@@ -2771,7 +2818,7 @@
    "gTech": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ТП)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 161.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -2781,7 +2828,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 161.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТРАНСПОРТ, ГР.СОФИЯ",
@@ -2916,7 +2964,7 @@
    "gIT": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 54,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -2926,7 +2974,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 0,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r1"
  },
  {
   "school": "123 Средно училищe \"Стефан Стамболов\", ГР.СОФИЯ",
@@ -2964,7 +3013,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 96,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -2974,7 +3023,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 96,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "Софийска гимназия  по хлебни   и сладкарски технологии, ГР.СОФИЯ",
@@ -3012,7 +3062,7 @@
    "gArt": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ИИ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 196.75,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -3022,7 +3072,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 196.75,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "Софийска гимназия  по хлебни   и сладкарски технологии, ГР.СОФИЯ",
@@ -3060,7 +3111,7 @@
    "gIT": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 342,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -3070,7 +3121,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 342,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "19 СРЕДНО УЧИЛИЩЕ  \"ЕЛИН ПЕЛИН\", ГР.СОФИЯ",
@@ -3084,7 +3136,7 @@
    "gIT": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 336.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -3094,7 +3146,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 336.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "19 СРЕДНО УЧИЛИЩЕ  \"ЕЛИН ПЕЛИН\", ГР.СОФИЯ",
@@ -3132,7 +3185,7 @@
    "gForeign": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ГИ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 328.75,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -3142,7 +3195,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 328.75,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "36 Средно училище  \"Максим Горки\", ГР.СОФИЯ",
@@ -3156,7 +3210,7 @@
    "gChemistry": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 296,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -3166,7 +3220,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 296,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "51 СРЕДНО УЧИЛИЩЕ \"ЕЛИСАВЕТА БАГРЯНА\", ГР.СОФИЯ",
@@ -3180,7 +3235,7 @@
    "gIT": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ИИ + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 429,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -3190,7 +3245,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 429,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "51 СРЕДНО УЧИЛИЩЕ \"ЕЛИСАВЕТА БАГРЯНА\", ГР.СОФИЯ",
@@ -3204,7 +3260,7 @@
    "gArt": 1
   },
   "formula_raw": "(1 * БЕЛ + 1 * МАТ + 2 * ИИ) + (1 * БЕЛ + 1 * ИИ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 437,
   "specialExam": true,
   "note": "Изпит за изобразителни способности (рисуване) вместо/в допълнение към НВО по математика",
   "cutoff_m": null,
@@ -3215,7 +3271,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 437,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "51 СРЕДНО УЧИЛИЩЕ \"ЕЛИСАВЕТА БАГРЯНА\", ГР.СОФИЯ",
@@ -3229,7 +3286,7 @@
    "gIT": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ИИ + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 441,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -3239,7 +3296,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 441,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "132. Средно училище  \"Ваня Войнова\", ГР.СОФИЯ",
@@ -3326,7 +3384,7 @@
    "gForeign": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 340,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -3336,7 +3394,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 340,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "203 Профилирана езикова гимназия \"Свети Методий\", ГР.СОФИЯ",
@@ -3470,7 +3529,7 @@
    "gForeign": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 305,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -3480,7 +3539,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 305,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "162 Обединено училище \"Отец Паисий\", ГР.СОФИЯ",
@@ -3518,7 +3578,7 @@
    "gArt": 1
   },
   "formula_raw": "(1 * БЕЛ + 1 * МАТ + 2 * ИИ) + (1 * БЕЛ + 1 * ИИ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 110,
   "specialExam": true,
   "note": "Изпит за изобразителни способности (рисуване) вместо/в допълнение към НВО по математика",
   "cutoff_m": null,
@@ -3529,7 +3589,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 0,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r1"
  },
  {
   "school": "21 СРЕДНО УЧИЛИЩЕ \"ХРИСТО БОТЕВ\", ГР.СОФИЯ",
@@ -3687,17 +3748,18 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 416,
   "specialExam": false,
-  "cutoff_m": null,
-  "cutoff_f": null,
+  "cutoff_m": 416,
+  "cutoff_f": 436,
   "hasQuota": true,
   "cutoff_r1": 420.5,
   "cutoff_r1_m": 420.5,
   "cutoff_r1_f": 450,
   "cutoff_r2": 416,
   "cutoff_r2_m": 416,
-  "cutoff_r2_f": 436
+  "cutoff_r2_f": 436,
+  "cutoff_source": "r2"
  },
  {
   "school": "Национална природо-математическа  гимназия \"Академик Любомир Чакалов\", ГР.СОФИЯ",
@@ -3839,7 +3901,7 @@
    "gChemistry": 1
   },
   "formula_raw": "(1 * БЕЛ + 1 * МАТ + 1 * НПМГ, Х + 1 * НПМГ, Б) + (1 * БЗО + 1 * ХООС)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 427.71,
   "specialExam": true,
   "note": "unrecognized NVO term: НПМГ,; unrecognized NVO term: НПМГ,",
   "cutoff_m": null,
@@ -3850,7 +3912,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 427.71,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "Професионална гимназия по облекло  \"Княгиня Мария Луиза\", ГР.СОФИЯ",
@@ -3888,7 +3951,7 @@
    "gIT": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 321.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -3898,7 +3961,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 321.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "Професионална гимназия по облекло  \"Княгиня Мария Луиза\", ГР.СОФИЯ",
@@ -3912,7 +3976,7 @@
    "gIT": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 282.25,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -3922,7 +3986,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 282.25,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "Професионална гимназия по облекло  \"Княгиня Мария Луиза\", ГР.СОФИЯ",
@@ -3960,7 +4025,7 @@
    "gIT": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 315.75,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -3970,7 +4035,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 315.75,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "СОФИЙСКА ГИМНАЗИЯ ПО СТРОИТЕЛСТВО, АРХИТЕКТУРА И ГЕОДЕЗИЯ  \"ХРИСТО БОТЕВ\", ГР.СОФИЯ",
@@ -3984,7 +4050,7 @@
    "gArt": 1
   },
   "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * ФА + 1 * ИИ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 461.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -3994,7 +4060,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 461.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "СОФИЙСКА ГИМНАЗИЯ ПО СТРОИТЕЛСТВО, АРХИТЕКТУРА И ГЕОДЕЗИЯ  \"ХРИСТО БОТЕВ\", ГР.СОФИЯ",
@@ -4008,7 +4075,7 @@
    "gArt": 1
   },
   "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * ФА + 1 * ИИ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 413.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -4018,7 +4085,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 413.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "СОФИЙСКА ГИМНАЗИЯ ПО СТРОИТЕЛСТВО, АРХИТЕКТУРА И ГЕОДЕЗИЯ  \"ХРИСТО БОТЕВ\", ГР.СОФИЯ",
@@ -4032,7 +4100,7 @@
    "gArt": 1
   },
   "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * ФА + 1 * ИИ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 406.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -4042,7 +4110,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 406.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "СОФИЙСКА ГИМНАЗИЯ ПО СТРОИТЕЛСТВО, АРХИТЕКТУРА И ГЕОДЕЗИЯ  \"ХРИСТО БОТЕВ\", ГР.СОФИЯ",
@@ -4056,7 +4125,7 @@
    "gArt": 1
   },
   "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * ФА + 1 * ИИ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 432.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -4066,7 +4135,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 432.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "СОФИЙСКА ГИМНАЗИЯ ПО СТРОИТЕЛСТВО, АРХИТЕКТУРА И ГЕОДЕЗИЯ  \"ХРИСТО БОТЕВ\", ГР.СОФИЯ",
@@ -4104,7 +4174,7 @@
    "gGeography": 1
   },
   "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * БЕЛ + 1 * ГИ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 377.75,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -4114,7 +4184,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 377.75,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "СОФИЙСКА ГИМНАЗИЯ ПО СТРОИТЕЛСТВО, АРХИТЕКТУРА И ГЕОДЕЗИЯ  \"ХРИСТО БОТЕВ\", ГР.СОФИЯ",
@@ -4128,7 +4199,7 @@
    "gArt": 1
   },
   "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * ФА + 1 * ИИ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 452,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -4138,7 +4209,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 452,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "НАЦИОНАЛНА ФИНАНСОВО-СТОПАНСКА ГИМНАЗИЯ, ГР.СОФИЯ",
@@ -4152,7 +4224,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 388,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -4162,7 +4234,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 388,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "НАЦИОНАЛНА ФИНАНСОВО-СТОПАНСКА ГИМНАЗИЯ, ГР.СОФИЯ",
@@ -4200,7 +4273,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 388.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -4210,7 +4283,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 388.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "НАЦИОНАЛНА ФИНАНСОВО-СТОПАНСКА ГИМНАЗИЯ, ГР.СОФИЯ",
@@ -4224,7 +4298,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 378,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -4234,7 +4308,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 378,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "НАЦИОНАЛНА ФИНАНСОВО-СТОПАНСКА ГИМНАЗИЯ, ГР.СОФИЯ",
@@ -4272,7 +4347,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 374.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -4282,7 +4357,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 374.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "НАЦИОНАЛНА ФИНАНСОВО-СТОПАНСКА ГИМНАЗИЯ, ГР.СОФИЯ",
@@ -4296,7 +4372,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 376,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -4306,7 +4382,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 376,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "27. Средно училище \"Акад. Георги Караславов\", ГР.СОФИЯ",
@@ -4488,7 +4565,7 @@
    "gIT": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * М + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 117,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -4498,7 +4575,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 117,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "90 Средно училище  \"Генерал Хосе де Сан Мартин\", ГР.СОФИЯ",
@@ -4560,7 +4638,7 @@
    "gForeign": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 271.25,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -4570,7 +4648,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 271.25,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "96 Средно училище \"Лев Николаевич Толстой\", ГР.СОФИЯ",
@@ -4584,7 +4663,7 @@
    "gForeign": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 169,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -4594,7 +4673,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 169,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "96 Средно училище \"Лев Николаевич Толстой\", ГР.СОФИЯ",
@@ -4632,7 +4712,7 @@
    "gForeign": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 243.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -4642,7 +4722,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 243.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "97 Средно училище  \"Братя Миладинови\", ГР.СОФИЯ",
@@ -4656,7 +4737,7 @@
    "gIT": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ГИ + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 219.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -4666,7 +4747,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 219.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "97 Средно училище  \"Братя Миладинови\", ГР.СОФИЯ",
@@ -4704,7 +4786,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 324,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -4714,7 +4796,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 324,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "137 средно училище  \"Ангел Кънчев\", ГР.СОФИЯ",
@@ -4728,7 +4811,7 @@
    "gForeign": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ИЦ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 148.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -4738,7 +4821,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 148.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "137 средно училище  \"Ангел Кънчев\", ГР.СОФИЯ",
@@ -4752,7 +4836,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 179,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -4762,7 +4846,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 179,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "10 Средно училище  \" Теодор Траянов \", ГР.СОФИЯ",
@@ -4800,7 +4885,7 @@
    "gChemistry": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 232,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -4810,7 +4895,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 232,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "39 Средно училище \"Петър Динеков\", ГР.СОФИЯ",
@@ -4824,7 +4910,7 @@
    "gForeign": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 257,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -4834,7 +4920,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 257,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "39 Средно училище \"Петър Динеков\", ГР.СОФИЯ",
@@ -4872,7 +4959,7 @@
    "gIT": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 201,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -4882,7 +4969,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 201,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "81. Средно училище  \"Виктор Юго\", ГР.СОФИЯ",
@@ -4896,7 +4984,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 274,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -4906,7 +4994,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 274,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "81. Средно училище  \"Виктор Юго\", ГР.СОФИЯ",
@@ -4944,7 +5033,7 @@
    "gForeign": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ИЦ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 274.75,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -4954,7 +5043,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 274.75,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "118 Средно училище  \"Академик Людмил Стоянов\", ГР.СОФИЯ",
@@ -4992,7 +5082,7 @@
    "gForeign": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * М + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 253,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -5002,7 +5092,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 253,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "125 СУ \"Боян Пенев\" с изучаване на чужди езици, ГР.СОФИЯ",
@@ -5088,7 +5179,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 267,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -5098,7 +5189,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 267,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "131. СУ \"Климент Аркадиевич Тимирязев\", ГР.СОФИЯ",
@@ -5183,7 +5275,7 @@
    "gBel": 1
   },
   "formula_raw": "(1 * БЕЛ + 1 * МАТ + 2 * МУЗ) + (1 * БЕЛ + 1 * Муз.)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 227.75,
   "specialExam": true,
   "note": "Изпит за музикални способности; Изпит за музикални способности (пеене/инструмент)",
   "cutoff_m": null,
@@ -5194,7 +5286,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 227.75,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "144 Средно училище \"Народни будители\", ГР.СОФИЯ",
@@ -5232,7 +5325,7 @@
    "gBel": 1
   },
   "formula_raw": "(1 * БЕЛ + 1 * МАТ + 2 * МиФВС) + (1 * БЕЛ + 1 * Муз.)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 326.6,
   "specialExam": true,
   "note": "Изпит за музикални и физически способности (танци); Изпит за музикални способности (пеене/инструмент)",
   "cutoff_m": null,
@@ -5243,7 +5336,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 326.6,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "144 Средно училище \"Народни будители\", ГР.СОФИЯ",
@@ -5450,7 +5544,7 @@
    "gForeign": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 293.25,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -5460,7 +5554,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 293.25,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "54. СРЕДНО УЧИЛИЩЕ \"Свети ИВАН РИЛСКИ\", ГР.СОФИЯ",
@@ -5474,7 +5569,7 @@
    "gIT": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * М + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 208.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -5484,7 +5579,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 208.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "54. СРЕДНО УЧИЛИЩЕ \"Свети ИВАН РИЛСКИ\", ГР.СОФИЯ",
@@ -5546,7 +5642,7 @@
    "gIT": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * М + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 237.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -5556,7 +5652,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 237.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "170 Средно  училище \"Васил Левски\", ГР.НОВИ ИСКЪР",
@@ -5570,7 +5667,7 @@
    "gMat": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 253,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -5580,7 +5677,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 253,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "170 Средно  училище \"Васил Левски\", ГР.НОВИ ИСКЪР",
@@ -5594,7 +5692,7 @@
    "gMat": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 240,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -5604,7 +5702,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 240,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "172 Обединено училище \"Христо Ботев\", ГР.НОВИ ИСКЪР",
@@ -6146,7 +6245,7 @@
    "gBiology": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * БЗО)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 227.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -6156,7 +6255,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 227.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "СОФИЙСКА ПРОФЕСИОНАЛНА ГИМНАЗИЯ ПО ТУРИЗЪМ, ГР.СОФИЯ",
@@ -6170,7 +6270,7 @@
    "gBiology": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * БЗО)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 222.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -6180,7 +6280,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 222.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "СОФИЙСКА ПРОФЕСИОНАЛНА ГИМНАЗИЯ ПО ТУРИЗЪМ, ГР.СОФИЯ",
@@ -6194,7 +6295,7 @@
    "gBiology": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * БЗО)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 206,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -6204,7 +6305,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 206,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "СОФИЙСКА ПРОФЕСИОНАЛНА ГИМНАЗИЯ ПО ТУРИЗЪМ, ГР.СОФИЯ",
@@ -6242,7 +6344,7 @@
    "gBiology": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * БЗО)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 209,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -6252,7 +6354,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 209,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "СОФИЙСКА ПРОФЕСИОНАЛНА ГИМНАЗИЯ ПО ТУРИЗЪМ, ГР.СОФИЯ",
@@ -6483,7 +6586,7 @@
    "gForeign": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 129,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -6493,7 +6596,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 0,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r1"
  },
  {
   "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ЕЛЕКТРОТЕХНИКА И АВТОМАТИКА, ГР.СОФИЯ",
@@ -6531,7 +6635,7 @@
    "gForeign": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 171,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -6541,7 +6645,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 171,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ЕЛЕКТРОТЕХНИКА И АВТОМАТИКА, ГР.СОФИЯ",
@@ -6555,7 +6660,7 @@
    "gForeign": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 112.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -6565,7 +6670,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 112.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ \"Д-Р СТАМЕН ГРИГОРОВ\", ГР.СОФИЯ",
@@ -6675,7 +6781,7 @@
    "gForeign": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 30,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -6685,7 +6791,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 0,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r1"
  },
  {
   "school": "192. СРЕДНО УЧИЛИЩЕ  \"ХРИСТО БОТЕВ\", С.БИСТРИЦА",
@@ -6771,7 +6878,7 @@
    "gForeign": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 274,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -6781,7 +6888,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 274,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "95 СУ \"Проф. Иван Шишманов\", ГР.СОФИЯ",
@@ -7300,7 +7408,7 @@
    "gForeign": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 435.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -7310,7 +7418,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 435.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "31 Средно училище за чужди езици  и математика \"Иван Вазов\", ГР.СОФИЯ",
@@ -7396,7 +7505,7 @@
    "gIT": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ИИ + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 304,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -7406,7 +7515,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 304,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "94 СРЕДНО УЧИЛИЩЕ \"Димитър Страшимиров\", ГР.СОФИЯ",
@@ -7420,7 +7530,7 @@
    "gArt": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * ИИ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 71,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -7430,7 +7540,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 71,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "94 СРЕДНО УЧИЛИЩЕ \"Димитър Страшимиров\", ГР.СОФИЯ",
@@ -7444,7 +7555,7 @@
    "gGeography": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * ГИ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 109,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -7454,7 +7565,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 0,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r1"
  },
  {
   "school": "138. СРЕДНО УЧИЛИЩЕ ЗА ЗАПАДНИ И ИЗТОЧНИ ЕЗИЦИ \"ПРОФ. ВАСИЛ ЗЛАТАРСКИ\", ГР.СОФИЯ",
@@ -7516,7 +7628,7 @@
    "gForeign": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 388.75,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -7526,7 +7638,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 388.75,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "138. СРЕДНО УЧИЛИЩЕ ЗА ЗАПАДНИ И ИЗТОЧНИ ЕЗИЦИ \"ПРОФ. ВАСИЛ ЗЛАТАРСКИ\", ГР.СОФИЯ",
@@ -7660,7 +7773,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 141.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -7670,7 +7783,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 141.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТРАНСПОРТ \"МАКГАХАН\", ГР.СОФИЯ",
@@ -7684,7 +7798,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 195.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -7694,7 +7808,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 195.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТРАНСПОРТ \"МАКГАХАН\", ГР.СОФИЯ",
@@ -7756,7 +7871,7 @@
    "gForeign": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 381.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -7766,7 +7881,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 381.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "7. СРЕДНО УЧИЛИЩЕ  \"СВ. СЕДМОЧИСЛЕНИЦИ\", ГР.СОФИЯ",
@@ -7780,7 +7896,7 @@
    "gForeign": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 376.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -7790,7 +7906,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 376.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "7. СРЕДНО УЧИЛИЩЕ  \"СВ. СЕДМОЧИСЛЕНИЦИ\", ГР.СОФИЯ",
@@ -7828,17 +7945,18 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 435,
   "specialExam": false,
-  "cutoff_m": null,
-  "cutoff_f": null,
+  "cutoff_m": 435,
+  "cutoff_f": 457,
   "hasQuota": true,
   "cutoff_r1": 438.5,
   "cutoff_r1_m": 438.5,
   "cutoff_r1_f": 459.5,
   "cutoff_r2": 435,
   "cutoff_r2_m": 435,
-  "cutoff_r2_f": 457
+  "cutoff_r2_f": 457,
+  "cutoff_source": "r2"
  },
  {
   "school": "9 Френска езикова гимназия  \"Алфонс дьо Ламартин\", ГР.СОФИЯ",
@@ -7852,17 +7970,18 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 432.5,
   "specialExam": false,
-  "cutoff_m": null,
-  "cutoff_f": null,
+  "cutoff_m": 432.5,
+  "cutoff_f": 456,
   "hasQuota": true,
   "cutoff_r1": 435,
   "cutoff_r1_m": 435,
   "cutoff_r1_f": 458,
   "cutoff_r2": 432.5,
   "cutoff_r2_m": 432.5,
-  "cutoff_r2_f": 456
+  "cutoff_r2_f": 456,
+  "cutoff_source": "r2"
  },
  {
   "school": "9 Френска езикова гимназия  \"Алфонс дьо Ламартин\", ГР.СОФИЯ",
@@ -7900,17 +8019,18 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 427,
   "specialExam": false,
-  "cutoff_m": null,
-  "cutoff_f": null,
+  "cutoff_m": 427,
+  "cutoff_f": 453.5,
   "hasQuota": true,
   "cutoff_r1": 432.5,
   "cutoff_r1_m": 432.5,
   "cutoff_r1_f": 455,
   "cutoff_r2": 427,
   "cutoff_r2_m": 427,
-  "cutoff_r2_f": 453.5
+  "cutoff_r2_f": 453.5,
+  "cutoff_source": "r2"
  },
  {
   "school": "12 Средно  училище \" Цар Иван Асен II\", ГР.СОФИЯ",
@@ -7948,7 +8068,7 @@
    "gForeign": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 404.75,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -7958,7 +8078,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 404.75,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "12 Средно  училище \" Цар Иван Асен II\", ГР.СОФИЯ",
@@ -8044,7 +8165,7 @@
    "gMat": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 416,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -8054,7 +8175,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 416,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "127 СРЕДНО УЧИЛИЩЕ \"Иван Николаевич Денкоглу\", ГР.СОФИЯ",
@@ -8068,7 +8190,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 383.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -8078,7 +8200,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 383.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "127 СРЕДНО УЧИЛИЩЕ \"Иван Николаевич Денкоглу\", ГР.СОФИЯ",
@@ -8092,7 +8215,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 377.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -8102,7 +8225,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 377.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "127 СРЕДНО УЧИЛИЩЕ \"Иван Николаевич Денкоглу\", ГР.СОФИЯ",
@@ -8116,7 +8240,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 377,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -8126,7 +8250,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 377,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "127 СРЕДНО УЧИЛИЩЕ \"Иван Николаевич Денкоглу\", ГР.СОФИЯ",
@@ -8140,7 +8265,7 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 383,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -8150,7 +8275,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 383,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "127 СРЕДНО УЧИЛИЩЕ \"Иван Николаевич Денкоглу\", ГР.СОФИЯ",
@@ -8212,17 +8338,18 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 410.5,
   "specialExam": false,
-  "cutoff_m": null,
-  "cutoff_f": null,
+  "cutoff_m": 410.5,
+  "cutoff_f": 444.5,
   "hasQuota": true,
   "cutoff_r1": 416,
   "cutoff_r1_m": 416,
   "cutoff_r1_f": 447,
   "cutoff_r2": 410.5,
   "cutoff_r2_m": 410.5,
-  "cutoff_r2_f": 444.5
+  "cutoff_r2_f": 444.5,
+  "cutoff_source": "r2"
  },
  {
   "school": "133 Средно училище  „Александър Сергеевич Пушкин”, ГР.СОФИЯ",
@@ -8308,7 +8435,7 @@
    "gForeign": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * КМИТ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 352,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -8318,7 +8445,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 352,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТЕЛЕКОМУНИКАЦИИ, ГР.СОФИЯ",
@@ -8332,7 +8460,7 @@
    "gPhysics": 1
   },
   "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 291.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -8342,7 +8470,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 291.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТЕЛЕКОМУНИКАЦИИ, ГР.СОФИЯ",
@@ -8356,7 +8485,7 @@
    "gPhysics": 1
   },
   "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 293,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -8366,7 +8495,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 293,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТЕЛЕКОМУНИКАЦИИ, ГР.СОФИЯ",
@@ -8380,7 +8510,7 @@
    "gPhysics": 1
   },
   "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 279.25,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -8390,7 +8520,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 279.25,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТЕЛЕКОМУНИКАЦИИ, ГР.СОФИЯ",
@@ -8404,7 +8535,7 @@
    "gPhysics": 1
   },
   "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 350,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -8414,7 +8545,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 350,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТЕЛЕКОМУНИКАЦИИ, ГР.СОФИЯ",
@@ -8428,7 +8560,7 @@
    "gPhysics": 1
   },
   "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 337.25,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -8438,7 +8570,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 337.25,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТЕЛЕКОМУНИКАЦИИ, ГР.СОФИЯ",
@@ -8452,7 +8585,7 @@
    "gPhysics": 1
   },
   "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 258.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -8462,7 +8595,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 258.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "ПРОФЕСИОНАЛНА ГИМНАЗИЯ  ПО ТЕЛЕКОМУНИКАЦИИ, ГР.СОФИЯ",
@@ -8476,7 +8610,7 @@
    "gPhysics": 1
   },
   "formula_raw": "(1 * БЕЛ + 3 * МАТ) + (1 * М + 1 * ФА)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 258.25,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -8486,7 +8620,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 258.25,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "Втора английска езикова гимназия  \"Томас Джеферсън\", ГР.СОФИЯ",
@@ -8596,7 +8731,7 @@
    "gForeign": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * ИЦ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 419.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -8606,7 +8741,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 419.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "22 Средно езиково училище  \"Георги Стойков Раковски\", ГР.СОФИЯ",
@@ -8620,7 +8756,7 @@
    "gChemistry": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЗО + 1 * ХООС)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 429,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -8630,7 +8766,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 429,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "22 Средно езиково училище  \"Георги Стойков Раковски\", ГР.СОФИЯ",
@@ -8668,7 +8805,7 @@
    "gForeign": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * ИЦ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 445.5,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -8678,7 +8815,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 445.5,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "22 Средно езиково училище  \"Георги Стойков Раковски\", ГР.СОФИЯ",
@@ -8740,7 +8878,7 @@
    "gIT": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * ГИ + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 269,
   "specialExam": false,
   "cutoff_m": null,
   "cutoff_f": null,
@@ -8750,7 +8888,8 @@
   "cutoff_r1_f": null,
   "cutoff_r2": 269,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": null
+  "cutoff_r2_f": null,
+  "cutoff_source": "r2"
  },
  {
   "school": "47 Средно училище \"Христо Груев Данов\", ГР.СОФИЯ",
@@ -8908,17 +9047,18 @@
    "gForeign": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ГИ + 1 * ЧЕз)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 360,
   "specialExam": false,
-  "cutoff_m": null,
-  "cutoff_f": null,
+  "cutoff_m": 360,
+  "cutoff_f": 363.25,
   "hasQuota": true,
   "cutoff_r1": 368,
   "cutoff_r1_m": 368,
   "cutoff_r1_f": 372,
   "cutoff_r2": 360,
   "cutoff_r2_m": 360,
-  "cutoff_r2_f": 363.25
+  "cutoff_r2_f": 363.25,
+  "cutoff_source": "r2"
  },
  {
   "school": "121 СРЕДНО УЧИЛИЩЕ \"ГЕОРГИ ИЗМИРЛИЕВ\", ГР.СОФИЯ",
@@ -8956,17 +9096,18 @@
    "gIT": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 450.75,
   "specialExam": false,
   "cutoff_m": null,
-  "cutoff_f": null,
+  "cutoff_f": 450.75,
   "hasQuota": true,
   "cutoff_r1": 451,
   "cutoff_r1_m": 466.5,
   "cutoff_r1_f": 451,
   "cutoff_r2": 450.75,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": 450.75
+  "cutoff_r2_f": 450.75,
+  "cutoff_source": "r2"
  },
  {
   "school": "Професионална гимназия по дизайн \"Елисавета Вазова\", ГР.СОФИЯ",
@@ -8980,17 +9121,18 @@
    "gIT": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 404.5,
   "specialExam": false,
-  "cutoff_m": null,
-  "cutoff_f": null,
+  "cutoff_m": 404.5,
+  "cutoff_f": 437,
   "hasQuota": true,
   "cutoff_r1": 409.5,
   "cutoff_r1_m": 409.5,
   "cutoff_r1_f": 439.5,
   "cutoff_r2": 404.5,
   "cutoff_r2_m": 404.5,
-  "cutoff_r2_f": 437
+  "cutoff_r2_f": 437,
+  "cutoff_source": "r2"
  },
  {
   "school": "Професионална гимназия по дизайн \"Елисавета Вазова\", ГР.СОФИЯ",
@@ -9004,17 +9146,18 @@
    "gIT": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 395.75,
   "specialExam": false,
-  "cutoff_m": null,
-  "cutoff_f": null,
+  "cutoff_m": 395.75,
+  "cutoff_f": 434.5,
   "hasQuota": true,
   "cutoff_r1": 400.5,
   "cutoff_r1_m": 400.5,
   "cutoff_r1_f": 436.75,
   "cutoff_r2": 395.75,
   "cutoff_r2_m": 395.75,
-  "cutoff_r2_f": 434.5
+  "cutoff_r2_f": 434.5,
+  "cutoff_source": "r2"
  },
  {
   "school": "Професионална гимназия по дизайн \"Елисавета Вазова\", ГР.СОФИЯ",
@@ -9028,17 +9171,18 @@
    "gIT": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 440,
   "specialExam": false,
   "cutoff_m": null,
-  "cutoff_f": null,
+  "cutoff_f": 440,
   "hasQuota": true,
   "cutoff_r1": 440.25,
   "cutoff_r1_m": null,
   "cutoff_r1_f": 440.25,
   "cutoff_r2": 440,
   "cutoff_r2_m": null,
-  "cutoff_r2_f": 440
+  "cutoff_r2_f": 440,
+  "cutoff_source": "r2"
  },
  {
   "school": "Професионална гимназия по дизайн \"Елисавета Вазова\", ГР.СОФИЯ",
@@ -9052,17 +9196,18 @@
    "gIT": 1
   },
   "formula_raw": "(3 * БЕЛ + 1 * МАТ) + (1 * ИИ + 1 * КМИТ)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 409.75,
   "specialExam": false,
-  "cutoff_m": null,
-  "cutoff_f": null,
+  "cutoff_m": 409.75,
+  "cutoff_f": 435.5,
   "hasQuota": true,
   "cutoff_r1": 409.75,
   "cutoff_r1_m": 409.75,
   "cutoff_r1_f": 440,
   "cutoff_r2": 409.75,
   "cutoff_r2_m": 409.75,
-  "cutoff_r2_f": 435.5
+  "cutoff_r2_f": 435.5,
+  "cutoff_source": "r2"
  },
  {
   "school": "НАЦИОНАЛНА ТЪРГОВСКО - БАНКОВА ГИМНАЗИЯ, ГР.СОФИЯ",
@@ -9076,17 +9221,18 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 427.5,
   "specialExam": false,
-  "cutoff_m": null,
-  "cutoff_f": null,
+  "cutoff_m": 427.5,
+  "cutoff_f": 430.5,
   "hasQuota": true,
   "cutoff_r1": 432.5,
   "cutoff_r1_m": 432.5,
   "cutoff_r1_f": 433,
   "cutoff_r2": 427.5,
   "cutoff_r2_m": 427.5,
-  "cutoff_r2_f": 430.5
+  "cutoff_r2_f": 430.5,
+  "cutoff_source": "r2"
  },
  {
   "school": "НАЦИОНАЛНА ТЪРГОВСКО - БАНКОВА ГИМНАЗИЯ, ГР.СОФИЯ",
@@ -9124,17 +9270,18 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 374,
   "specialExam": false,
-  "cutoff_m": null,
-  "cutoff_f": null,
+  "cutoff_m": 374,
+  "cutoff_f": 386.5,
   "hasQuota": true,
   "cutoff_r1": 390,
   "cutoff_r1_m": 395,
   "cutoff_r1_f": 390,
   "cutoff_r2": 374,
   "cutoff_r2_m": 374,
-  "cutoff_r2_f": 386.5
+  "cutoff_r2_f": 386.5,
+  "cutoff_source": "r2"
  },
  {
   "school": "НАЦИОНАЛНА ТЪРГОВСКО - БАНКОВА ГИМНАЗИЯ, ГР.СОФИЯ",
@@ -9148,17 +9295,18 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 407,
   "specialExam": false,
-  "cutoff_m": null,
-  "cutoff_f": null,
+  "cutoff_m": 407,
+  "cutoff_f": 441.5,
   "hasQuota": true,
   "cutoff_r1": 413,
   "cutoff_r1_m": 413,
   "cutoff_r1_f": 441.5,
   "cutoff_r2": 407,
   "cutoff_r2_m": 407,
-  "cutoff_r2_f": 441.5
+  "cutoff_r2_f": 441.5,
+  "cutoff_source": "r2"
  },
  {
   "school": "НАЦИОНАЛНА ТЪРГОВСКО - БАНКОВА ГИМНАЗИЯ, ГР.СОФИЯ",
@@ -9196,17 +9344,18 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 406,
   "specialExam": false,
-  "cutoff_m": null,
-  "cutoff_f": null,
+  "cutoff_m": 413,
+  "cutoff_f": 406,
   "hasQuota": true,
   "cutoff_r1": 417.5,
   "cutoff_r1_m": 422.5,
   "cutoff_r1_f": 417.5,
   "cutoff_r2": 406,
   "cutoff_r2_m": 413,
-  "cutoff_r2_f": 406
+  "cutoff_r2_f": 406,
+  "cutoff_source": "r2"
  },
  {
   "school": "НАЦИОНАЛНА ТЪРГОВСКО - БАНКОВА ГИМНАЗИЯ, ГР.СОФИЯ",
@@ -9220,17 +9369,18 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 395,
   "specialExam": false,
-  "cutoff_m": null,
-  "cutoff_f": null,
+  "cutoff_m": 395,
+  "cutoff_f": 403,
   "hasQuota": true,
   "cutoff_r1": 404,
   "cutoff_r1_m": 404,
   "cutoff_r1_f": 415,
   "cutoff_r2": 395,
   "cutoff_r2_m": 395,
-  "cutoff_r2_f": 403
+  "cutoff_r2_f": 403,
+  "cutoff_source": "r2"
  },
  {
   "school": "НАЦИОНАЛНА ТЪРГОВСКО - БАНКОВА ГИМНАЗИЯ, ГР.СОФИЯ",
@@ -9244,17 +9394,18 @@
    "gMat": 1
   },
   "formula_raw": "(2 * БЕЛ + 2 * МАТ) + (1 * БЕЛ + 1 * М)",
-  "cutoff_2025": 0.0,
+  "cutoff_2025": 412,
   "specialExam": false,
-  "cutoff_m": null,
-  "cutoff_f": null,
+  "cutoff_m": 412,
+  "cutoff_f": 415,
   "hasQuota": true,
   "cutoff_r1": 418,
   "cutoff_r1_m": 418,
   "cutoff_r1_f": 420.5,
   "cutoff_r2": 412,
   "cutoff_r2_m": 412,
-  "cutoff_r2_f": 415
+  "cutoff_r2_f": 415,
+  "cutoff_source": "r2"
  },
  {
   "school": "НАЦИОНАЛНА ТЪРГОВСКО - БАНКОВА ГИМНАЗИЯ, ГР.СОФИЯ",
