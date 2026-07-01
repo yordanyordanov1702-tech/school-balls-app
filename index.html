@@ -469,8 +469,10 @@ function render(){
   const cutoffHeader = document.getElementById('cutoffColHeader');
   if(cutoffHeader) cutoffHeader.textContent = adj > 0 ? `Очакван мин. бал 2026 (−${adj} т.)` : `Минимален бал — ${rm.label} (${rm.date})`;
 
-  // Order by the student's own bal for that parallel, highest first.
-  rows.sort((a,b)=> (b.total??-1) - (a.total??-1));
+  // Fixed order: highest minimum bal first (hardest/red at top) down to lowest (easiest/green at bottom).
+  // Use the gender-resolved cutoff (effCutoff, offset by the same correction for everyone) so quota
+  // parallels sort by the bal actually shown for your gender, not the unrelated general "Общо" figure.
+  rows.sort((a,b)=> (b.effCutoff ?? b.rawCutoff ?? -1) - (a.effCutoff ?? a.rawCutoff ?? -1));
 
   const goCount  = rows.filter(r=>r.status==='go').length;
   const noCount  = rows.filter(r=>r.status==='no').length;
