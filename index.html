@@ -41,6 +41,9 @@
   .reco.empty{background:linear-gradient(135deg,#3d0e0e,#521414);border-color:var(--red);}
   .reco.empty h3{color:#fca5a5;}
   .reco.empty .school{color:#fff;}
+  .reco-item{margin-top:12px;padding-top:12px;border-top:1px solid rgba(255,255,255,.18);}
+  .reco-item:first-child{margin-top:0;padding-top:0;border-top:none;}
+  .reco-rank{font-size:.78rem;font-weight:700;color:#bbf7d0;text-transform:uppercase;letter-spacing:.03em;margin-bottom:2px;}
 
   /* legend */
   .legend{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:14px;font-size:.85rem;color:var(--muted)}
@@ -383,15 +386,34 @@ function renderReco(rows){
     return;
   }
   candidates.sort((a,b)=> b.effCutoff - a.effCutoff);
-  const best = candidates[0];
-  const isTop = top30Names.has(best.school);
-  const cutoffLabel = adj>0 ? `Очакван мин. бал 2026: ${best.effCutoff.toFixed(1)} т. (от ${best.rawCutoff} т. −${adj} т.)` : `Минимален бал (${rm.label}, ${rm.date}): ${best.rawCutoff} т.`;
+
+  // Keep only the strongest qualifying profile per school, so the top 3 show 3 different schools.
+  const bestPerSchool = [];
+  const seenSchools = new Set();
+  for(const c of candidates){
+    if(seenSchools.has(c.school)) continue;
+    seenSchools.add(c.school);
+    bestPerSchool.push(c);
+    if(bestPerSchool.length===3) break;
+  }
+
+  const medals = ['🥇','🥈','🥉'];
+  const items = bestPerSchool.map((r,i)=>{
+    const isTop = top30Names.has(r.school);
+    const cutoffLabel = adj>0 ? `Очакван мин. бал 2026: ${r.effCutoff.toFixed(1)} т. (от ${r.rawCutoff} т. −${adj} т.)` : `Минимален бал (${rm.label}, ${rm.date}): ${r.rawCutoff} т.`;
+    return `
+      <div class="reco-item">
+        <div class="reco-rank">${medals[i]} #${i+1}</div>
+        <div class="school">${r.school} ${isTop ? '<span class="top30">ТОП 30</span>' : ''}</div>
+        <div class="profile">${r.profile}</div>
+        <div class="meta">Твой бал: <b>${r.total.toFixed(1)}</b> т. · ${cutoffLabel} · Запас: +${(r.total-r.effCutoff).toFixed(1)} т.</div>
+      </div>`;
+  }).join('');
+
   box.innerHTML = `
     <div class="reco">
-      <h3>🏆 Препоръка — най-силното училище, в което влизаш</h3>
-      <div class="school">${best.school} ${isTop ? '<span class="top30">ТОП 30</span>' : ''}</div>
-      <div class="profile">${best.profile}</div>
-      <div class="meta">Твой бал: <b>${best.total.toFixed(1)}</b> т. · ${cutoffLabel} · Запас: +${(best.total-best.effCutoff).toFixed(1)} т.</div>
+      <h3>🏆 Топ ${bestPerSchool.length} препоръки — най-силните училища, в които влизаш</h3>
+      ${items}
     </div>`;
 }
 
